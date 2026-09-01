@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LFL 2026 Preseason — Through Week 4</title>
+<style>
+    :root {
+        color-scheme: light;
+        --bg: #f4f6f8;
+        --card: #ffffff;
+        --ink: #17202a;
+        --muted: #65717d;
+        --line: #dce2e8;
+        --header: #1f2937;
+        --accent: #c1121f;
+        --leader: #fff8db;
+        --final: #e8f5e9;
+        --live: #fff3cd;
+        --scheduled: #edf2f7;
+    }
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+    }
+    .page { max-width: 1180px; margin: 0 auto; padding: 28px 20px 48px; }
+    .hero {
+        background: var(--header);
+        color: white;
+        border-radius: 14px;
+        padding: 24px 28px;
+        margin-bottom: 22px;
+    }
+    .hero h1 { margin: 0 0 6px; font-size: 29px; }
+    .hero p { margin: 0; color: #d9e0e7; }
+    .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+        margin: 18px 0 22px;
+    }
+    .summary { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+    .summary span { display: block; color: var(--muted); font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
+    .summary strong { display: block; margin-top: 5px; font-size: 24px; }
+    section { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; margin-top: 18px; }
+    h2 { margin: 0 0 16px; font-size: 21px; }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; min-width: 720px; }
+    th { background: #eef1f4; text-align: left; font-size: 13px; text-transform: uppercase; letter-spacing: .03em; }
+    th, td { padding: 11px 12px; border-bottom: 1px solid var(--line); }
+    tbody tr:first-child { background: var(--leader); }
+    tbody tr:last-child td { border-bottom: 0; }
+    .rank, .num { text-align: center; }
+    .money { text-align: right; font-variant-numeric: tabular-nums; }
+    .games { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .game-card { border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
+    .game-meta { display: flex; justify-content: space-between; gap: 12px; align-items: center; color: var(--muted); font-size: 12px; margin-bottom: 11px; }
+    .status { border-radius: 999px; padding: 4px 8px; font-weight: 700; color: var(--ink); }
+    .status.final { background: var(--final); }
+    .status.live { background: var(--live); }
+    .status.scheduled { background: var(--scheduled); }
+    .matchup-row { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; padding: 7px 0; }
+    .matchup-row small { display: block; color: var(--muted); margin-top: 2px; }
+    .score { font-size: 22px; font-weight: 700; min-width: 32px; text-align: right; }
+    .bye-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 20px; }
+    .bye-list li { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--line); padding: 8px 0; }
+    .bye-list strong { font-size: 13px; }
+    .empty { color: var(--muted); margin: 0; }
+    footer { color: var(--muted); font-size: 12px; text-align: center; margin-top: 20px; }
+    @media (max-width: 760px) {
+        .summary-grid, .games, .bye-list { grid-template-columns: 1fr; }
+        .hero h1 { font-size: 23px; }
+    }
+    .last-updated { margin-top: 6px; font-size: 0.9rem; opacity: 0.78; }
+</style>
+</head>
+<body>
+<div class="page">
+    <header class="hero">
+        <h1>LFL 2026 Preseason — Through Week 4</h1>
+        <div class="last-updated">Last updated: Aug 31, 2026 5:16 PM PDT</div>
+        <p>Cumulative LFL standings and payout, plus NFL Week 4 game detail.</p>
+    </header>
+
+    <div class="summary-grid payoff-only">
+        <div class="summary"><span>Running total payoff</span><strong>$76</strong></div>
+    </div>
+
+    <section>
+        <h2>Cumulative standings</h2>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th><th>Teams</th><th>Players</th>
+                        <th class="num">Win</th><th class="num">Loss</th>
+                        <th class="num">Tie</th><th class="money">Payoff</th>
+                    </tr>
+                </thead>
+                <tbody><tr><td class='rank'>1</td><td>Baltimore Ravens</td><td>JohnB</td><td class='num'>3</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>2</td><td>Cincinnati Bengals</td><td>CB</td><td class='num'>3</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>3</td><td>Carolina Panthers</td><td>Leslie</td><td class='num'>3</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>4</td><td>Atlanta Falcons</td><td>Gene</td><td class='num'>2</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>5</td><td>Dallas Cowboys</td><td>Michelle</td><td class='num'>2</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>6</td><td>Detroit Lions</td><td>Christy</td><td class='num'>2</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>7</td><td>Green Bay Packers</td><td>Doug</td><td class='num'>2</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>8</td><td>Jacksonville Jaguars</td><td>Ray &amp; Susan</td><td class='num'>2</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>9</td><td>New York Giants</td><td>Danny &amp; Joyce</td><td class='num'>2</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>10</td><td>Tampa Bay Buccaneers</td><td>Angel</td><td class='num'>2</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>11</td><td>Tennessee Titans</td><td>Christine</td><td class='num'>2</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>12</td><td>Cleveland Browns</td><td>Davey</td><td class='num'>1</td><td class='num'>2</td><td class='num'>0</td><td class='money'>$4</td></tr><tr><td class='rank'>13</td><td>Las Vegas Raiders</td><td>Corey</td><td class='num'>1</td><td class='num'>2</td><td class='num'>0</td><td class='money'>$4</td></tr><tr><td class='rank'>14</td><td>Los Angeles Chargers</td><td>Tom</td><td class='num'>1</td><td class='num'>2</td><td class='num'>0</td><td class='money'>$4</td></tr><tr><td class='rank'>15</td><td>Minnesota Vikings</td><td>Rod</td><td class='num'>1</td><td class='num'>2</td><td class='num'>0</td><td class='money'>$4</td></tr><tr><td class='rank'>16</td><td>New Orleans Saints</td><td>Melissa &amp; Scott</td><td class='num'>1</td><td class='num'>2</td><td class='num'>0</td><td class='money'>$4</td></tr><tr><td class='rank'>17</td><td>New York Jets</td><td>Ryan</td><td class='num'>1</td><td class='num'>2</td><td class='num'>0</td><td class='money'>$4</td></tr><tr><td class='rank'>18</td><td>Pittsburgh Steelers</td><td>Tracy</td><td class='num'>1</td><td class='num'>2</td><td class='num'>0</td><td class='money'>$4</td></tr><tr><td class='rank'>19</td><td>Washington Commanders</td><td>Mike</td><td class='num'>1</td><td class='num'>2</td><td class='num'>0</td><td class='money'>$4</td></tr><tr><td class='rank'>20</td><td>Indianapolis Colts</td><td>Marina &amp; Matt</td><td class='num'>0</td><td class='num'>2</td><td class='num'>1</td><td class='money'>$4</td></tr><tr><td class='rank'>21</td><td>Kansas City Chiefs</td><td>Dave &amp; Michelle</td><td class='num'>0</td><td class='num'>2</td><td class='num'>1</td><td class='money'>$4</td></tr><tr><td class='rank'>22</td><td>Arizona Cardinals</td><td>Joselyn</td><td class='num'>1</td><td class='num'>3</td><td class='num'>0</td><td class='money'>$6</td></tr><tr><td class='rank'>23</td><td>Miami Dolphins</td><td>Chris</td><td class='num'>0</td><td class='num'>3</td><td class='num'>0</td><td class='money'>$6</td></tr><tr><td class='rank'>24</td><td>Philadelphia Eagles</td><td>Rob</td><td class='num'>0</td><td class='num'>3</td><td class='num'>0</td><td class='money'>$6</td></tr></tbody>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <h2>NFL Week 4 games</h2>
+        <div class="games">
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Thursday 04:00 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Pittsburgh Steelers</strong>
+                        <small>Tracy</small>
+                    </div>
+                    <span class="score">27</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Buffalo Bills</strong>
+                        <small>Ineligible</small>
+                    </div>
+                    <span class="score">28</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Thursday 05:00 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>New England Patriots</strong>
+                        <small>Ineligible</small>
+                    </div>
+                    <span class="score">13</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Cleveland Browns</strong>
+                        <small>Davey</small>
+                    </div>
+                    <span class="score">37</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Thursday 05:00 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>San Francisco 49ers</strong>
+                        <small>Ineligible</small>
+                    </div>
+                    <span class="score">18</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Las Vegas Raiders</strong>
+                        <small>Corey</small>
+                    </div>
+                    <span class="score">12</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Thursday 07:00 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Los Angeles Rams</strong>
+                        <small>Ineligible</small>
+                    </div>
+                    <span class="score">20</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Los Angeles Chargers</strong>
+                        <small>Tom</small>
+                    </div>
+                    <span class="score">18</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Friday 03:00 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Washington Commanders</strong>
+                        <small>Mike</small>
+                    </div>
+                    <span class="score">3</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Baltimore Ravens</strong>
+                        <small>JohnB</small>
+                    </div>
+                    <span class="score">41</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Friday 04:00 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Atlanta Falcons</strong>
+                        <small>Gene</small>
+                    </div>
+                    <span class="score">17</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Miami Dolphins</strong>
+                        <small>Chris</small>
+                    </div>
+                    <span class="score">12</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Friday 04:00 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Houston Texans</strong>
+                        <small>Ineligible</small>
+                    </div>
+                    <span class="score">13</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Carolina Panthers</strong>
+                        <small>Leslie</small>
+                    </div>
+                    <span class="score">16</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Friday 04:30 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>New York Giants</strong>
+                        <small>Danny &amp; Joyce</small>
+                    </div>
+                    <span class="score">23</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>New York Jets</strong>
+                        <small>Ryan</small>
+                    </div>
+                    <span class="score">6</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Friday 04:30 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Tampa Bay Buccaneers</strong>
+                        <small>Angel</small>
+                    </div>
+                    <span class="score">0</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Jacksonville Jaguars</strong>
+                        <small>Ray &amp; Susan</small>
+                    </div>
+                    <span class="score">19</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Friday 05:00 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>New Orleans Saints</strong>
+                        <small>Melissa &amp; Scott</small>
+                    </div>
+                    <span class="score">27</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Dallas Cowboys</strong>
+                        <small>Michelle</small>
+                    </div>
+                    <span class="score">24</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Friday 05:00 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Arizona Cardinals</strong>
+                        <small>Joselyn</small>
+                    </div>
+                    <span class="score">38</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Green Bay Packers</strong>
+                        <small>Doug</small>
+                    </div>
+                    <span class="score">42</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Friday 05:00 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Seattle Seahawks</strong>
+                        <small>Ineligible</small>
+                    </div>
+                    <span class="score">9</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Kansas City Chiefs</strong>
+                        <small>Dave &amp; Michelle</small>
+                    </div>
+                    <span class="score">9</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Friday 05:00 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Cincinnati Bengals</strong>
+                        <small>CB</small>
+                    </div>
+                    <span class="score">30</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Philadelphia Eagles</strong>
+                        <small>Rob</small>
+                    </div>
+                    <span class="score">13</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Friday 06:00 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Minnesota Vikings</strong>
+                        <small>Rod</small>
+                    </div>
+                    <span class="score">6</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Denver Broncos</strong>
+                        <small>Ineligible</small>
+                    </div>
+                    <span class="score">34</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Saturday 10:00 AM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Detroit Lions</strong>
+                        <small>Christy</small>
+                    </div>
+                    <span class="score">25</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Indianapolis Colts</strong>
+                        <small>Marina &amp; Matt</small>
+                    </div>
+                    <span class="score">16</span>
+                </div>
+            </article>
+            
+            <article class="game-card">
+                <div class="game-meta">
+                    <span>Saturday 03:00 PM PDT</span>
+                    <span class="status final">Final</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Chicago Bears</strong>
+                        <small>Ineligible</small>
+                    </div>
+                    <span class="score">24</span>
+                </div>
+                <div class="matchup-row">
+                    <div>
+                        <strong>Tennessee Titans</strong>
+                        <small>Christine</small>
+                    </div>
+                    <span class="score">15</span>
+                </div>
+            </article>
+            </div>
+    </section>
+
+    <section>
+        <h2>BYE — Week 4</h2>
+        <p class="empty">No teams on BYE.</p>
+    </section>
+
+    <footer>Generated by the LFL standings script. Payoff = $2 per loss behind the standings leader.</footer>
+</div>
+</body>
+</html>
