@@ -3,18 +3,18 @@
     {
       "away_score": "13",
       "away_team": "Miami Dolphins",
-      "home_score": "24",
+      "home_score": "27",
       "home_team": "Las Vegas Raiders",
       "status_description": "In Progress",
-      "status_detail": "4:07 - 3rd"
+      "status_detail": "15:00 - 4th"
     },
     {
-      "away_score": "19",
+      "away_score": "22",
       "away_team": "Green Bay Packers",
       "home_score": "10",
       "home_team": "Minnesota Vikings",
       "status_description": "In Progress",
-      "status_detail": "10:55 - 3rd"
+      "status_detail": "4:59 - 3rd"
     },
     {
       "away_score": "9",
@@ -22,15 +22,15 @@
       "home_score": "14",
       "home_team": "Philadelphia Eagles",
       "status_description": "In Progress",
-      "status_detail": "7:48 - 3rd"
+      "status_detail": "4:29 - 3rd"
     },
     {
       "away_score": "16",
       "away_team": "Arizona Cardinals",
       "home_score": "14",
       "home_team": "Los Angeles Chargers",
-      "status_description": "In Progress",
-      "status_detail": "3:32 - 3rd"
+      "status_description": "End of Period",
+      "status_detail": "End of 3rd"
     },
     {
       "away_score": "27",
