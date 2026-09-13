@@ -3,18 +3,18 @@
     {
       "away_score": "24",
       "away_team": "New Orleans Saints",
-      "home_score": "24",
+      "home_score": "31",
       "home_team": "Detroit Lions",
       "status_description": "In Progress",
-      "status_detail": "6:19 - OT"
+      "status_detail": "1:45 - OT"
     },
     {
       "away_score": "59",
       "away_team": "Chicago Bears",
       "home_score": "37",
       "home_team": "Carolina Panthers",
-      "status_description": "In Progress",
-      "status_detail": "3:39 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
@@ -22,31 +22,31 @@
       "home_score": "0",
       "home_team": "Las Vegas Raiders",
       "status_description": "In Progress",
-      "status_detail": "12:55 - 1st"
+      "status_detail": "4:13 - 1st"
     },
     {
-      "away_score": "0",
+      "away_score": "3",
       "away_team": "Green Bay Packers",
       "home_score": "0",
       "home_team": "Minnesota Vikings",
       "status_description": "In Progress",
-      "status_detail": "14:10 - 1st"
+      "status_detail": "8:41 - 1st"
     },
     {
-      "away_score": "0",
+      "away_score": "3",
       "away_team": "Washington Commanders",
       "home_score": "0",
       "home_team": "Philadelphia Eagles",
       "status_description": "In Progress",
-      "status_detail": "13:25 - 1st"
+      "status_detail": "7:48 - 1st"
     },
     {
-      "away_score": "0",
+      "away_score": "7",
       "away_team": "Arizona Cardinals",
       "home_score": "0",
       "home_team": "Los Angeles Chargers",
       "status_description": "In Progress",
-      "status_detail": "13:25 - 1st"
+      "status_detail": "6:16 - 1st"
     },
     {
       "away_score": "27",
@@ -159,14 +159,6 @@
     {
       "losses": 0,
       "payoff": 0,
-      "player": "Leslie",
-      "team": "Carolina Panthers",
-      "ties": 0,
-      "wins": 0
-    },
-    {
-      "losses": 0,
-      "payoff": 0,
       "player": "Michelle",
       "team": "Dallas Cowboys",
       "ties": 0,
@@ -265,6 +257,14 @@
       "payoff": 2,
       "player": "Gene",
       "team": "Atlanta Falcons",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 1,
+      "payoff": 2,
+      "player": "Leslie",
+      "team": "Carolina Panthers",
       "ties": 0,
       "wins": 0
     },
