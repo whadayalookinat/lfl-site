@@ -1,0 +1,305 @@
+{
+  "games": [
+    {
+      "away_score": "0",
+      "away_team": "Tampa Bay Buccaneers",
+      "home_score": "0",
+      "home_team": "Cincinnati Bengals",
+      "status_description": "Scheduled",
+      "status_detail": "9/13 - 1:00 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "New Orleans Saints",
+      "home_score": "0",
+      "home_team": "Detroit Lions",
+      "status_description": "Scheduled",
+      "status_detail": "9/13 - 1:00 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "New York Jets",
+      "home_score": "0",
+      "home_team": "Tennessee Titans",
+      "status_description": "Scheduled",
+      "status_detail": "9/13 - 1:00 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Baltimore Ravens",
+      "home_score": "0",
+      "home_team": "Indianapolis Colts",
+      "status_description": "Scheduled",
+      "status_detail": "9/13 - 1:00 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Atlanta Falcons",
+      "home_score": "0",
+      "home_team": "Pittsburgh Steelers",
+      "status_description": "Scheduled",
+      "status_detail": "9/13 - 1:00 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Chicago Bears",
+      "home_score": "0",
+      "home_team": "Carolina Panthers",
+      "status_description": "Scheduled",
+      "status_detail": "9/13 - 1:00 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Cleveland Browns",
+      "home_score": "0",
+      "home_team": "Jacksonville Jaguars",
+      "status_description": "Scheduled",
+      "status_detail": "9/13 - 1:00 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Miami Dolphins",
+      "home_score": "0",
+      "home_team": "Las Vegas Raiders",
+      "status_description": "Scheduled",
+      "status_detail": "9/13 - 4:25 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Green Bay Packers",
+      "home_score": "0",
+      "home_team": "Minnesota Vikings",
+      "status_description": "Scheduled",
+      "status_detail": "9/13 - 4:25 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Washington Commanders",
+      "home_score": "0",
+      "home_team": "Philadelphia Eagles",
+      "status_description": "Scheduled",
+      "status_detail": "9/13 - 4:25 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Arizona Cardinals",
+      "home_score": "0",
+      "home_team": "Los Angeles Chargers",
+      "status_description": "Scheduled",
+      "status_detail": "9/13 - 4:25 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Dallas Cowboys",
+      "home_score": "0",
+      "home_team": "New York Giants",
+      "status_description": "Scheduled",
+      "status_detail": "9/13 - 8:20 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Denver Broncos",
+      "home_score": "0",
+      "home_team": "Kansas City Chiefs",
+      "status_description": "Scheduled",
+      "status_detail": "9/14 - 8:15 PM EDT"
+    }
+  ],
+  "season_type": "regular",
+  "season_year": 2026,
+  "standings": [
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Joselyn",
+      "team": "Arizona Cardinals",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Gene",
+      "team": "Atlanta Falcons",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "JohnB",
+      "team": "Baltimore Ravens",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Leslie",
+      "team": "Carolina Panthers",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "CB",
+      "team": "Cincinnati Bengals",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Davey",
+      "team": "Cleveland Browns",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Michelle",
+      "team": "Dallas Cowboys",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Christy",
+      "team": "Detroit Lions",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Doug",
+      "team": "Green Bay Packers",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Marina & Matt",
+      "team": "Indianapolis Colts",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Ray & Susan",
+      "team": "Jacksonville Jaguars",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Dave & Michelle",
+      "team": "Kansas City Chiefs",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Corey",
+      "team": "Las Vegas Raiders",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Tom",
+      "team": "Los Angeles Chargers",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Chris",
+      "team": "Miami Dolphins",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Rod",
+      "team": "Minnesota Vikings",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Melissa & Scott",
+      "team": "New Orleans Saints",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Danny & Joyce",
+      "team": "New York Giants",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Ryan",
+      "team": "New York Jets",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Rob",
+      "team": "Philadelphia Eagles",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Tracy",
+      "team": "Pittsburgh Steelers",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Angel",
+      "team": "Tampa Bay Buccaneers",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Christine",
+      "team": "Tennessee Titans",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
+      "player": "Mike",
+      "team": "Washington Commanders",
+      "ties": 0,
+      "wins": 0
+    }
+  ],
+  "through_week": 1
+}
