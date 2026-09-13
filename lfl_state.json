@@ -1,36 +1,36 @@
 {
   "games": [
     {
-      "away_score": "20",
+      "away_score": "27",
       "away_team": "Tampa Bay Buccaneers",
       "home_score": "33",
       "home_team": "Cincinnati Bengals",
       "status_description": "In Progress",
-      "status_detail": "4:01 - 4th"
+      "status_detail": "2:08 - 4th"
     },
     {
       "away_score": "17",
       "away_team": "New Orleans Saints",
-      "home_score": "21",
+      "home_score": "24",
       "home_team": "Detroit Lions",
       "status_description": "In Progress",
-      "status_detail": "7:41 - 4th"
+      "status_detail": "2:32 - 4th"
     },
     {
       "away_score": "23",
       "away_team": "New York Jets",
-      "home_score": "3",
+      "home_score": "10",
       "home_team": "Tennessee Titans",
       "status_description": "In Progress",
-      "status_detail": "3:16 - 4th"
+      "status_detail": "2:00 - 4th"
     },
     {
-      "away_score": "38",
+      "away_score": "41",
       "away_team": "Baltimore Ravens",
       "home_score": "23",
       "home_team": "Indianapolis Colts",
       "status_description": "In Progress",
-      "status_detail": "10:26 - 4th"
+      "status_detail": "4:09 - 4th"
     },
     {
       "away_score": "13",
@@ -38,7 +38,7 @@
       "home_score": "20",
       "home_team": "Pittsburgh Steelers",
       "status_description": "In Progress",
-      "status_detail": "9:15 - 4th"
+      "status_detail": "4:16 - 4th"
     },
     {
       "away_score": "45",
@@ -46,7 +46,7 @@
       "home_score": "31",
       "home_team": "Carolina Panthers",
       "status_description": "In Progress",
-      "status_detail": "15:00 - 4th"
+      "status_detail": "12:45 - 4th"
     },
     {
       "away_score": "10",
