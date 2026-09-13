@@ -6,15 +6,15 @@
       "home_score": "30",
       "home_team": "Cincinnati Bengals",
       "status_description": "In Progress",
-      "status_detail": "12:35 - 4th"
+      "status_detail": "8:17 - 4th"
     },
     {
       "away_score": "14",
       "away_team": "New Orleans Saints",
       "home_score": "21",
       "home_team": "Detroit Lions",
-      "status_description": "End of Period",
-      "status_detail": "End of 3rd"
+      "status_description": "In Progress",
+      "status_detail": "12:04 - 4th"
     },
     {
       "away_score": "20",
@@ -22,39 +22,39 @@
       "home_score": "3",
       "home_team": "Tennessee Titans",
       "status_description": "In Progress",
-      "status_detail": "12:01 - 4th"
+      "status_detail": "8:01 - 4th"
     },
     {
-      "away_score": "31",
+      "away_score": "38",
       "away_team": "Baltimore Ravens",
       "home_score": "16",
       "home_team": "Indianapolis Colts",
-      "status_description": "End of Period",
-      "status_detail": "End of 3rd"
+      "status_description": "In Progress",
+      "status_detail": "12:46 - 4th"
     },
     {
       "away_score": "10",
       "away_team": "Atlanta Falcons",
-      "home_score": "13",
+      "home_score": "20",
       "home_team": "Pittsburgh Steelers",
       "status_description": "In Progress",
-      "status_detail": "0:02 - 3rd"
+      "status_detail": "12:40 - 4th"
     },
     {
-      "away_score": "31",
+      "away_score": "38",
       "away_team": "Chicago Bears",
       "home_score": "31",
       "home_team": "Carolina Panthers",
       "status_description": "In Progress",
-      "status_detail": "5:23 - 3rd"
+      "status_detail": "3:01 - 3rd"
     },
     {
-      "away_score": "3",
+      "away_score": "9",
       "away_team": "Cleveland Browns",
       "home_score": "34",
       "home_team": "Jacksonville Jaguars",
       "status_description": "In Progress",
-      "status_detail": "4:47 - 4th"
+      "status_detail": "1:52 - 4th"
     },
     {
       "away_score": "0",
