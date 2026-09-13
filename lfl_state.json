@@ -1,36 +1,20 @@
 {
   "games": [
     {
-      "away_score": "24",
-      "away_team": "New Orleans Saints",
-      "home_score": "31",
-      "home_team": "Detroit Lions",
-      "status_description": "In Progress",
-      "status_detail": "1:45 - OT"
-    },
-    {
-      "away_score": "59",
-      "away_team": "Chicago Bears",
-      "home_score": "37",
-      "home_team": "Carolina Panthers",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
       "away_score": "0",
       "away_team": "Miami Dolphins",
-      "home_score": "0",
+      "home_score": "7",
       "home_team": "Las Vegas Raiders",
       "status_description": "In Progress",
-      "status_detail": "4:13 - 1st"
+      "status_detail": "1:33 - 1st"
     },
     {
-      "away_score": "3",
+      "away_score": "9",
       "away_team": "Green Bay Packers",
       "home_score": "0",
       "home_team": "Minnesota Vikings",
       "status_description": "In Progress",
-      "status_detail": "8:41 - 1st"
+      "status_detail": "7:43 - 1st"
     },
     {
       "away_score": "3",
@@ -38,15 +22,15 @@
       "home_score": "0",
       "home_team": "Philadelphia Eagles",
       "status_description": "In Progress",
-      "status_detail": "7:48 - 1st"
+      "status_detail": "2:38 - 1st"
     },
     {
       "away_score": "7",
       "away_team": "Arizona Cardinals",
-      "home_score": "0",
+      "home_score": "7",
       "home_team": "Los Angeles Chargers",
       "status_description": "In Progress",
-      "status_detail": "6:16 - 1st"
+      "status_detail": "1:56 - 1st"
     },
     {
       "away_score": "27",
@@ -55,6 +39,14 @@
       "home_team": "Cincinnati Bengals",
       "status_description": "Final",
       "status_detail": "Final"
+    },
+    {
+      "away_score": "30",
+      "away_team": "New Orleans Saints",
+      "home_score": "31",
+      "home_team": "Detroit Lions",
+      "status_description": "Final",
+      "status_detail": "Final/OT"
     },
     {
       "away_score": "23",
@@ -77,6 +69,14 @@
       "away_team": "Atlanta Falcons",
       "home_score": "20",
       "home_team": "Pittsburgh Steelers",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "59",
+      "away_team": "Chicago Bears",
+      "home_score": "37",
+      "home_team": "Carolina Panthers",
       "status_description": "Final",
       "status_detail": "Final"
     },
@@ -127,6 +127,14 @@
     {
       "losses": 0,
       "payoff": 0,
+      "player": "Christy",
+      "team": "Detroit Lions",
+      "ties": 0,
+      "wins": 1
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
       "player": "Ray & Susan",
       "team": "Jacksonville Jaguars",
       "ties": 0,
@@ -161,14 +169,6 @@
       "payoff": 0,
       "player": "Michelle",
       "team": "Dallas Cowboys",
-      "ties": 0,
-      "wins": 0
-    },
-    {
-      "losses": 0,
-      "payoff": 0,
-      "player": "Christy",
-      "team": "Detroit Lions",
       "ties": 0,
       "wins": 0
     },
@@ -217,14 +217,6 @@
       "payoff": 0,
       "player": "Rod",
       "team": "Minnesota Vikings",
-      "ties": 0,
-      "wins": 0
-    },
-    {
-      "losses": 0,
-      "payoff": 0,
-      "player": "Melissa & Scott",
-      "team": "New Orleans Saints",
       "ties": 0,
       "wins": 0
     },
@@ -281,6 +273,14 @@
       "payoff": 2,
       "player": "Marina & Matt",
       "team": "Indianapolis Colts",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 1,
+      "payoff": 2,
+      "player": "Melissa & Scott",
+      "team": "New Orleans Saints",
       "ties": 0,
       "wins": 0
     },
