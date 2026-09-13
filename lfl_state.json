@@ -6,15 +6,47 @@
       "home_score": "24",
       "home_team": "Detroit Lions",
       "status_description": "In Progress",
-      "status_detail": "0:27 - 4th"
+      "status_detail": "6:19 - OT"
     },
     {
-      "away_score": "52",
+      "away_score": "59",
       "away_team": "Chicago Bears",
-      "home_score": "31",
+      "home_score": "37",
       "home_team": "Carolina Panthers",
       "status_description": "In Progress",
-      "status_detail": "4:42 - 4th"
+      "status_detail": "3:39 - 4th"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Miami Dolphins",
+      "home_score": "0",
+      "home_team": "Las Vegas Raiders",
+      "status_description": "In Progress",
+      "status_detail": "12:55 - 1st"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Green Bay Packers",
+      "home_score": "0",
+      "home_team": "Minnesota Vikings",
+      "status_description": "In Progress",
+      "status_detail": "14:10 - 1st"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Washington Commanders",
+      "home_score": "0",
+      "home_team": "Philadelphia Eagles",
+      "status_description": "In Progress",
+      "status_detail": "13:25 - 1st"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Arizona Cardinals",
+      "home_score": "0",
+      "home_team": "Los Angeles Chargers",
+      "status_description": "In Progress",
+      "status_detail": "13:25 - 1st"
     },
     {
       "away_score": "27",
@@ -55,38 +87,6 @@
       "home_team": "Jacksonville Jaguars",
       "status_description": "Final",
       "status_detail": "Final"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Miami Dolphins",
-      "home_score": "0",
-      "home_team": "Las Vegas Raiders",
-      "status_description": "Scheduled",
-      "status_detail": "9/13 - 4:25 PM EDT"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Green Bay Packers",
-      "home_score": "0",
-      "home_team": "Minnesota Vikings",
-      "status_description": "Scheduled",
-      "status_detail": "9/13 - 4:25 PM EDT"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Washington Commanders",
-      "home_score": "0",
-      "home_team": "Philadelphia Eagles",
-      "status_description": "Scheduled",
-      "status_detail": "9/13 - 4:25 PM EDT"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Arizona Cardinals",
-      "home_score": "0",
-      "home_team": "Los Angeles Chargers",
-      "status_description": "Scheduled",
-      "status_detail": "9/13 - 4:25 PM EDT"
     },
     {
       "away_score": "0",
