@@ -1,22 +1,6 @@
 {
   "games": [
     {
-      "away_score": "22",
-      "away_team": "Green Bay Packers",
-      "home_score": "39",
-      "home_team": "Minnesota Vikings",
-      "status_description": "In Progress",
-      "status_detail": "2:00 - 4th"
-    },
-    {
-      "away_score": "22",
-      "away_team": "Washington Commanders",
-      "home_score": "24",
-      "home_team": "Philadelphia Eagles",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
       "away_score": "27",
       "away_team": "Tampa Bay Buccaneers",
       "home_score": "33",
@@ -77,6 +61,22 @@
       "away_team": "Miami Dolphins",
       "home_score": "27",
       "home_team": "Las Vegas Raiders",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "22",
+      "away_team": "Green Bay Packers",
+      "home_score": "39",
+      "home_team": "Minnesota Vikings",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "22",
+      "away_team": "Washington Commanders",
+      "home_score": "24",
+      "home_team": "Philadelphia Eagles",
       "status_description": "Final",
       "status_detail": "Final"
     },
@@ -159,6 +159,14 @@
     {
       "losses": 0,
       "payoff": 0,
+      "player": "Rod",
+      "team": "Minnesota Vikings",
+      "ties": 0,
+      "wins": 1
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
       "player": "Ryan",
       "team": "New York Jets",
       "ties": 0,
@@ -191,24 +199,8 @@
     {
       "losses": 0,
       "payoff": 0,
-      "player": "Doug",
-      "team": "Green Bay Packers",
-      "ties": 0,
-      "wins": 0
-    },
-    {
-      "losses": 0,
-      "payoff": 0,
       "player": "Dave & Michelle",
       "team": "Kansas City Chiefs",
-      "ties": 0,
-      "wins": 0
-    },
-    {
-      "losses": 0,
-      "payoff": 0,
-      "player": "Rod",
-      "team": "Minnesota Vikings",
       "ties": 0,
       "wins": 0
     },
@@ -241,6 +233,14 @@
       "payoff": 2,
       "player": "Davey",
       "team": "Cleveland Browns",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 1,
+      "payoff": 2,
+      "player": "Doug",
+      "team": "Green Bay Packers",
       "ties": 0,
       "wins": 0
     },
