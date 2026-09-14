@@ -1,6 +1,14 @@
 {
   "games": [
     {
+      "away_score": "0",
+      "away_team": "Denver Broncos",
+      "home_score": "0",
+      "home_team": "Kansas City Chiefs",
+      "status_description": "Scheduled",
+      "status_detail": "9/14 - 8:15 PM EDT"
+    },
+    {
       "away_score": "27",
       "away_team": "Tampa Bay Buccaneers",
       "home_score": "33",
@@ -95,14 +103,6 @@
       "home_team": "New York Giants",
       "status_description": "Final",
       "status_detail": "Final"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Denver Broncos",
-      "home_score": "0",
-      "home_team": "Kansas City Chiefs",
-      "status_description": "Scheduled",
-      "status_detail": "9/14 - 8:15 PM EDT"
     }
   ],
   "season_type": "regular",
