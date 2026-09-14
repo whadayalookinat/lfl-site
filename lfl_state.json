@@ -1,6 +1,14 @@
 {
   "games": [
     {
+      "away_score": "0",
+      "away_team": "Dallas Cowboys",
+      "home_score": "7",
+      "home_team": "New York Giants",
+      "status_description": "In Progress",
+      "status_detail": "4:11 - 1st"
+    },
+    {
       "away_score": "27",
       "away_team": "Tampa Bay Buccaneers",
       "home_score": "33",
@@ -87,14 +95,6 @@
       "home_team": "Los Angeles Chargers",
       "status_description": "Final",
       "status_detail": "Final"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Dallas Cowboys",
-      "home_score": "0",
-      "home_team": "New York Giants",
-      "status_description": "In Progress",
-      "status_detail": "13:18 - 1st"
     },
     {
       "away_score": "0",
