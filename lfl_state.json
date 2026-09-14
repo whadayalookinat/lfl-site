@@ -5,8 +5,8 @@
       "away_team": "Dallas Cowboys",
       "home_score": "28",
       "home_team": "New York Giants",
-      "status_description": "In Progress",
-      "status_detail": "3:00 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "27",
@@ -167,6 +167,14 @@
     {
       "losses": 0,
       "payoff": 0,
+      "player": "Danny & Joyce",
+      "team": "New York Giants",
+      "ties": 0,
+      "wins": 1
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
       "player": "Ryan",
       "team": "New York Jets",
       "ties": 0,
@@ -191,24 +199,8 @@
     {
       "losses": 0,
       "payoff": 0,
-      "player": "Michelle",
-      "team": "Dallas Cowboys",
-      "ties": 0,
-      "wins": 0
-    },
-    {
-      "losses": 0,
-      "payoff": 0,
       "player": "Dave & Michelle",
       "team": "Kansas City Chiefs",
-      "ties": 0,
-      "wins": 0
-    },
-    {
-      "losses": 0,
-      "payoff": 0,
-      "player": "Danny & Joyce",
-      "team": "New York Giants",
       "ties": 0,
       "wins": 0
     },
@@ -233,6 +225,14 @@
       "payoff": 2,
       "player": "Davey",
       "team": "Cleveland Browns",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 1,
+      "payoff": 2,
+      "player": "Michelle",
+      "team": "Dallas Cowboys",
       "ties": 0,
       "wins": 0
     },
