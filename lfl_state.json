@@ -1,14 +1,6 @@
 {
   "games": [
     {
-      "away_score": "10",
-      "away_team": "Denver Broncos",
-      "home_score": "31",
-      "home_team": "Kansas City Chiefs",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
       "away_score": "27",
       "away_team": "Tampa Bay Buccaneers",
       "home_score": "33",
@@ -101,6 +93,14 @@
       "away_team": "Dallas Cowboys",
       "home_score": "28",
       "home_team": "New York Giants",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "10",
+      "away_team": "Denver Broncos",
+      "home_score": "31",
+      "home_team": "Kansas City Chiefs",
       "status_description": "Final",
       "status_detail": "Final"
     }
