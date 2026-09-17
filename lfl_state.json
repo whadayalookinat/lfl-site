@@ -1,108 +1,132 @@
 {
   "games": [
     {
-      "away_score": "27",
-      "away_team": "Tampa Bay Buccaneers",
-      "home_score": "33",
-      "home_team": "Cincinnati Bengals",
-      "status_description": "Final",
-      "status_detail": "Final"
+      "away_score": "0",
+      "away_team": "Detroit Lions",
+      "home_score": "0",
+      "home_team": "Buffalo Bills",
+      "status_description": "Scheduled",
+      "status_detail": "9/17 - 8:15 PM EDT"
     },
     {
-      "away_score": "30",
-      "away_team": "New Orleans Saints",
-      "home_score": "31",
-      "home_team": "Detroit Lions",
-      "status_description": "Final",
-      "status_detail": "Final/OT"
+      "away_score": "0",
+      "away_team": "Carolina Panthers",
+      "home_score": "0",
+      "home_team": "Atlanta Falcons",
+      "status_description": "Scheduled",
+      "status_detail": "9/20 - 1:00 PM EDT"
     },
     {
-      "away_score": "23",
-      "away_team": "New York Jets",
-      "home_score": "10",
+      "away_score": "0",
+      "away_team": "Minnesota Vikings",
+      "home_score": "0",
+      "home_team": "Chicago Bears",
+      "status_description": "Scheduled",
+      "status_detail": "9/20 - 1:00 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Philadelphia Eagles",
+      "home_score": "0",
       "home_team": "Tennessee Titans",
-      "status_description": "Final",
-      "status_detail": "Final"
+      "status_description": "Scheduled",
+      "status_detail": "9/20 - 1:00 PM EDT"
     },
     {
-      "away_score": "41",
-      "away_team": "Baltimore Ravens",
-      "home_score": "23",
-      "home_team": "Indianapolis Colts",
-      "status_description": "Final",
-      "status_detail": "Final"
+      "away_score": "0",
+      "away_team": "Pittsburgh Steelers",
+      "home_score": "0",
+      "home_team": "New England Patriots",
+      "status_description": "Scheduled",
+      "status_detail": "9/20 - 1:00 PM EDT"
     },
     {
-      "away_score": "13",
-      "away_team": "Atlanta Falcons",
-      "home_score": "20",
-      "home_team": "Pittsburgh Steelers",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "59",
-      "away_team": "Chicago Bears",
-      "home_score": "37",
-      "home_team": "Carolina Panthers",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "10",
-      "away_team": "Cleveland Browns",
-      "home_score": "34",
-      "home_team": "Jacksonville Jaguars",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "13",
-      "away_team": "Miami Dolphins",
-      "home_score": "27",
-      "home_team": "Las Vegas Raiders",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "22",
+      "away_score": "0",
       "away_team": "Green Bay Packers",
-      "home_score": "39",
-      "home_team": "Minnesota Vikings",
-      "status_description": "Final",
-      "status_detail": "Final"
+      "home_score": "0",
+      "home_team": "New York Jets",
+      "status_description": "Scheduled",
+      "status_detail": "9/20 - 1:00 PM EDT"
     },
     {
-      "away_score": "22",
-      "away_team": "Washington Commanders",
-      "home_score": "24",
-      "home_team": "Philadelphia Eagles",
-      "status_description": "Final",
-      "status_detail": "Final"
+      "away_score": "0",
+      "away_team": "Cleveland Browns",
+      "home_score": "0",
+      "home_team": "Tampa Bay Buccaneers",
+      "status_description": "Scheduled",
+      "status_detail": "9/20 - 1:00 PM EDT"
     },
     {
-      "away_score": "26",
-      "away_team": "Arizona Cardinals",
-      "home_score": "14",
+      "away_score": "0",
+      "away_team": "New Orleans Saints",
+      "home_score": "0",
+      "home_team": "Baltimore Ravens",
+      "status_description": "Scheduled",
+      "status_detail": "9/20 - 1:00 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Cincinnati Bengals",
+      "home_score": "0",
+      "home_team": "Houston Texans",
+      "status_description": "Scheduled",
+      "status_detail": "9/20 - 1:00 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Jacksonville Jaguars",
+      "home_score": "0",
+      "home_team": "Denver Broncos",
+      "status_description": "Scheduled",
+      "status_detail": "9/20 - 4:05 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Las Vegas Raiders",
+      "home_score": "0",
       "home_team": "Los Angeles Chargers",
-      "status_description": "Final",
-      "status_detail": "Final"
+      "status_description": "Scheduled",
+      "status_detail": "9/20 - 4:05 PM EDT"
     },
     {
-      "away_score": "20",
-      "away_team": "Dallas Cowboys",
-      "home_score": "28",
-      "home_team": "New York Giants",
-      "status_description": "Final",
-      "status_detail": "Final"
+      "away_score": "0",
+      "away_team": "Washington Commanders",
+      "home_score": "0",
+      "home_team": "Dallas Cowboys",
+      "status_description": "Scheduled",
+      "status_detail": "9/20 - 4:25 PM EDT"
     },
     {
-      "away_score": "10",
-      "away_team": "Denver Broncos",
-      "home_score": "31",
+      "away_score": "0",
+      "away_team": "Seattle Seahawks",
+      "home_score": "0",
+      "home_team": "Arizona Cardinals",
+      "status_description": "Scheduled",
+      "status_detail": "9/20 - 4:25 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Miami Dolphins",
+      "home_score": "0",
+      "home_team": "San Francisco 49ers",
+      "status_description": "Scheduled",
+      "status_detail": "9/20 - 4:25 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Indianapolis Colts",
+      "home_score": "0",
       "home_team": "Kansas City Chiefs",
-      "status_description": "Final",
-      "status_detail": "Final"
+      "status_description": "Scheduled",
+      "status_detail": "9/20 - 8:20 PM EDT"
+    },
+    {
+      "away_score": "0",
+      "away_team": "New York Giants",
+      "home_score": "0",
+      "home_team": "Los Angeles Rams",
+      "status_description": "Scheduled",
+      "status_detail": "9/21 - 8:15 PM EDT"
     }
   ],
   "season_type": "regular",
@@ -301,5 +325,5 @@
       "wins": 0
     }
   ],
-  "through_week": 1
+  "through_week": 2
 }
