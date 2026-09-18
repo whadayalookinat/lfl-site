@@ -1,12 +1,12 @@
 {
   "games": [
     {
-      "away_score": "24",
+      "away_score": "31",
       "away_team": "Detroit Lions",
       "home_score": "41",
       "home_team": "Buffalo Bills",
-      "status_description": "In Progress",
-      "status_detail": "2:00 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
@@ -159,14 +159,6 @@
     {
       "losses": 0,
       "payoff": 0,
-      "player": "Christy",
-      "team": "Detroit Lions",
-      "ties": 0,
-      "wins": 1
-    },
-    {
-      "losses": 0,
-      "payoff": 0,
       "player": "Ray & Susan",
       "team": "Jacksonville Jaguars",
       "ties": 0,
@@ -225,6 +217,14 @@
       "payoff": 0,
       "player": "Tracy",
       "team": "Pittsburgh Steelers",
+      "ties": 0,
+      "wins": 1
+    },
+    {
+      "losses": 1,
+      "payoff": 2,
+      "player": "Christy",
+      "team": "Detroit Lions",
       "ties": 0,
       "wins": 1
     },
