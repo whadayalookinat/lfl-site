@@ -42,23 +42,16 @@
         gap: 14px;
         margin: 18px 0 22px;
     }
-    .swipe-arrow {
-        display: inline-block;
-        font-size: 1.35em;
-        line-height: 1;
-        vertical-align: -0.08em;
-        margin-left: 2px;
-    }
     .summary { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
     .summary span { display: block; color: var(--muted); font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
     .summary strong { display: block; margin-top: 5px; font-size: 24px; }
     section { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; margin-top: 18px; }
     h2 { margin: 0 0 16px; font-size: 21px; }
     .table-wrap { overflow-x: auto; }
-    table { width: 100%; border-collapse: collapse; min-width: 720px; }
+    table { width: 100%; border-collapse: collapse; min-width: 640px; }
     th { background: #eef1f4; text-align: left; font-size: 13px; text-transform: uppercase; letter-spacing: .03em; }
     th, td { padding: 11px 12px; border-bottom: 1px solid var(--line); }
-    tbody tr:first-child { background: var(--leader); }
+    tbody tr.leader { background: var(--leader); }
     tbody tr:last-child td { border-bottom: 0; }
     .rank, .num { text-align: center; }
     .money { text-align: right; font-variant-numeric: tabular-nums; }
@@ -76,10 +69,6 @@
     .bye-list li { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--line); padding: 8px 0; }
     .bye-list strong { font-size: 13px; }
     .empty { color: var(--muted); margin: 0; }
-    .scroll-hint { display: none; font-size: 0.8rem; color: #666; margin: -6px 0 8px; }
-    @media (max-width: 700px) {
-        .scroll-hint { display: block; }
-    }
     footer { color: var(--muted); font-size: 12px; text-align: left; margin-top: 20px; line-height: 1.5; }
     footer div { margin-top: 3px; }
     footer .tagline { margin-top: 10px; font-size: 13px; font-weight: 600; }
@@ -88,44 +77,112 @@
         .hero h1 { font-size: 23px; }
     }
     .last-updated { margin-top: 6px; font-size: 0.9rem; opacity: 0.78; }
+/* Shared, self-contained production presentation. */
+[hidden] { display: none !important; }
+.mobile-player { display: none; }
+th abbr { text-decoration: none; }
+#season-progress { padding-bottom: 22px; }
+.progress-top { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.progress-top h2 { margin: 0; }
+#current-badge { font-size: 13px; font-weight: bold; }
+#gauge-help, #archive-message, #through { color: #586571; font-size: 14px; }
+.gauge { position: relative; height: 118px; margin: 22px 18px 0; --current-position: 0%; --view-position: 0%; }
+.track { position: absolute; top: 42px; left: 0; right: 0; height: 14px; border: 1px solid #bac3cd; border-radius: 10px; background: repeating-linear-gradient(135deg,#e4e8ed 0 5px,#eef1f4 5px 10px); }
+.fill { height: 100%; width: var(--current-position); background: var(--accent); border-radius: 10px; }
+.current-marker { position: absolute; top: 22px; left: var(--current-position); height: 31px; border-left: 2px solid var(--accent); }
+.current-marker:after { content: ''; position: absolute; left: -6px; top: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 7px solid var(--accent); }
+.current-label { position: absolute; top: 0; left: clamp(0px,calc(var(--current-position) - 72px),calc(100% - 144px)); width: 144px; white-space: nowrap; text-align: center; color: var(--accent); font-size: 12px; font-weight: bold; }
+.axis { position: absolute; top: 78px; left: 0; right: 0; font-size: 11px; color: #586571; }
+.axis span { position: absolute; white-space: nowrap; }
+.axis span:first-child { left: 0; }
+.axis span:nth-child(2) { left: 47.058824%; transform: translateX(-50%); }
+.axis span:last-child { right: 0; }
+.handle { position: absolute; top: 31px; left: var(--view-position); width: 24px; height: 36px; margin-left: -12px; border: 2px solid #34475d; border-radius: 50%; display: grid; place-items: center; color: white; background: #263c53; font-size: 15px; font-weight: bold; pointer-events: none; }
+.view-label { position: absolute; top: 101px; left: clamp(0px,calc(var(--view-position) - 60px),calc(100% - 120px)); width: 120px; white-space: nowrap; text-align: center; font-size: 12px; font-weight: bold; color: #263c53; }
+.gauge-input { position: absolute; top: 25px; left: -24px; width: calc(100% + 48px); height: 48px; margin: 0; opacity: 0; cursor: grab; touch-action: pan-y; }
+.gauge-input::-webkit-slider-thumb { width: 48px; height: 48px; }
+.gauge-input::-moz-range-thumb { width: 48px; height: 48px; }
+.gauge:focus-within .handle { outline: 3px solid #145ca8; outline-offset: 4px; }
+.progress-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; max-width: 420px; }
+#season-progress button { min-height: 48px; border: 1px solid #b4bec9; border-radius: 8px; background: white; color: var(--ink); padding: 10px 12px; font: inherit; font-size: 14px; font-weight: bold; cursor: pointer; }
+#season-progress button:disabled { opacity: .45; cursor: default; }
+#season-progress button:focus-visible, #archive-page:focus-visible { outline: 3px solid #145ca8; outline-offset: 3px; }
+#season-progress #return-current { display: block; width: 100%; max-width: 420px; color: var(--accent); border-color: var(--accent); margin-top: 10px; }
+#viewing { font-weight: bold; }
+@media (max-width: 700px) {
+  .page { padding: 16px 10px 36px; }
+  section { padding: 16px 10px; }
+  table { min-width: 0; font-size: 13px; }
+  th, td { padding: 11px 5px; }
+  th { font-size: 11px; letter-spacing: 0; }
+  .rank, .desktop-player { display: none; }
+  .mobile-player { display: block; color: #586571; font-size: 12px; margin-top: 3px; }
+  .team { width: 48%; overflow-wrap: anywhere; }
+  .money { white-space: nowrap; }
+}
+@media (forced-colors: active) {
+  .fill, .handle { background: Highlight; }
+  .handle { color: HighlightText; border-color: Highlight; }
+  .current-label, .view-label { color: CanvasText; }
+  .track, .current-marker { border-color: CanvasText; }
+}
+
 </style>
 </head>
 <body>
 <div class="page">
     <header class="hero">
         <h1>LFL 2026 Regular Season — Through Week 2</h1>
-        <div class="last-updated">Last updated: Sep 17, 2026 8:22 AM PDT</div>
+        <div class="last-updated">Last updated: Sep 17, 2026 5:18 PM PDT</div>
         <p>Cumulative LFL standings and payout, plus NFL Week 2 game detail.</p>
     </header>
+<section id="season-progress" aria-labelledby="progress-title" hidden>
+  <div class="progress-top"><h2 id="progress-title">Season Progress</h2><span id="current-badge"></span></div>
+  <p id="gauge-help">Drag to revisit a completed week.</p>
+  <div class="gauge" id="gauge">
+    <div class="track"><div class="fill"></div></div>
+    <div class="current-marker" aria-hidden="true"></div>
+    <div class="current-label" id="current-label" aria-hidden="true"></div>
+    <div class="axis" aria-hidden="true"><span>Week 1</span><span>Week 9</span><span>Week 18</span></div>
+    <div class="handle" id="handle" aria-hidden="true"></div>
+    <div class="view-label" id="view-label" aria-hidden="true"></div>
+    <input class="gauge-input" id="view-week" type="range" min="1" step="1" aria-label="Week to view" aria-describedby="gauge-help current-badge" aria-controls="standings-rows">
+  </div>
+  <p id="viewing" role="status" aria-live="polite" aria-atomic="true"></p>
+  <div class="progress-controls"><button type="button" id="previous">‹ Previous Week</button><button type="button" id="next">Next Week ›</button></div>
+  <button type="button" id="return-current" hidden>Return to Current Week</button>
+  <p id="archive-message" role="status" aria-live="polite"></p>
+  <a id="archive-page" hidden>Open frozen weekly report</a>
+</section>
+
 
     <div class="summary-grid payoff-only">
-        <div class="summary"><span>Running total payoff</span><strong>$24</strong></div>
+        <div class="summary"><span>Running total payoff</span><strong id="total-payoff">$24</strong></div>
     </div>
 
     <section>
-        <h2>Cumulative standings</h2>
-        <div class="scroll-hint">(Swipe to see all results <span class="swipe-arrow">↔</span>)</div>
+        <h2 id="standings-title">Cumulative standings</h2><p id="through">Through Week 2</p>
         <div class="table-wrap">
             <table>
                 <thead>
                     <tr>
-                        <th>#</th><th>Teams</th><th>Players</th>
-                        <th class="num">Win</th><th class="num">Loss</th>
-                        <th class="num">Tie</th><th class="money">Payoff</th>
+                        <th class="rank" scope="col">#</th><th class="team" scope="col">Team</th><th class="desktop-player" scope="col">Loser</th>
+                        <th class="num" scope="col"><abbr title="Wins">W</abbr></th><th class="num" scope="col"><abbr title="Losses">L</abbr></th>
+                        <th class="num" scope="col"><abbr title="Ties">T</abbr></th><th class="money" scope="col">Payoff</th>
                     </tr>
                 </thead>
-                <tbody><tr><td class='rank'>1</td><td>Arizona Cardinals</td><td>Joselyn</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>2</td><td>Baltimore Ravens</td><td>JohnB</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>3</td><td>Cincinnati Bengals</td><td>CB</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>4</td><td>Detroit Lions</td><td>Christy</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>5</td><td>Jacksonville Jaguars</td><td>Ray &amp; Susan</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>6</td><td>Kansas City Chiefs</td><td>Dave &amp; Michelle</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>7</td><td>Las Vegas Raiders</td><td>Corey</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>8</td><td>Minnesota Vikings</td><td>Rod</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>9</td><td>New York Giants</td><td>Danny &amp; Joyce</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>10</td><td>New York Jets</td><td>Ryan</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>11</td><td>Philadelphia Eagles</td><td>Rob</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>12</td><td>Pittsburgh Steelers</td><td>Tracy</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>13</td><td>Atlanta Falcons</td><td>Gene</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>14</td><td>Carolina Panthers</td><td>Leslie</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>15</td><td>Cleveland Browns</td><td>Davey</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>16</td><td>Dallas Cowboys</td><td>Michelle</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>17</td><td>Green Bay Packers</td><td>Doug</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>18</td><td>Indianapolis Colts</td><td>Marina &amp; Matt</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>19</td><td>Los Angeles Chargers</td><td>Tom</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>20</td><td>Miami Dolphins</td><td>Chris</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>21</td><td>New Orleans Saints</td><td>Melissa &amp; Scott</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>22</td><td>Tampa Bay Buccaneers</td><td>Angel</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>23</td><td>Tennessee Titans</td><td>Christine</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>24</td><td>Washington Commanders</td><td>Mike</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr></tbody>
-            </table>
+                <tbody id="standings-rows"><tr class='leader'><td class='rank'>1</td><td class='team'>Arizona Cardinals<span class='mobile-player'>Joselyn</span></td><td class='desktop-player'>Joselyn</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr class='leader'><td class='rank'>2</td><td class='team'>Baltimore Ravens<span class='mobile-player'>JohnB</span></td><td class='desktop-player'>JohnB</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr class='leader'><td class='rank'>3</td><td class='team'>Cincinnati Bengals<span class='mobile-player'>CB</span></td><td class='desktop-player'>CB</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr class='leader'><td class='rank'>4</td><td class='team'>Detroit Lions<span class='mobile-player'>Christy</span></td><td class='desktop-player'>Christy</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr class='leader'><td class='rank'>5</td><td class='team'>Jacksonville Jaguars<span class='mobile-player'>Ray &amp; Susan</span></td><td class='desktop-player'>Ray &amp; Susan</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr class='leader'><td class='rank'>6</td><td class='team'>Kansas City Chiefs<span class='mobile-player'>Dave &amp; Michelle</span></td><td class='desktop-player'>Dave &amp; Michelle</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr class='leader'><td class='rank'>7</td><td class='team'>Las Vegas Raiders<span class='mobile-player'>Corey</span></td><td class='desktop-player'>Corey</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr class='leader'><td class='rank'>8</td><td class='team'>Minnesota Vikings<span class='mobile-player'>Rod</span></td><td class='desktop-player'>Rod</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr class='leader'><td class='rank'>9</td><td class='team'>New York Giants<span class='mobile-player'>Danny &amp; Joyce</span></td><td class='desktop-player'>Danny &amp; Joyce</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr class='leader'><td class='rank'>10</td><td class='team'>New York Jets<span class='mobile-player'>Ryan</span></td><td class='desktop-player'>Ryan</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr class='leader'><td class='rank'>11</td><td class='team'>Philadelphia Eagles<span class='mobile-player'>Rob</span></td><td class='desktop-player'>Rob</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr class='leader'><td class='rank'>12</td><td class='team'>Pittsburgh Steelers<span class='mobile-player'>Tracy</span></td><td class='desktop-player'>Tracy</td><td class='num'>1</td><td class='num'>0</td><td class='num'>0</td><td class='money'>$0</td></tr><tr><td class='rank'>13</td><td class='team'>Atlanta Falcons<span class='mobile-player'>Gene</span></td><td class='desktop-player'>Gene</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>14</td><td class='team'>Carolina Panthers<span class='mobile-player'>Leslie</span></td><td class='desktop-player'>Leslie</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>15</td><td class='team'>Cleveland Browns<span class='mobile-player'>Davey</span></td><td class='desktop-player'>Davey</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>16</td><td class='team'>Dallas Cowboys<span class='mobile-player'>Michelle</span></td><td class='desktop-player'>Michelle</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>17</td><td class='team'>Green Bay Packers<span class='mobile-player'>Doug</span></td><td class='desktop-player'>Doug</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>18</td><td class='team'>Indianapolis Colts<span class='mobile-player'>Marina &amp; Matt</span></td><td class='desktop-player'>Marina &amp; Matt</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>19</td><td class='team'>Los Angeles Chargers<span class='mobile-player'>Tom</span></td><td class='desktop-player'>Tom</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>20</td><td class='team'>Miami Dolphins<span class='mobile-player'>Chris</span></td><td class='desktop-player'>Chris</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>21</td><td class='team'>New Orleans Saints<span class='mobile-player'>Melissa &amp; Scott</span></td><td class='desktop-player'>Melissa &amp; Scott</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>22</td><td class='team'>Tampa Bay Buccaneers<span class='mobile-player'>Angel</span></td><td class='desktop-player'>Angel</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>23</td><td class='team'>Tennessee Titans<span class='mobile-player'>Christine</span></td><td class='desktop-player'>Christine</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr><tr><td class='rank'>24</td><td class='team'>Washington Commanders<span class='mobile-player'>Mike</span></td><td class='desktop-player'>Mike</td><td class='num'>0</td><td class='num'>1</td><td class='num'>0</td><td class='money'>$2</td></tr></tbody>
+            </table><p class="standings-note">Gold rows share the fewest losses. Display order does not break a tie.</p>
         </div>
     </section>
 
-    <section>
+    <section class="current-detail">
         <h2>NFL Week 2 games</h2>
         <div class="games">
             <article class="game-card">
                 <div class="game-meta">
                     <span>Thursday 05:15 PM PDT</span>
-                    <span class="status scheduled">9/17 - 8:15 PM EDT</span>
+                    <span class="status live">15:00 - 1st</span>
                 </div>
                 <div class="matchup-row">
                     <div>
@@ -460,7 +517,7 @@
             </div>
     </section>
 
-    <section>
+    <section class="current-detail">
         <h2>BYE — Week 2</h2>
         <p class="empty">No teams on BYE.</p>
     </section>
@@ -473,5 +530,156 @@
     <div class="tagline">It <em>PAYS</em> to be a Loser!</div>
     </footer>
 </div>
+<script id="current-state" type="application/json">{"season_year": 2026, "season_type": "regular", "through_week": 2, "standings": [{"team": "Arizona Cardinals", "player": "Joselyn", "wins": 1, "losses": 0, "ties": 0, "payoff": 0}, {"team": "Baltimore Ravens", "player": "JohnB", "wins": 1, "losses": 0, "ties": 0, "payoff": 0}, {"team": "Cincinnati Bengals", "player": "CB", "wins": 1, "losses": 0, "ties": 0, "payoff": 0}, {"team": "Detroit Lions", "player": "Christy", "wins": 1, "losses": 0, "ties": 0, "payoff": 0}, {"team": "Jacksonville Jaguars", "player": "Ray \u0026 Susan", "wins": 1, "losses": 0, "ties": 0, "payoff": 0}, {"team": "Kansas City Chiefs", "player": "Dave \u0026 Michelle", "wins": 1, "losses": 0, "ties": 0, "payoff": 0}, {"team": "Las Vegas Raiders", "player": "Corey", "wins": 1, "losses": 0, "ties": 0, "payoff": 0}, {"team": "Minnesota Vikings", "player": "Rod", "wins": 1, "losses": 0, "ties": 0, "payoff": 0}, {"team": "New York Giants", "player": "Danny \u0026 Joyce", "wins": 1, "losses": 0, "ties": 0, "payoff": 0}, {"team": "New York Jets", "player": "Ryan", "wins": 1, "losses": 0, "ties": 0, "payoff": 0}, {"team": "Philadelphia Eagles", "player": "Rob", "wins": 1, "losses": 0, "ties": 0, "payoff": 0}, {"team": "Pittsburgh Steelers", "player": "Tracy", "wins": 1, "losses": 0, "ties": 0, "payoff": 0}, {"team": "Atlanta Falcons", "player": "Gene", "wins": 0, "losses": 1, "ties": 0, "payoff": 2}, {"team": "Carolina Panthers", "player": "Leslie", "wins": 0, "losses": 1, "ties": 0, "payoff": 2}, {"team": "Cleveland Browns", "player": "Davey", "wins": 0, "losses": 1, "ties": 0, "payoff": 2}, {"team": "Dallas Cowboys", "player": "Michelle", "wins": 0, "losses": 1, "ties": 0, "payoff": 2}, {"team": "Green Bay Packers", "player": "Doug", "wins": 0, "losses": 1, "ties": 0, "payoff": 2}, {"team": "Indianapolis Colts", "player": "Marina \u0026 Matt", "wins": 0, "losses": 1, "ties": 0, "payoff": 2}, {"team": "Los Angeles Chargers", "player": "Tom", "wins": 0, "losses": 1, "ties": 0, "payoff": 2}, {"team": "Miami Dolphins", "player": "Chris", "wins": 0, "losses": 1, "ties": 0, "payoff": 2}, {"team": "New Orleans Saints", "player": "Melissa \u0026 Scott", "wins": 0, "losses": 1, "ties": 0, "payoff": 2}, {"team": "Tampa Bay Buccaneers", "player": "Angel", "wins": 0, "losses": 1, "ties": 0, "payoff": 2}, {"team": "Tennessee Titans", "player": "Christine", "wins": 0, "losses": 1, "ties": 0, "payoff": 2}, {"team": "Washington Commanders", "player": "Mike", "wins": 0, "losses": 1, "ties": 0, "payoff": 2}], "games": [{"away_team": "Detroit Lions", "home_team": "Buffalo Bills", "away_score": "0", "home_score": "0", "status_description": "In Progress", "status_detail": "15:00 - 1st"}, {"away_team": "Carolina Panthers", "home_team": "Atlanta Falcons", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/20 - 1:00 PM EDT"}, {"away_team": "Minnesota Vikings", "home_team": "Chicago Bears", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/20 - 1:00 PM EDT"}, {"away_team": "Philadelphia Eagles", "home_team": "Tennessee Titans", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/20 - 1:00 PM EDT"}, {"away_team": "Pittsburgh Steelers", "home_team": "New England Patriots", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/20 - 1:00 PM EDT"}, {"away_team": "Green Bay Packers", "home_team": "New York Jets", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/20 - 1:00 PM EDT"}, {"away_team": "Cleveland Browns", "home_team": "Tampa Bay Buccaneers", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/20 - 1:00 PM EDT"}, {"away_team": "New Orleans Saints", "home_team": "Baltimore Ravens", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/20 - 1:00 PM EDT"}, {"away_team": "Cincinnati Bengals", "home_team": "Houston Texans", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/20 - 1:00 PM EDT"}, {"away_team": "Jacksonville Jaguars", "home_team": "Denver Broncos", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/20 - 4:05 PM EDT"}, {"away_team": "Las Vegas Raiders", "home_team": "Los Angeles Chargers", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/20 - 4:05 PM EDT"}, {"away_team": "Washington Commanders", "home_team": "Dallas Cowboys", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/20 - 4:25 PM EDT"}, {"away_team": "Seattle Seahawks", "home_team": "Arizona Cardinals", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/20 - 4:25 PM EDT"}, {"away_team": "Miami Dolphins", "home_team": "San Francisco 49ers", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/20 - 4:25 PM EDT"}, {"away_team": "Indianapolis Colts", "home_team": "Kansas City Chiefs", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/20 - 8:20 PM EDT"}, {"away_team": "New York Giants", "home_team": "Los Angeles Rams", "away_score": "0", "home_score": "0", "status_description": "Scheduled", "status_detail": "9/21 - 8:15 PM EDT"}]}</script>
+<script>'use strict';
+(() => {
+  const $ = id => document.getElementById(id);
+  const current = JSON.parse($('current-state').textContent);
+  const currentWeek = current.through_week;
+  const cache = new Map([[currentWeek, current]]);
+  const input = $('view-week');
+  const rows = $('standings-rows');
+  const originalRows = rows.innerHTML;
+  const hero = document.querySelector('.hero h1');
+  const subtitle = document.querySelector('.hero p');
+  const originalTitle = hero.textContent, originalSubtitle = subtitle.textContent;
+  let viewing = currentWeek, requested = currentWeek, sequence = 0, pending;
+  const position = week => ((week - 1) / 17 * 100) + '%';
+  const clamp = value => Math.max(1, Math.min(currentWeek, Math.round(Number(value) || 1)));
+  $('gauge').style.setProperty('--current-position', position(currentWeek));
+  $('current-label').textContent = 'CURRENT · WEEK ' + currentWeek;
+  $('current-badge').textContent = 'Current · Week ' + currentWeek + ' of 18';
+  input.max = currentWeek;
+
+  function controls(week) {
+    requested = week;
+    input.value = week;
+    input.setAttribute('aria-valuetext', `Week ${week}${week === currentWeek ? ', current week' : ', historical week'}`);
+    $('gauge').style.setProperty('--view-position', position(week));
+    $('handle').textContent = week;
+    $('view-label').textContent = 'VIEWING · WEEK ' + week;
+    $('previous').disabled = week === 1;
+    $('next').disabled = week === currentWeek;
+    $('return-current').hidden = week === currentWeek;
+  }
+
+  function validate(state, week) {
+    if (state.season_year !== current.season_year || state.season_type !== 'regular' ||
+        state.through_week !== week || !Array.isArray(state.standings) || !state.standings.length) {
+      throw new Error('Archive identity or standings are invalid.');
+    }
+    const names = new Set();
+    for (const row of state.standings) {
+      if (typeof row.team !== 'string' || !row.team || names.has(row.team) || typeof row.player !== 'string' ||
+          !['wins','losses','ties','payoff'].every(k => Number.isInteger(row[k]) && row[k] >= 0)) {
+        throw new Error('Archive standings are invalid.');
+      }
+      names.add(row.team);
+    }
+    const fewest = Math.min(...state.standings.map(row => row.losses));
+    if (!state.standings.every(row => row.payoff === 2 * (row.losses - fewest))) {
+      throw new Error('Archive payoff does not match league rules.');
+    }
+    return state;
+  }
+
+  function show(state) {
+    viewing = state.through_week;
+    controls(viewing);
+    const historical = viewing !== currentWeek;
+    if (!historical) rows.innerHTML = originalRows;
+    else {
+      rows.replaceChildren();
+      // Preserve the archived ordering; browser locale must not change tie order.
+      const fewest = Math.min(...state.standings.map(row => row.losses));
+      state.standings.forEach((row, index) => {
+        const tr = document.createElement('tr');
+        if (row.losses === fewest) tr.className = 'leader';
+        [index + 1, row.team, row.player, row.wins, row.losses, row.ties, '$' + row.payoff].forEach((value, col) => {
+          const td = document.createElement('td');
+          td.className = ['rank','team','desktop-player','num','num','num','money'][col];
+          td.textContent = value;
+          if (col === 1) {
+            const player = document.createElement('span');
+            player.className = 'mobile-player';
+            player.textContent = row.player;
+            td.append(player);
+          }
+          tr.append(td);
+        });
+        rows.append(tr);
+      });
+    }
+    $('total-payoff').textContent = '$' + state.standings.reduce((sum, row) => sum + row.payoff, 0);
+    $('through').textContent = `Through Week ${viewing} · ${state.season_year} regular season`;
+    $('viewing').textContent = `Viewing Week ${viewing} · ${historical ? 'Frozen completed-week standings' : 'Current week'}`;
+    document.querySelectorAll('.current-detail').forEach(section => { section.hidden = historical; });
+    document.querySelector('.last-updated').hidden = historical;
+    hero.textContent = historical ? `LFL ${state.season_year} Regular Season — Through Week ${viewing}` : originalTitle;
+    subtitle.textContent = historical ? 'Historical cumulative standings and payoff.' : originalSubtitle;
+  }
+
+  async function select(value) {
+    const week = clamp(value), ticket = ++sequence;
+    if (pending) pending.abort();
+    controls(week);
+    $('archive-message').textContent = '';
+    $('archive-page').hidden = true;
+    const base = `archive/${current.season_year}/week-${String(week).padStart(2, '0')}`;
+    let timer;
+    try {
+      if (!cache.has(week)) {
+        if (location.protocol === 'file:') throw new Error('Local file preview cannot load archive JSON. Preview over HTTP to use the week selector.');
+        $('viewing').textContent = `Loading Week ${week}… Standings below remain through Week ${viewing}.`;
+        const controller = new AbortController();
+        pending = controller;
+        timer = setTimeout(() => controller.abort(), 12000);
+        const response = await fetch(base + '.json', {signal: controller.signal});
+        if (!response.ok) throw new Error('The completed-week archive is not available yet.');
+        const state = validate(await response.json(), week);
+        if (ticket !== sequence) return;
+        cache.set(week, state);
+      }
+      if (ticket !== sequence) return;
+      show(cache.get(week));
+      if (week !== currentWeek) {
+        $('archive-message').textContent = 'Frozen standings. Historical game detail is available in the weekly report.';
+        $('archive-page').href = base + '.html';
+        $('archive-page').hidden = false;
+      }
+    } catch (error) {
+      if (ticket !== sequence) return;
+      show(cache.get(viewing));
+      $('archive-message').textContent = `Week ${week} could not be loaded. ${error.name === 'AbortError' ? 'Request timed out; try again.' : error.message} Still viewing Week ${viewing}.`;
+      $('archive-page').href = base + '.html';
+      $('archive-page').hidden = false;
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  // Native keyboard steps only expose available weeks; pointer coordinates use
+  // the full 18-week scale so actual and viewing positions remain independent.
+  let dragging = false;
+  function pick(event) {
+    const bounds = $('gauge').getBoundingClientRect();
+    const week = clamp(1 + (event.clientX - bounds.left) / bounds.width * 17);
+    if (week !== requested) select(week);
+  }
+  input.addEventListener('pointerdown', event => {
+    if (event.button !== 0) return;
+    event.preventDefault(); input.focus(); dragging = true;
+    input.setPointerCapture(event.pointerId); pick(event);
+  });
+  input.addEventListener('pointermove', event => { if (dragging) pick(event); });
+  ['pointerup','pointercancel','lostpointercapture'].forEach(name => input.addEventListener(name, () => { dragging = false; }));
+  input.addEventListener('input', () => select(input.value));
+  $('previous').onclick = () => select(requested - 1);
+  $('next').onclick = () => select(requested + 1);
+  $('return-current').onclick = () => { select(currentWeek); input.focus(); };
+  show(current);
+  $('season-progress').hidden = false;
+})();
+</script>
 </body>
 </html>
