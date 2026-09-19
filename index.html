@@ -78,6 +78,14 @@
     }
     .last-updated { margin-top: 6px; font-size: 0.9rem; opacity: 0.78; }
 /* Shared, self-contained production presentation. */
+/* Reserve header copy space when switching current and historical weeks. */
+.hero .last-updated[hidden] { display: block !important; visibility: hidden; }
+@media (max-width: 700px) {
+  .hero p { min-height: 2lh; }
+}
+@media (max-width: 340px) {
+  .hero p { min-height: 3lh; }
+}
 [hidden] { display: none !important; }
 .mobile-player { display: none; }
 th abbr { text-decoration: none; }
@@ -97,12 +105,13 @@ th abbr { text-decoration: none; }
 .axis span:first-child { left: 0; }
 .axis span:nth-child(2) { left: 47.058824%; transform: translateX(-50%); }
 .axis span:last-child { right: 0; }
-.handle { position: absolute; top: 31px; left: var(--view-position); width: 24px; height: 36px; margin-left: -12px; border: 2px solid #34475d; border-radius: 50%; display: grid; place-items: center; color: white; background: #263c53; font-size: 15px; font-weight: bold; pointer-events: none; }
+.handle { position: absolute; top: 31px; left: var(--view-position); width: 6px; height: 36px; margin-left: -3px; border-radius: 3px; background: #263c53; pointer-events: none; }
+.handle-number { position: absolute; left: 50%; top: 8px; transform: translateX(-50%); padding: 0 2px; color: #263c53; background: white; font-size: 15px; line-height: 20px; font-weight: bold; pointer-events: none; }
 .view-label { position: absolute; top: 101px; left: clamp(0px,calc(var(--view-position) - 60px),calc(100% - 120px)); width: 120px; white-space: nowrap; text-align: center; font-size: 12px; font-weight: bold; color: #263c53; }
 .gauge-input { position: absolute; top: 25px; left: -24px; width: calc(100% + 48px); height: 48px; margin: 0; opacity: 0; cursor: grab; touch-action: pan-y; }
 .gauge-input::-webkit-slider-thumb { width: 48px; height: 48px; }
 .gauge-input::-moz-range-thumb { width: 48px; height: 48px; }
-.gauge:focus-within .handle { outline: 3px solid #145ca8; outline-offset: 4px; }
+.gauge:focus-within .handle { outline: 3px solid #145ca8; outline-offset: 3px; }
 .progress-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; max-width: 420px; }
 #season-progress button { min-height: 48px; border: 1px solid #b4bec9; border-radius: 8px; background: white; color: var(--ink); padding: 10px 12px; font: inherit; font-size: 14px; font-weight: bold; cursor: pointer; }
 #season-progress button:disabled { opacity: .45; cursor: default; }
@@ -123,6 +132,7 @@ th abbr { text-decoration: none; }
 @media (forced-colors: active) {
   .fill, .handle { background: Highlight; }
   .handle { color: HighlightText; border-color: Highlight; }
+  .handle-number { color: CanvasText; background: Canvas; }
   .current-label, .view-label { color: CanvasText; }
   .track, .current-marker { border-color: CanvasText; }
 }
@@ -138,13 +148,13 @@ th abbr { text-decoration: none; }
     </header>
 <section id="season-progress" aria-labelledby="progress-title" hidden>
   <div class="progress-top"><h2 id="progress-title">Season Progress</h2><span id="current-badge"></span></div>
-  <p id="gauge-help">Drag to revisit a completed week.</p>
+  <p id="gauge-help">Grab and drag the numbered handle to revisit a completed week.</p>
   <div class="gauge" id="gauge">
     <div class="track"><div class="fill"></div></div>
     <div class="current-marker" aria-hidden="true"></div>
     <div class="current-label" id="current-label" aria-hidden="true"></div>
     <div class="axis" aria-hidden="true"><span>Week 1</span><span>Week 9</span><span>Week 18</span></div>
-    <div class="handle" id="handle" aria-hidden="true"></div>
+    <div class="handle" id="handle" aria-hidden="true"><span class="handle-number" id="handle-number"></span></div>
     <div class="view-label" id="view-label" aria-hidden="true"></div>
     <input class="gauge-input" id="view-week" type="range" min="1" step="1" aria-label="Week to view" aria-describedby="gauge-help current-badge" aria-controls="standings-rows">
   </div>
@@ -544,19 +554,48 @@ th abbr { text-decoration: none; }
   const subtitle = document.querySelector('.hero p');
   const originalTitle = hero.textContent, originalSubtitle = subtitle.textContent;
   let viewing = currentWeek, requested = currentWeek, sequence = 0, pending;
-  const position = week => ((week - 1) / 17 * 100) + '%';
+  const mobileGauge = window.matchMedia('(max-width: 700px)');
+  let dragging = false, grabOffset = 0;
+  function windowForWeek(week, mobile) {
+    const start = mobile ? (week <= 6 ? 1 : Math.min(13, week - 3)) : 1;
+    return {start, end: mobile ? start + 5 : 18};
+  }
+  let gaugeWindow = windowForWeek(currentWeek, mobileGauge.matches);
+  const position = week => ((week - gaugeWindow.start) / (gaugeWindow.end - gaugeWindow.start) * 100) + '%';
   const clamp = value => Math.max(1, Math.min(currentWeek, Math.round(Number(value) || 1)));
   $('gauge').style.setProperty('--current-position', position(currentWeek));
   $('current-label').textContent = 'CURRENT · WEEK ' + currentWeek;
   $('current-badge').textContent = 'Current · Week ' + currentWeek + ' of 18';
   input.max = currentWeek;
 
+  function renderGauge(week) {
+    if (!dragging) gaugeWindow = windowForWeek(week, mobileGauge.matches);
+    const {start, end} = gaugeWindow;
+    const visibleCurrent = Math.max(start, Math.min(end, currentWeek));
+    $('gauge').style.setProperty('--current-position', position(visibleCurrent));
+    $('gauge').style.setProperty('--view-position', position(week));
+    document.querySelector('.current-marker').hidden = currentWeek < start || currentWeek > end;
+    $('current-label').textContent = 'CURRENT · WEEK ' + currentWeek + (currentWeek > end ? ' →' : currentWeek < start ? ' ←' : '');
+    const axis = document.querySelector('.axis');
+    axis.replaceChildren();
+    const weeks = end - start === 5 ? Array.from({length: 6}, (_, i) => start + i) : [1, 9, 18];
+    weeks.forEach((value, index) => {
+      const label = document.createElement('span');
+      label.textContent = 'Week ' + value;
+      label.style.left = position(value);
+      label.style.right = 'auto';
+      label.style.transform = index === 0 ? 'none' : index === weeks.length - 1 ? 'translateX(-100%)' : 'translateX(-50%)';
+      axis.append(label);
+    });
+  }
+  mobileGauge.addEventListener('change', () => { if (!dragging) renderGauge(requested); });
+
   function controls(week) {
     requested = week;
     input.value = week;
     input.setAttribute('aria-valuetext', `Week ${week}${week === currentWeek ? ', current week' : ', historical week'}`);
-    $('gauge').style.setProperty('--view-position', position(week));
-    $('handle').textContent = week;
+    renderGauge(week);
+    $('handle-number').textContent = week;
     $('view-label').textContent = 'VIEWING · WEEK ' + week;
     $('previous').disabled = week === 1;
     $('next').disabled = week === currentWeek;
@@ -658,22 +697,41 @@ th abbr { text-decoration: none; }
     }
   }
 
-  // Native keyboard steps only expose available weeks; pointer coordinates use
-  // the full 18-week scale so actual and viewing positions remain independent.
-  let dragging = false;
+  // Native keyboard steps expose all available weeks. Pointer coordinates use
+  // the displayed linear window, held stable until the gesture ends.
   function pick(event) {
     const bounds = $('gauge').getBoundingClientRect();
-    const week = clamp(1 + (event.clientX - bounds.left) / bounds.width * 17);
+    const fraction = Math.max(0, Math.min(1, (event.clientX - grabOffset - bounds.left) / bounds.width));
+    const week = clamp(gaugeWindow.start + fraction * (gaugeWindow.end - gaugeWindow.start));
     if (week !== requested) select(week);
   }
   input.addEventListener('pointerdown', event => {
     if (event.button !== 0) return;
     event.preventDefault(); input.focus(); dragging = true;
+    const bounds = $('gauge').getBoundingClientRect();
+    const intervals = gaugeWindow.end - gaugeWindow.start;
+    const handleCenter = bounds.left + (requested - gaugeWindow.start) / intervals * bounds.width;
+    const offset = event.clientX - handleCenter;
+    // Keep offset-preserving grabs close to the 6px marker. The quarter-step
+    // cap excludes adjacent week centers even on unusually narrow tracks.
+    const grabRadius = Math.min(6, bounds.width / intervals / 4);
+    grabOffset = Math.abs(offset) <= grabRadius ? offset : 0;
     input.setPointerCapture(event.pointerId); pick(event);
   });
   input.addEventListener('pointermove', event => { if (dragging) pick(event); });
-  ['pointerup','pointercancel','lostpointercapture'].forEach(name => input.addEventListener(name, () => { dragging = false; }));
-  input.addEventListener('input', () => select(input.value));
+  ['pointerup','pointercancel','lostpointercapture'].forEach(name => input.addEventListener(name, () => {
+    dragging = false;
+    renderGauge(requested);
+  }));
+  input.addEventListener('input', () => {
+    if (dragging) {
+      // Chrome may update its native thumb during our custom drag. Keep the
+      // native value aligned with the pointer-selected week without selecting again.
+      input.value = requested;
+      return;
+    }
+    select(input.value);
+  });
   $('previous').onclick = () => select(requested - 1);
   $('next').onclick = () => select(requested + 1);
   $('return-current').onclick = () => { select(currentWeek); input.focus(); };
