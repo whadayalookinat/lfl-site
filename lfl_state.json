@@ -1,20 +1,20 @@
 {
   "games": [
     {
-      "away_score": "0",
+      "away_score": "6",
       "away_team": "Carolina Panthers",
       "home_score": "0",
       "home_team": "Atlanta Falcons",
       "status_description": "In Progress",
-      "status_detail": "15:00 - 1st"
+      "status_detail": "10:48 - 1st"
     },
     {
-      "away_score": "0",
+      "away_score": "3",
       "away_team": "Minnesota Vikings",
       "home_score": "0",
       "home_team": "Chicago Bears",
       "status_description": "In Progress",
-      "status_detail": "13:29 - 1st"
+      "status_detail": "7:36 - 1st"
     },
     {
       "away_score": "0",
@@ -22,7 +22,7 @@
       "home_score": "0",
       "home_team": "Tennessee Titans",
       "status_description": "In Progress",
-      "status_detail": "13:35 - 1st"
+      "status_detail": "5:11 - 1st"
     },
     {
       "away_score": "0",
@@ -30,31 +30,7 @@
       "home_score": "0",
       "home_team": "New England Patriots",
       "status_description": "In Progress",
-      "status_detail": "13:20 - 1st"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Cleveland Browns",
-      "home_score": "0",
-      "home_team": "Tampa Bay Buccaneers",
-      "status_description": "In Progress",
-      "status_detail": "13:36 - 1st"
-    },
-    {
-      "away_score": "0",
-      "away_team": "New Orleans Saints",
-      "home_score": "0",
-      "home_team": "Baltimore Ravens",
-      "status_description": "In Progress",
-      "status_detail": "13:25 - 1st"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Cincinnati Bengals",
-      "home_score": "0",
-      "home_team": "Houston Texans",
-      "status_description": "In Progress",
-      "status_detail": "14:07 - 1st"
+      "status_detail": "9:11 - 1st"
     },
     {
       "away_score": "0",
@@ -62,7 +38,31 @@
       "home_score": "0",
       "home_team": "New York Jets",
       "status_description": "In Progress",
-      "status_detail": "14:09 - 1st"
+      "status_detail": "13:20 - 1st"
+    },
+    {
+      "away_score": "3",
+      "away_team": "Cleveland Browns",
+      "home_score": "3",
+      "home_team": "Tampa Bay Buccaneers",
+      "status_description": "In Progress",
+      "status_detail": "7:12 - 1st"
+    },
+    {
+      "away_score": "0",
+      "away_team": "New Orleans Saints",
+      "home_score": "0",
+      "home_team": "Baltimore Ravens",
+      "status_description": "In Progress",
+      "status_detail": "5:53 - 1st"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Cincinnati Bengals",
+      "home_score": "0",
+      "home_team": "Houston Texans",
+      "status_description": "In Progress",
+      "status_detail": "10:08 - 1st"
     },
     {
       "away_score": "0",
