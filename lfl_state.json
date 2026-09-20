@@ -5,8 +5,8 @@
       "away_team": "Washington Commanders",
       "home_score": "37",
       "home_team": "Dallas Cowboys",
-      "status_description": "In Progress",
-      "status_detail": "2:00 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "34",
@@ -215,6 +215,14 @@
     {
       "losses": 1,
       "payoff": 2,
+      "player": "Michelle",
+      "team": "Dallas Cowboys",
+      "ties": 0,
+      "wins": 1
+    },
+    {
+      "losses": 1,
+      "payoff": 2,
       "player": "Christy",
       "team": "Detroit Lions",
       "ties": 0,
@@ -263,24 +271,8 @@
     {
       "losses": 1,
       "payoff": 2,
-      "player": "Michelle",
-      "team": "Dallas Cowboys",
-      "ties": 0,
-      "wins": 0
-    },
-    {
-      "losses": 1,
-      "payoff": 2,
       "player": "Marina & Matt",
       "team": "Indianapolis Colts",
-      "ties": 0,
-      "wins": 0
-    },
-    {
-      "losses": 1,
-      "payoff": 2,
-      "player": "Mike",
-      "team": "Washington Commanders",
       "ties": 0,
       "wins": 0
     },
@@ -321,6 +313,14 @@
       "payoff": 4,
       "player": "Christine",
       "team": "Tennessee Titans",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 2,
+      "payoff": 4,
+      "player": "Mike",
+      "team": "Washington Commanders",
       "ties": 0,
       "wins": 0
     }
