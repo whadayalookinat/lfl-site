@@ -5,24 +5,24 @@
       "away_team": "Cleveland Browns",
       "home_score": "19",
       "home_team": "Tampa Bay Buccaneers",
-      "status_description": "Delayed",
-      "status_detail": "Delayed"
+      "status_description": "In Progress",
+      "status_detail": "2:00 - 4th"
     },
     {
       "away_score": "13",
       "away_team": "Jacksonville Jaguars",
-      "home_score": "3",
+      "home_score": "6",
       "home_team": "Denver Broncos",
       "status_description": "In Progress",
-      "status_detail": "5:07 - 3rd"
+      "status_detail": "15:00 - 4th"
     },
     {
-      "away_score": "10",
+      "away_score": "17",
       "away_team": "Las Vegas Raiders",
       "home_score": "14",
       "home_team": "Los Angeles Chargers",
       "status_description": "In Progress",
-      "status_detail": "9:49 - 3rd"
+      "status_detail": "3:09 - 3rd"
     },
     {
       "away_score": "10",
@@ -37,16 +37,16 @@
       "away_team": "Seattle Seahawks",
       "home_score": "7",
       "home_team": "Arizona Cardinals",
-      "status_description": "Halftime",
-      "status_detail": "Halftime"
+      "status_description": "In Progress",
+      "status_detail": "13:16 - 3rd"
     },
     {
       "away_score": "6",
       "away_team": "Miami Dolphins",
-      "home_score": "21",
+      "home_score": "28",
       "home_team": "San Francisco 49ers",
       "status_description": "In Progress",
-      "status_detail": "10:57 - 3rd"
+      "status_detail": "5:46 - 3rd"
     },
     {
       "away_score": "34",
