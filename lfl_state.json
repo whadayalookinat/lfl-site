@@ -1,44 +1,36 @@
 {
   "games": [
     {
-      "away_score": "13",
-      "away_team": "Jacksonville Jaguars",
-      "home_score": "20",
-      "home_team": "Denver Broncos",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
       "away_score": "26",
       "away_team": "Las Vegas Raiders",
       "home_score": "14",
       "home_team": "Los Angeles Chargers",
-      "status_description": "In Progress",
-      "status_detail": "1:41 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
-      "away_score": "13",
+      "away_score": "20",
       "away_team": "Washington Commanders",
       "home_score": "30",
       "home_team": "Dallas Cowboys",
       "status_description": "In Progress",
-      "status_detail": "10:49 - 4th"
+      "status_detail": "5:40 - 4th"
     },
     {
-      "away_score": "24",
+      "away_score": "31",
       "away_team": "Seattle Seahawks",
       "home_score": "7",
       "home_team": "Arizona Cardinals",
       "status_description": "In Progress",
-      "status_detail": "4:47 - 4th"
+      "status_detail": "1:11 - 4th"
     },
     {
       "away_score": "13",
       "away_team": "Miami Dolphins",
       "home_score": "35",
       "home_team": "San Francisco 49ers",
-      "status_description": "In Progress",
-      "status_detail": "2:30 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "34",
@@ -105,6 +97,14 @@
       "status_detail": "Final"
     },
     {
+      "away_score": "13",
+      "away_team": "Jacksonville Jaguars",
+      "home_score": "20",
+      "home_team": "Denver Broncos",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
       "away_score": "0",
       "away_team": "Indianapolis Colts",
       "home_score": "0",
@@ -143,6 +143,14 @@
     {
       "losses": 0,
       "payoff": 0,
+      "player": "Corey",
+      "team": "Las Vegas Raiders",
+      "ties": 0,
+      "wins": 2
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
       "player": "Rod",
       "team": "Minnesota Vikings",
       "ties": 0,
@@ -169,14 +177,6 @@
       "payoff": 0,
       "player": "Dave & Michelle",
       "team": "Kansas City Chiefs",
-      "ties": 0,
-      "wins": 1
-    },
-    {
-      "losses": 0,
-      "payoff": 0,
-      "player": "Corey",
-      "team": "Las Vegas Raiders",
       "ties": 0,
       "wins": 1
     },
@@ -279,22 +279,6 @@
     {
       "losses": 1,
       "payoff": 2,
-      "player": "Tom",
-      "team": "Los Angeles Chargers",
-      "ties": 0,
-      "wins": 0
-    },
-    {
-      "losses": 1,
-      "payoff": 2,
-      "player": "Chris",
-      "team": "Miami Dolphins",
-      "ties": 0,
-      "wins": 0
-    },
-    {
-      "losses": 1,
-      "payoff": 2,
       "player": "Mike",
       "team": "Washington Commanders",
       "ties": 0,
@@ -305,6 +289,22 @@
       "payoff": 4,
       "player": "Gene",
       "team": "Atlanta Falcons",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 2,
+      "payoff": 4,
+      "player": "Tom",
+      "team": "Los Angeles Chargers",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 2,
+      "payoff": 4,
+      "player": "Chris",
+      "team": "Miami Dolphins",
       "ties": 0,
       "wins": 0
     },
