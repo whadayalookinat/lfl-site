@@ -1,14 +1,6 @@
 {
   "games": [
     {
-      "away_score": "31",
-      "away_team": "Detroit Lions",
-      "home_score": "41",
-      "home_team": "Buffalo Bills",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
       "away_score": "0",
       "away_team": "Carolina Panthers",
       "home_score": "0",
@@ -119,6 +111,14 @@
       "home_team": "Kansas City Chiefs",
       "status_description": "Scheduled",
       "status_detail": "9/20 - 8:20 PM EDT"
+    },
+    {
+      "away_score": "31",
+      "away_team": "Detroit Lions",
+      "home_score": "41",
+      "home_team": "Buffalo Bills",
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
