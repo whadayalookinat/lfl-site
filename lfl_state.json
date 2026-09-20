@@ -1,14 +1,6 @@
 {
   "games": [
     {
-      "away_score": "20",
-      "away_team": "Washington Commanders",
-      "home_score": "37",
-      "home_team": "Dallas Cowboys",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
       "away_score": "34",
       "away_team": "Carolina Panthers",
       "home_score": "3",
@@ -85,6 +77,14 @@
       "away_team": "Las Vegas Raiders",
       "home_score": "14",
       "home_team": "Los Angeles Chargers",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "20",
+      "away_team": "Washington Commanders",
+      "home_score": "37",
+      "home_team": "Dallas Cowboys",
       "status_description": "Final",
       "status_detail": "Final"
     },
