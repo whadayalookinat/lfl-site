@@ -1,14 +1,6 @@
 {
   "games": [
     {
-      "away_score": "20",
-      "away_team": "Green Bay Packers",
-      "home_score": "17",
-      "home_team": "New York Jets",
-      "status_description": "Final",
-      "status_detail": "Final/OT"
-    },
-    {
       "away_score": "23",
       "away_team": "Cleveland Browns",
       "home_score": "19",
@@ -17,12 +9,12 @@
       "status_detail": "Delayed"
     },
     {
-      "away_score": "0",
+      "away_score": "7",
       "away_team": "Jacksonville Jaguars",
       "home_score": "0",
       "home_team": "Denver Broncos",
       "status_description": "In Progress",
-      "status_detail": "15:00 - 2nd"
+      "status_detail": "12:13 - 2nd"
     },
     {
       "away_score": "0",
@@ -30,15 +22,15 @@
       "home_score": "0",
       "home_team": "Los Angeles Chargers",
       "status_description": "In Progress",
-      "status_detail": "15:00 - 2nd"
+      "status_detail": "14:01 - 2nd"
     },
     {
       "away_score": "0",
       "away_team": "Washington Commanders",
-      "home_score": "7",
+      "home_score": "10",
       "home_team": "Dallas Cowboys",
       "status_description": "In Progress",
-      "status_detail": "6:41 - 1st"
+      "status_detail": "4:18 - 1st"
     },
     {
       "away_score": "7",
@@ -46,15 +38,15 @@
       "home_score": "0",
       "home_team": "Arizona Cardinals",
       "status_description": "In Progress",
-      "status_detail": "6:16 - 1st"
+      "status_detail": "2:53 - 1st"
     },
     {
       "away_score": "0",
       "away_team": "Miami Dolphins",
       "home_score": "7",
       "home_team": "San Francisco 49ers",
-      "status_description": "In Progress",
-      "status_detail": "4:17 - 1st"
+      "status_description": "End of Period",
+      "status_detail": "End of 1st"
     },
     {
       "away_score": "34",
@@ -87,6 +79,14 @@
       "home_team": "New England Patriots",
       "status_description": "Final",
       "status_detail": "Final"
+    },
+    {
+      "away_score": "20",
+      "away_team": "Green Bay Packers",
+      "home_score": "17",
+      "home_team": "New York Jets",
+      "status_description": "Final",
+      "status_detail": "Final/OT"
     },
     {
       "away_score": "24",
