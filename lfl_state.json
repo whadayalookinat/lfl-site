@@ -3,10 +3,10 @@
     {
       "away_score": "30",
       "away_team": "Indianapolis Colts",
-      "home_score": "30",
+      "home_score": "33",
       "home_team": "Kansas City Chiefs",
-      "status_description": "In Progress",
-      "status_detail": "3:06 - OT"
+      "status_description": "Final",
+      "status_detail": "Final/OT"
     },
     {
       "away_score": "34",
@@ -143,6 +143,14 @@
     {
       "losses": 0,
       "payoff": 0,
+      "player": "Dave & Michelle",
+      "team": "Kansas City Chiefs",
+      "ties": 0,
+      "wins": 2
+    },
+    {
+      "losses": 0,
+      "payoff": 0,
       "player": "Corey",
       "team": "Las Vegas Raiders",
       "ties": 0,
@@ -163,14 +171,6 @@
       "team": "Philadelphia Eagles",
       "ties": 0,
       "wins": 2
-    },
-    {
-      "losses": 0,
-      "payoff": 0,
-      "player": "Dave & Michelle",
-      "team": "Kansas City Chiefs",
-      "ties": 0,
-      "wins": 1
     },
     {
       "losses": 0,
@@ -269,18 +269,18 @@
       "wins": 1
     },
     {
-      "losses": 1,
-      "payoff": 2,
-      "player": "Marina & Matt",
-      "team": "Indianapolis Colts",
+      "losses": 2,
+      "payoff": 4,
+      "player": "Gene",
+      "team": "Atlanta Falcons",
       "ties": 0,
       "wins": 0
     },
     {
       "losses": 2,
       "payoff": 4,
-      "player": "Gene",
-      "team": "Atlanta Falcons",
+      "player": "Marina & Matt",
+      "team": "Indianapolis Colts",
       "ties": 0,
       "wins": 0
     },
