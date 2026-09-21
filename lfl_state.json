@@ -1,6 +1,14 @@
 {
   "games": [
     {
+      "away_score": "7",
+      "away_team": "Indianapolis Colts",
+      "home_score": "3",
+      "home_team": "Kansas City Chiefs",
+      "status_description": "In Progress",
+      "status_detail": "6:09 - 1st"
+    },
+    {
       "away_score": "34",
       "away_team": "Carolina Panthers",
       "home_score": "3",
@@ -103,14 +111,6 @@
       "home_team": "San Francisco 49ers",
       "status_description": "Final",
       "status_detail": "Final"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Indianapolis Colts",
-      "home_score": "0",
-      "home_team": "Kansas City Chiefs",
-      "status_description": "Scheduled",
-      "status_detail": "9/20 - 8:20 PM EDT"
     },
     {
       "away_score": "31",
