@@ -1,14 +1,6 @@
 {
   "games": [
     {
-      "away_score": "6",
-      "away_team": "New York Giants",
-      "home_score": "28",
-      "home_team": "Los Angeles Rams",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
       "away_score": "31",
       "away_team": "Detroit Lions",
       "home_score": "41",
@@ -127,6 +119,14 @@
       "home_team": "Kansas City Chiefs",
       "status_description": "Final",
       "status_detail": "Final/OT"
+    },
+    {
+      "away_score": "6",
+      "away_team": "New York Giants",
+      "home_score": "28",
+      "home_team": "Los Angeles Rams",
+      "status_description": "Final",
+      "status_detail": "Final"
     }
   ],
   "season_type": "regular",
