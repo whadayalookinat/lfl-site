@@ -5,8 +5,8 @@
       "away_team": "Atlanta Falcons",
       "home_score": "14",
       "home_team": "Green Bay Packers",
-      "status_description": "In Progress",
-      "status_detail": "3:33 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
@@ -215,14 +215,6 @@
     {
       "losses": 1,
       "payoff": 2,
-      "player": "Doug",
-      "team": "Green Bay Packers",
-      "ties": 0,
-      "wins": 1
-    },
-    {
-      "losses": 1,
-      "payoff": 2,
       "player": "Ray & Susan",
       "team": "Jacksonville Jaguars",
       "ties": 0,
@@ -266,7 +258,15 @@
       "player": "Gene",
       "team": "Atlanta Falcons",
       "ties": 0,
-      "wins": 0
+      "wins": 1
+    },
+    {
+      "losses": 2,
+      "payoff": 4,
+      "player": "Doug",
+      "team": "Green Bay Packers",
+      "ties": 0,
+      "wins": 1
     },
     {
       "losses": 2,
