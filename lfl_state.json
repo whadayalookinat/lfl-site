@@ -1,20 +1,20 @@
 {
   "games": [
     {
-      "away_score": "10",
+      "away_score": "13",
       "away_team": "Los Angeles Chargers",
       "home_score": "10",
       "home_team": "Buffalo Bills",
       "status_description": "In Progress",
-      "status_detail": "8:19 - 3rd"
+      "status_detail": "4:21 - 3rd"
     },
     {
-      "away_score": "3",
+      "away_score": "6",
       "away_team": "Carolina Panthers",
       "home_score": "10",
       "home_team": "Cleveland Browns",
       "status_description": "In Progress",
-      "status_detail": "14:56 - 3rd"
+      "status_detail": "10:57 - 3rd"
     },
     {
       "away_score": "10",
@@ -22,7 +22,7 @@
       "home_score": "17",
       "home_team": "Detroit Lions",
       "status_description": "In Progress",
-      "status_detail": "6:22 - 3rd"
+      "status_detail": "0:26 - 3rd"
     },
     {
       "away_score": "7",
@@ -30,7 +30,7 @@
       "home_score": "13",
       "home_team": "Indianapolis Colts",
       "status_description": "In Progress",
-      "status_detail": "11:33 - 3rd"
+      "status_detail": "7:48 - 3rd"
     },
     {
       "away_score": "14",
@@ -38,23 +38,23 @@
       "home_score": "10",
       "home_team": "Miami Dolphins",
       "status_description": "In Progress",
-      "status_detail": "10:01 - 3rd"
+      "status_detail": "6:01 - 3rd"
     },
     {
       "away_score": "0",
       "away_team": "Tennessee Titans",
-      "home_score": "9",
+      "home_score": "12",
       "home_team": "New York Giants",
       "status_description": "In Progress",
-      "status_detail": "9:26 - 3rd"
+      "status_detail": "5:09 - 3rd"
     },
     {
-      "away_score": "17",
+      "away_score": "20",
       "away_team": "Cincinnati Bengals",
       "home_score": "17",
       "home_team": "Pittsburgh Steelers",
       "status_description": "In Progress",
-      "status_detail": "14:53 - 3rd"
+      "status_detail": "8:22 - 3rd"
     },
     {
       "away_score": "10",
@@ -70,7 +70,7 @@
       "home_score": "14",
       "home_team": "Jacksonville Jaguars",
       "status_description": "In Progress",
-      "status_detail": "13:02 - 3rd"
+      "status_detail": "7:50 - 3rd"
     },
     {
       "away_score": "0",
