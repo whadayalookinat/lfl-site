@@ -5,16 +5,56 @@
       "away_team": "Los Angeles Chargers",
       "home_score": "24",
       "home_team": "Buffalo Bills",
-      "status_description": "In Progress",
-      "status_detail": "1:06 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "18",
       "away_team": "Carolina Panthers",
-      "home_score": "13",
+      "home_score": "21",
       "home_team": "Cleveland Browns",
       "status_description": "In Progress",
-      "status_detail": "1:55 - 4th"
+      "status_detail": "0:22 - 4th"
+    },
+    {
+      "away_score": "27",
+      "away_team": "Cincinnati Bengals",
+      "home_score": "30",
+      "home_team": "Pittsburgh Steelers",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "31",
+      "away_team": "Seattle Seahawks",
+      "home_score": "33",
+      "home_team": "Washington Commanders",
+      "status_description": "In Progress",
+      "status_detail": "1:36 - 4th"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Arizona Cardinals",
+      "home_score": "7",
+      "home_team": "San Francisco 49ers",
+      "status_description": "In Progress",
+      "status_detail": "8:26 - 1st"
+    },
+    {
+      "away_score": "4",
+      "away_team": "Minnesota Vikings",
+      "home_score": "0",
+      "home_team": "Tampa Bay Buccaneers",
+      "status_description": "In Progress",
+      "status_detail": "8:29 - 1st"
+    },
+    {
+      "away_score": "24",
+      "away_team": "New York Jets",
+      "home_score": "31",
+      "home_team": "Detroit Lions",
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "17",
@@ -41,52 +81,12 @@
       "status_detail": "Final"
     },
     {
-      "away_score": "27",
-      "away_team": "Cincinnati Bengals",
-      "home_score": "30",
-      "home_team": "Pittsburgh Steelers",
-      "status_description": "In Progress",
-      "status_detail": "0:53 - 4th"
-    },
-    {
-      "away_score": "24",
-      "away_team": "Seattle Seahawks",
-      "home_score": "33",
-      "home_team": "Washington Commanders",
-      "status_description": "In Progress",
-      "status_detail": "4:09 - 4th"
-    },
-    {
       "away_score": "6",
       "away_team": "New England Patriots",
       "home_score": "35",
       "home_team": "Jacksonville Jaguars",
       "status_description": "Final",
       "status_detail": "Final"
-    },
-    {
-      "away_score": "24",
-      "away_team": "New York Jets",
-      "home_score": "31",
-      "home_team": "Detroit Lions",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Arizona Cardinals",
-      "home_score": "0",
-      "home_team": "San Francisco 49ers",
-      "status_description": "In Progress",
-      "status_detail": "11:47 - 1st"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Minnesota Vikings",
-      "home_score": "0",
-      "home_team": "Tampa Bay Buccaneers",
-      "status_description": "In Progress",
-      "status_detail": "12:14 - 1st"
     },
     {
       "away_score": "0",
@@ -135,14 +135,6 @@
     {
       "losses": 0,
       "payoff": 0,
-      "player": "CB",
-      "team": "Cincinnati Bengals",
-      "ties": 0,
-      "wins": 2
-    },
-    {
-      "losses": 0,
-      "payoff": 0,
       "player": "Corey",
       "team": "Las Vegas Raiders",
       "ties": 0,
@@ -167,6 +159,14 @@
     {
       "losses": 1,
       "payoff": 2,
+      "player": "CB",
+      "team": "Cincinnati Bengals",
+      "ties": 0,
+      "wins": 2
+    },
+    {
+      "losses": 1,
+      "payoff": 2,
       "player": "Christy",
       "team": "Detroit Lions",
       "ties": 0,
@@ -185,6 +185,14 @@
       "payoff": 2,
       "player": "Danny & Joyce",
       "team": "New York Giants",
+      "ties": 0,
+      "wins": 2
+    },
+    {
+      "losses": 1,
+      "payoff": 2,
+      "player": "Tracy",
+      "team": "Pittsburgh Steelers",
       "ties": 0,
       "wins": 2
     },
@@ -237,14 +245,6 @@
       "wins": 1
     },
     {
-      "losses": 1,
-      "payoff": 2,
-      "player": "Tracy",
-      "team": "Pittsburgh Steelers",
-      "ties": 0,
-      "wins": 1
-    },
-    {
       "losses": 2,
       "payoff": 4,
       "player": "Gene",
@@ -279,14 +279,6 @@
     {
       "losses": 2,
       "payoff": 4,
-      "player": "Tom",
-      "team": "Los Angeles Chargers",
-      "ties": 0,
-      "wins": 0
-    },
-    {
-      "losses": 2,
-      "payoff": 4,
       "player": "Angel",
       "team": "Tampa Bay Buccaneers",
       "ties": 0,
@@ -297,6 +289,14 @@
       "payoff": 4,
       "player": "Mike",
       "team": "Washington Commanders",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 3,
+      "payoff": 6,
+      "player": "Tom",
+      "team": "Los Angeles Chargers",
       "ties": 0,
       "wins": 0
     },
