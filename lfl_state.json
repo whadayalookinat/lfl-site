@@ -3,10 +3,10 @@
     {
       "away_score": "6",
       "away_team": "Arizona Cardinals",
-      "home_score": "17",
+      "home_score": "23",
       "home_team": "San Francisco 49ers",
       "status_description": "In Progress",
-      "status_detail": "13:38 - 3rd"
+      "status_detail": "9:16 - 3rd"
     },
     {
       "away_score": "17",
@@ -14,15 +14,15 @@
       "home_score": "10",
       "home_team": "Tampa Bay Buccaneers",
       "status_description": "In Progress",
-      "status_detail": "12:58 - 3rd"
+      "status_detail": "9:44 - 3rd"
     },
     {
       "away_score": "17",
       "away_team": "Baltimore Ravens",
       "home_score": "13",
       "home_team": "Dallas Cowboys",
-      "status_description": "Halftime",
-      "status_detail": "Halftime"
+      "status_description": "In Progress",
+      "status_detail": "14:55 - 3rd"
     },
     {
       "away_score": "16",
