@@ -3,18 +3,18 @@
     {
       "away_score": "10",
       "away_team": "Los Angeles Chargers",
-      "home_score": "0",
+      "home_score": "3",
       "home_team": "Buffalo Bills",
       "status_description": "In Progress",
-      "status_detail": "9:48 - 2nd"
+      "status_detail": "5:56 - 2nd"
     },
     {
       "away_score": "0",
       "away_team": "Carolina Panthers",
-      "home_score": "0",
+      "home_score": "3",
       "home_team": "Cleveland Browns",
       "status_description": "In Progress",
-      "status_detail": "8:33 - 2nd"
+      "status_detail": "5:43 - 2nd"
     },
     {
       "away_score": "7",
@@ -22,7 +22,7 @@
       "home_score": "3",
       "home_team": "Detroit Lions",
       "status_description": "In Progress",
-      "status_detail": "5:33 - 2nd"
+      "status_detail": "1:54 - 2nd"
     },
     {
       "away_score": "0",
@@ -30,7 +30,7 @@
       "home_score": "10",
       "home_team": "Indianapolis Colts",
       "status_description": "In Progress",
-      "status_detail": "11:08 - 2nd"
+      "status_detail": "7:08 - 2nd"
     },
     {
       "away_score": "14",
@@ -38,23 +38,23 @@
       "home_score": "7",
       "home_team": "Miami Dolphins",
       "status_description": "In Progress",
-      "status_detail": "9:22 - 2nd"
+      "status_detail": "4:03 - 2nd"
     },
     {
       "away_score": "0",
       "away_team": "Tennessee Titans",
-      "home_score": "3",
+      "home_score": "6",
       "home_team": "New York Giants",
       "status_description": "In Progress",
-      "status_detail": "11:59 - 2nd"
+      "status_detail": "4:49 - 2nd"
     },
     {
       "away_score": "10",
       "away_team": "Cincinnati Bengals",
-      "home_score": "14",
+      "home_score": "17",
       "home_team": "Pittsburgh Steelers",
       "status_description": "In Progress",
-      "status_detail": "10:16 - 2nd"
+      "status_detail": "7:05 - 2nd"
     },
     {
       "away_score": "7",
@@ -62,15 +62,15 @@
       "home_score": "7",
       "home_team": "Washington Commanders",
       "status_description": "In Progress",
-      "status_detail": "13:27 - 2nd"
+      "status_detail": "10:32 - 2nd"
     },
     {
-      "away_score": "0",
+      "away_score": "3",
       "away_team": "New England Patriots",
       "home_score": "7",
       "home_team": "Jacksonville Jaguars",
       "status_description": "In Progress",
-      "status_detail": "10:33 - 2nd"
+      "status_detail": "6:38 - 2nd"
     },
     {
       "away_score": "0",
