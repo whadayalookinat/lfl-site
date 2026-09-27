@@ -1,14 +1,6 @@
 {
   "games": [
     {
-      "away_score": "35",
-      "away_team": "Atlanta Falcons",
-      "home_score": "14",
-      "home_team": "Green Bay Packers",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
       "away_score": "0",
       "away_team": "Los Angeles Chargers",
       "home_score": "0",
@@ -111,6 +103,14 @@
       "home_team": "New Orleans Saints",
       "status_description": "Scheduled",
       "status_detail": "9/27 - 4:25 PM EDT"
+    },
+    {
+      "away_score": "35",
+      "away_team": "Atlanta Falcons",
+      "home_score": "14",
+      "home_team": "Green Bay Packers",
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
