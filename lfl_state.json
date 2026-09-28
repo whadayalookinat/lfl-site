@@ -1,6 +1,22 @@
 {
   "games": [
     {
+      "away_score": "0",
+      "away_team": "Philadelphia Eagles",
+      "home_score": "0",
+      "home_team": "Chicago Bears",
+      "status_description": "Scheduled",
+      "status_detail": "9/28 - 8:15 PM EDT"
+    },
+    {
+      "away_score": "35",
+      "away_team": "Atlanta Falcons",
+      "home_score": "14",
+      "home_team": "Green Bay Packers",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
       "away_score": "16",
       "away_team": "Los Angeles Chargers",
       "home_score": "24",
@@ -103,22 +119,6 @@
       "home_team": "New Orleans Saints",
       "status_description": "Final",
       "status_detail": "Final"
-    },
-    {
-      "away_score": "35",
-      "away_team": "Atlanta Falcons",
-      "home_score": "14",
-      "home_team": "Green Bay Packers",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Philadelphia Eagles",
-      "home_score": "0",
-      "home_team": "Chicago Bears",
-      "status_description": "Scheduled",
-      "status_detail": "9/28 - 8:15 PM EDT"
     }
   ],
   "season_type": "regular",
