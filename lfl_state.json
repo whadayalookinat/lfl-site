@@ -1,38 +1,6 @@
 {
   "games": [
     {
-      "away_score": "30",
-      "away_team": "Arizona Cardinals",
-      "home_score": "36",
-      "home_team": "San Francisco 49ers",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "23",
-      "away_team": "Minnesota Vikings",
-      "home_score": "16",
-      "home_team": "Tampa Bay Buccaneers",
-      "status_description": "In Progress",
-      "status_detail": "0:21 - 4th"
-    },
-    {
-      "away_score": "24",
-      "away_team": "Baltimore Ravens",
-      "home_score": "28",
-      "home_team": "Dallas Cowboys",
-      "status_description": "In Progress",
-      "status_detail": "2:00 - 4th"
-    },
-    {
-      "away_score": "35",
-      "away_team": "Las Vegas Raiders",
-      "home_score": "27",
-      "home_team": "New Orleans Saints",
-      "status_description": "In Progress",
-      "status_detail": "5:08 - 4th"
-    },
-    {
       "away_score": "16",
       "away_team": "Los Angeles Chargers",
       "home_score": "24",
@@ -105,6 +73,38 @@
       "status_detail": "Final"
     },
     {
+      "away_score": "30",
+      "away_team": "Arizona Cardinals",
+      "home_score": "36",
+      "home_team": "San Francisco 49ers",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "23",
+      "away_team": "Minnesota Vikings",
+      "home_score": "16",
+      "home_team": "Tampa Bay Buccaneers",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "34",
+      "away_team": "Baltimore Ravens",
+      "home_score": "31",
+      "home_team": "Dallas Cowboys",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "35",
+      "away_team": "Las Vegas Raiders",
+      "home_score": "27",
+      "home_team": "New Orleans Saints",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
       "away_score": "35",
       "away_team": "Atlanta Falcons",
       "home_score": "14",
@@ -138,7 +138,7 @@
       "player": "Corey",
       "team": "Las Vegas Raiders",
       "ties": 0,
-      "wins": 2
+      "wins": 3
     },
     {
       "losses": 0,
@@ -146,13 +146,21 @@
       "player": "Rod",
       "team": "Minnesota Vikings",
       "ties": 0,
-      "wins": 2
+      "wins": 3
     },
     {
       "losses": 0,
       "payoff": 0,
       "player": "Rob",
       "team": "Philadelphia Eagles",
+      "ties": 0,
+      "wins": 2
+    },
+    {
+      "losses": 1,
+      "payoff": 2,
+      "player": "JohnB",
+      "team": "Baltimore Ravens",
       "ties": 0,
       "wins": 2
     },
@@ -205,30 +213,6 @@
       "wins": 2
     },
     {
-      "losses": 1,
-      "payoff": 2,
-      "player": "JohnB",
-      "team": "Baltimore Ravens",
-      "ties": 0,
-      "wins": 1
-    },
-    {
-      "losses": 1,
-      "payoff": 2,
-      "player": "Michelle",
-      "team": "Dallas Cowboys",
-      "ties": 0,
-      "wins": 1
-    },
-    {
-      "losses": 1,
-      "payoff": 2,
-      "player": "Melissa & Scott",
-      "team": "New Orleans Saints",
-      "ties": 0,
-      "wins": 1
-    },
-    {
       "losses": 2,
       "payoff": 4,
       "player": "Joselyn",
@@ -255,6 +239,14 @@
     {
       "losses": 2,
       "payoff": 4,
+      "player": "Michelle",
+      "team": "Dallas Cowboys",
+      "ties": 0,
+      "wins": 1
+    },
+    {
+      "losses": 2,
+      "payoff": 4,
       "player": "Doug",
       "team": "Green Bay Packers",
       "ties": 0,
@@ -265,6 +257,14 @@
       "payoff": 4,
       "player": "Marina & Matt",
       "team": "Indianapolis Colts",
+      "ties": 0,
+      "wins": 1
+    },
+    {
+      "losses": 2,
+      "payoff": 4,
+      "player": "Melissa & Scott",
+      "team": "New Orleans Saints",
       "ties": 0,
       "wins": 1
     },
@@ -285,14 +285,6 @@
       "wins": 1
     },
     {
-      "losses": 2,
-      "payoff": 4,
-      "player": "Angel",
-      "team": "Tampa Bay Buccaneers",
-      "ties": 0,
-      "wins": 0
-    },
-    {
       "losses": 3,
       "payoff": 6,
       "player": "Tom",
@@ -305,6 +297,14 @@
       "payoff": 6,
       "player": "Chris",
       "team": "Miami Dolphins",
+      "ties": 0,
+      "wins": 0
+    },
+    {
+      "losses": 3,
+      "payoff": 6,
+      "player": "Angel",
+      "team": "Tampa Bay Buccaneers",
       "ties": 0,
       "wins": 0
     },
