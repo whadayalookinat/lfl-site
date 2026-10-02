@@ -1,12 +1,12 @@
 {
   "games": [
     {
-      "away_score": "7",
+      "away_score": "24",
       "away_team": "Pittsburgh Steelers",
-      "home_score": "7",
+      "home_score": "27",
       "home_team": "Cleveland Browns",
-      "status_description": "In Progress",
-      "status_detail": "12:14 - 2nd"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
@@ -143,6 +143,14 @@
     {
       "losses": 1,
       "payoff": 2,
+      "player": "Davey",
+      "team": "Cleveland Browns",
+      "ties": 0,
+      "wins": 3
+    },
+    {
+      "losses": 1,
+      "payoff": 2,
       "player": "JohnB",
       "team": "Baltimore Ravens",
       "ties": 0,
@@ -153,14 +161,6 @@
       "payoff": 2,
       "player": "CB",
       "team": "Cincinnati Bengals",
-      "ties": 0,
-      "wins": 2
-    },
-    {
-      "losses": 1,
-      "payoff": 2,
-      "player": "Davey",
-      "team": "Cleveland Browns",
       "ties": 0,
       "wins": 2
     },
@@ -197,8 +197,8 @@
       "wins": 2
     },
     {
-      "losses": 1,
-      "payoff": 2,
+      "losses": 2,
+      "payoff": 4,
       "player": "Tracy",
       "team": "Pittsburgh Steelers",
       "ties": 0,
