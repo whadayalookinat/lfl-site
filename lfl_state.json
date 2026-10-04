@@ -1,76 +1,68 @@
 {
   "games": [
     {
-      "away_score": "24",
-      "away_team": "Pittsburgh Steelers",
-      "home_score": "27",
-      "home_team": "Cleveland Browns",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Indianapolis Colts",
-      "home_score": "0",
-      "home_team": "Washington Commanders",
-      "status_description": "Scheduled",
-      "status_detail": "10/4 - 9:30 AM EDT"
-    },
-    {
       "away_score": "0",
       "away_team": "New York Jets",
-      "home_score": "0",
+      "home_score": "7",
       "home_team": "Chicago Bears",
-      "status_description": "Scheduled",
-      "status_detail": "10/4 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "0:23 - 1st"
     },
     {
-      "away_score": "0",
+      "away_score": "3",
       "away_team": "Jacksonville Jaguars",
       "home_score": "0",
       "home_team": "Cincinnati Bengals",
-      "status_description": "Scheduled",
-      "status_detail": "10/4 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "13:36 - 2nd"
     },
     {
-      "away_score": "0",
+      "away_score": "14",
       "away_team": "Arizona Cardinals",
-      "home_score": "0",
+      "home_score": "6",
       "home_team": "New York Giants",
-      "status_description": "Scheduled",
-      "status_detail": "10/4 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "14:04 - 2nd"
     },
     {
-      "away_score": "0",
+      "away_score": "3",
       "away_team": "Los Angeles Rams",
-      "home_score": "0",
+      "home_score": "3",
       "home_team": "Philadelphia Eagles",
-      "status_description": "Scheduled",
-      "status_detail": "10/4 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "14:12 - 2nd"
     },
     {
-      "away_score": "0",
+      "away_score": "7",
       "away_team": "Green Bay Packers",
       "home_score": "0",
       "home_team": "Tampa Bay Buccaneers",
-      "status_description": "Scheduled",
-      "status_detail": "10/4 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "12:16 - 2nd"
     },
     {
-      "away_score": "0",
+      "away_score": "7",
       "away_team": "Tennessee Titans",
-      "home_score": "0",
+      "home_score": "7",
       "home_team": "Baltimore Ravens",
-      "status_description": "Scheduled",
-      "status_detail": "10/4 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "13:37 - 2nd"
     },
     {
-      "away_score": "0",
+      "away_score": "3",
       "away_team": "Dallas Cowboys",
-      "home_score": "0",
+      "home_score": "10",
       "home_team": "Houston Texans",
-      "status_description": "Scheduled",
-      "status_detail": "10/4 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "14:01 - 2nd"
+    },
+    {
+      "away_score": "30",
+      "away_team": "Indianapolis Colts",
+      "home_score": "13",
+      "home_team": "Washington Commanders",
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
@@ -103,6 +95,14 @@
       "home_team": "Carolina Panthers",
       "status_description": "Scheduled",
       "status_detail": "10/4 - 8:20 PM EDT"
+    },
+    {
+      "away_score": "24",
+      "away_team": "Pittsburgh Steelers",
+      "home_score": "27",
+      "home_team": "Cleveland Browns",
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
@@ -199,6 +199,14 @@
     {
       "losses": 2,
       "payoff": 4,
+      "player": "Marina & Matt",
+      "team": "Indianapolis Colts",
+      "ties": 0,
+      "wins": 2
+    },
+    {
+      "losses": 2,
+      "payoff": 4,
       "player": "Tracy",
       "team": "Pittsburgh Steelers",
       "ties": 0,
@@ -247,14 +255,6 @@
     {
       "losses": 2,
       "payoff": 4,
-      "player": "Marina & Matt",
-      "team": "Indianapolis Colts",
-      "ties": 0,
-      "wins": 1
-    },
-    {
-      "losses": 2,
-      "payoff": 4,
       "player": "Melissa & Scott",
       "team": "New Orleans Saints",
       "ties": 0,
@@ -269,8 +269,8 @@
       "wins": 1
     },
     {
-      "losses": 2,
-      "payoff": 4,
+      "losses": 3,
+      "payoff": 6,
       "player": "Mike",
       "team": "Washington Commanders",
       "ties": 0,
