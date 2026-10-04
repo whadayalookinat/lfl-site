@@ -1,28 +1,20 @@
 {
   "games": [
     {
-      "away_score": "3",
-      "away_team": "Miami Dolphins",
-      "home_score": "12",
-      "home_team": "Minnesota Vikings",
-      "status_description": "In Progress",
-      "status_detail": "1:52 - 3rd"
-    },
-    {
-      "away_score": "10",
+      "away_score": "30",
       "away_team": "Kansas City Chiefs",
-      "home_score": "13",
+      "home_score": "27",
       "home_team": "Las Vegas Raiders",
-      "status_description": "In Progress",
-      "status_detail": "6:58 - 3rd"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
-      "away_score": "6",
+      "away_score": "23",
       "away_team": "Los Angeles Chargers",
-      "home_score": "20",
+      "home_score": "30",
       "home_team": "Seattle Seahawks",
-      "status_description": "In Progress",
-      "status_detail": "13:55 - 3rd"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "30",
@@ -89,6 +81,14 @@
       "status_detail": "Final"
     },
     {
+      "away_score": "10",
+      "away_team": "Miami Dolphins",
+      "home_score": "15",
+      "home_team": "Minnesota Vikings",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
       "away_score": "0",
       "away_team": "Detroit Lions",
       "home_score": "0",
@@ -122,15 +122,7 @@
       "player": "Dave & Michelle",
       "team": "Kansas City Chiefs",
       "ties": 0,
-      "wins": 3
-    },
-    {
-      "losses": 0,
-      "payoff": 0,
-      "player": "Corey",
-      "team": "Las Vegas Raiders",
-      "ties": 0,
-      "wins": 3
+      "wins": 4
     },
     {
       "losses": 0,
@@ -138,7 +130,7 @@
       "player": "Rod",
       "team": "Minnesota Vikings",
       "ties": 0,
-      "wins": 3
+      "wins": 4
     },
     {
       "losses": 1,
@@ -161,6 +153,14 @@
       "payoff": 2,
       "player": "Ray & Susan",
       "team": "Jacksonville Jaguars",
+      "ties": 0,
+      "wins": 3
+    },
+    {
+      "losses": 1,
+      "payoff": 2,
+      "player": "Corey",
+      "team": "Las Vegas Raiders",
       "ties": 0,
       "wins": 3
     },
@@ -277,16 +277,16 @@
       "wins": 1
     },
     {
-      "losses": 3,
-      "payoff": 6,
+      "losses": 4,
+      "payoff": 8,
       "player": "Tom",
       "team": "Los Angeles Chargers",
       "ties": 0,
       "wins": 0
     },
     {
-      "losses": 3,
-      "payoff": 6,
+      "losses": 4,
+      "payoff": 8,
       "player": "Chris",
       "team": "Miami Dolphins",
       "ties": 0,
