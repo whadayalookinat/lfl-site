@@ -1,28 +1,28 @@
 {
   "games": [
     {
-      "away_score": "6",
+      "away_score": "12",
       "away_team": "New York Jets",
-      "home_score": "13",
+      "home_score": "23",
       "home_team": "Chicago Bears",
       "status_description": "In Progress",
-      "status_detail": "6:52 - 3rd"
+      "status_detail": "5:35 - 4th"
     },
     {
-      "away_score": "13",
+      "away_score": "22",
       "away_team": "Jacksonville Jaguars",
       "home_score": "10",
       "home_team": "Cincinnati Bengals",
       "status_description": "In Progress",
-      "status_detail": "4:35 - 3rd"
+      "status_detail": "5:47 - 4th"
     },
     {
       "away_score": "24",
       "away_team": "Arizona Cardinals",
-      "home_score": "19",
+      "home_score": "27",
       "home_team": "New York Giants",
       "status_description": "In Progress",
-      "status_detail": "7:20 - 3rd"
+      "status_detail": "6:00 - 4th"
     },
     {
       "away_score": "10",
@@ -30,15 +30,15 @@
       "home_score": "20",
       "home_team": "Philadelphia Eagles",
       "status_description": "In Progress",
-      "status_detail": "11:48 - 3rd"
+      "status_detail": "6:29 - 4th"
     },
     {
       "away_score": "17",
       "away_team": "Green Bay Packers",
-      "home_score": "7",
+      "home_score": "14",
       "home_team": "Tampa Bay Buccaneers",
       "status_description": "In Progress",
-      "status_detail": "5:05 - 3rd"
+      "status_detail": "2:30 - 4th"
     },
     {
       "away_score": "10",
@@ -46,15 +46,15 @@
       "home_score": "24",
       "home_team": "Baltimore Ravens",
       "status_description": "In Progress",
-      "status_detail": "6:52 - 3rd"
+      "status_detail": "8:53 - 4th"
     },
     {
-      "away_score": "13",
+      "away_score": "27",
       "away_team": "Dallas Cowboys",
       "home_score": "23",
       "home_team": "Houston Texans",
       "status_description": "In Progress",
-      "status_detail": "6:54 - 3rd"
+      "status_detail": "6:13 - 4th"
     },
     {
       "away_score": "30",
