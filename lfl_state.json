@@ -2,22 +2,6 @@
   "games": [
     {
       "away_score": "30",
-      "away_team": "Kansas City Chiefs",
-      "home_score": "27",
-      "home_team": "Las Vegas Raiders",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "23",
-      "away_team": "Los Angeles Chargers",
-      "home_score": "30",
-      "home_team": "Seattle Seahawks",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "30",
       "away_team": "Indianapolis Colts",
       "home_score": "13",
       "home_team": "Washington Commanders",
@@ -85,6 +69,22 @@
       "away_team": "Miami Dolphins",
       "home_score": "15",
       "home_team": "Minnesota Vikings",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "30",
+      "away_team": "Kansas City Chiefs",
+      "home_score": "27",
+      "home_team": "Las Vegas Raiders",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "23",
+      "away_team": "Los Angeles Chargers",
+      "home_score": "30",
+      "home_team": "Seattle Seahawks",
       "status_description": "Final",
       "status_detail": "Final"
     },
