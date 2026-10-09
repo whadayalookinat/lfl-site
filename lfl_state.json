@@ -3,10 +3,10 @@
     {
       "away_score": "24",
       "away_team": "Tampa Bay Buccaneers",
-      "home_score": "10",
+      "home_score": "16",
       "home_team": "Dallas Cowboys",
-      "status_description": "In Progress",
-      "status_detail": "10:43 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
@@ -191,14 +191,6 @@
     {
       "losses": 2,
       "payoff": 4,
-      "player": "Michelle",
-      "team": "Dallas Cowboys",
-      "ties": 0,
-      "wins": 2
-    },
-    {
-      "losses": 2,
-      "payoff": 4,
       "player": "Christy",
       "team": "Detroit Lions",
       "ties": 0,
@@ -239,6 +231,14 @@
     {
       "losses": 3,
       "payoff": 6,
+      "player": "Michelle",
+      "team": "Dallas Cowboys",
+      "ties": 0,
+      "wins": 2
+    },
+    {
+      "losses": 3,
+      "payoff": 6,
       "player": "Joselyn",
       "team": "Arizona Cardinals",
       "ties": 0,
@@ -271,6 +271,14 @@
     {
       "losses": 4,
       "payoff": 8,
+      "player": "Angel",
+      "team": "Tampa Bay Buccaneers",
+      "ties": 0,
+      "wins": 1
+    },
+    {
+      "losses": 4,
+      "payoff": 8,
       "player": "Tom",
       "team": "Los Angeles Chargers",
       "ties": 0,
@@ -281,14 +289,6 @@
       "payoff": 8,
       "player": "Chris",
       "team": "Miami Dolphins",
-      "ties": 0,
-      "wins": 0
-    },
-    {
-      "losses": 4,
-      "payoff": 8,
-      "player": "Angel",
-      "team": "Tampa Bay Buccaneers",
       "ties": 0,
       "wins": 0
     },
