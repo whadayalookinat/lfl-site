@@ -5,8 +5,8 @@
       "away_team": "New York Giants",
       "home_score": "27",
       "home_team": "Washington Commanders",
-      "status_description": "In Progress",
-      "status_detail": "4:01 - OT"
+      "status_description": "Final",
+      "status_detail": "Final/OT"
     },
     {
       "away_score": "7",
@@ -14,15 +14,15 @@
       "home_score": "0",
       "home_team": "Los Angeles Chargers",
       "status_description": "In Progress",
-      "status_detail": "1:38 - 1st"
+      "status_detail": "13:13 - 2nd"
     },
     {
       "away_score": "0",
       "away_team": "Detroit Lions",
-      "home_score": "0",
+      "home_score": "7",
       "home_team": "Arizona Cardinals",
       "status_description": "In Progress",
-      "status_detail": "7:30 - 1st"
+      "status_detail": "1:54 - 1st"
     },
     {
       "away_score": "17",
@@ -145,7 +145,7 @@
       "payoff": 2,
       "player": "Danny & Joyce",
       "team": "New York Giants",
-      "ties": 0,
+      "ties": 1,
       "wins": 3
     },
     {
@@ -257,7 +257,7 @@
       "payoff": 6,
       "player": "Mike",
       "team": "Washington Commanders",
-      "ties": 0,
+      "ties": 1,
       "wins": 1
     },
     {
