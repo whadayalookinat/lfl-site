@@ -1,84 +1,76 @@
 {
   "games": [
     {
-      "away_score": "24",
-      "away_team": "Tampa Bay Buccaneers",
-      "home_score": "16",
-      "home_team": "Dallas Cowboys",
+      "away_score": "17",
+      "away_team": "Philadelphia Eagles",
+      "home_score": "19",
+      "home_team": "Jacksonville Jaguars",
       "status_description": "Final",
       "status_detail": "Final"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Philadelphia Eagles",
-      "home_score": "0",
-      "home_team": "Jacksonville Jaguars",
-      "status_description": "Scheduled",
-      "status_detail": "10/11 - 9:30 AM EDT"
     },
     {
       "away_score": "0",
       "away_team": "Chicago Bears",
       "home_score": "0",
       "home_team": "Green Bay Packers",
-      "status_description": "Scheduled",
-      "status_detail": "10/11 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "5:57 - 1st"
     },
     {
       "away_score": "0",
       "away_team": "Houston Texans",
-      "home_score": "0",
+      "home_score": "3",
       "home_team": "Tennessee Titans",
-      "status_description": "Scheduled",
-      "status_detail": "10/11 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "9:17 - 1st"
     },
     {
-      "away_score": "0",
+      "away_score": "7",
       "away_team": "Cincinnati Bengals",
       "home_score": "0",
       "home_team": "Miami Dolphins",
-      "status_description": "Scheduled",
-      "status_detail": "10/11 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "10:32 - 1st"
     },
     {
       "away_score": "0",
       "away_team": "Las Vegas Raiders",
-      "home_score": "0",
+      "home_score": "7",
       "home_team": "New England Patriots",
-      "status_description": "Scheduled",
-      "status_detail": "10/11 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "11:23 - 1st"
     },
     {
-      "away_score": "0",
+      "away_score": "3",
       "away_team": "Minnesota Vikings",
       "home_score": "0",
       "home_team": "New Orleans Saints",
-      "status_description": "Scheduled",
-      "status_detail": "10/11 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "9:04 - 1st"
     },
     {
       "away_score": "0",
       "away_team": "Cleveland Browns",
-      "home_score": "0",
+      "home_score": "7",
       "home_team": "New York Jets",
-      "status_description": "Scheduled",
-      "status_detail": "10/11 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "9:17 - 1st"
     },
     {
-      "away_score": "0",
+      "away_score": "3",
       "away_team": "Indianapolis Colts",
       "home_score": "0",
       "home_team": "Pittsburgh Steelers",
-      "status_description": "Scheduled",
-      "status_detail": "10/11 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "8:57 - 1st"
     },
     {
       "away_score": "0",
       "away_team": "New York Giants",
-      "home_score": "0",
+      "home_score": "6",
       "home_team": "Washington Commanders",
-      "status_description": "Scheduled",
-      "status_detail": "10/11 - 1:00 PM EDT"
+      "status_description": "In Progress",
+      "status_detail": "9:47 - 1st"
     },
     {
       "away_score": "0",
@@ -103,6 +95,14 @@
       "home_team": "Atlanta Falcons",
       "status_description": "Scheduled",
       "status_detail": "10/11 - 8:20 PM EDT"
+    },
+    {
+      "away_score": "24",
+      "away_team": "Tampa Bay Buccaneers",
+      "home_score": "16",
+      "home_team": "Dallas Cowboys",
+      "status_description": "Final",
+      "status_detail": "Final"
     }
   ],
   "season_type": "regular",
@@ -127,6 +127,14 @@
     {
       "losses": 1,
       "payoff": 2,
+      "player": "Ray & Susan",
+      "team": "Jacksonville Jaguars",
+      "ties": 0,
+      "wins": 4
+    },
+    {
+      "losses": 1,
+      "payoff": 2,
       "player": "JohnB",
       "team": "Baltimore Ravens",
       "ties": 0,
@@ -137,14 +145,6 @@
       "payoff": 2,
       "player": "Davey",
       "team": "Cleveland Browns",
-      "ties": 0,
-      "wins": 3
-    },
-    {
-      "losses": 1,
-      "payoff": 2,
-      "player": "Ray & Susan",
-      "team": "Jacksonville Jaguars",
       "ties": 0,
       "wins": 3
     },
@@ -215,14 +215,6 @@
     {
       "losses": 2,
       "payoff": 4,
-      "player": "Rob",
-      "team": "Philadelphia Eagles",
-      "ties": 0,
-      "wins": 2
-    },
-    {
-      "losses": 2,
-      "payoff": 4,
       "player": "Tracy",
       "team": "Pittsburgh Steelers",
       "ties": 0,
@@ -233,6 +225,14 @@
       "payoff": 6,
       "player": "Michelle",
       "team": "Dallas Cowboys",
+      "ties": 0,
+      "wins": 2
+    },
+    {
+      "losses": 3,
+      "payoff": 6,
+      "player": "Rob",
+      "team": "Philadelphia Eagles",
       "ties": 0,
       "wins": 2
     },
