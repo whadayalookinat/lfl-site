@@ -1,20 +1,20 @@
 {
   "games": [
     {
-      "away_score": "10",
+      "away_score": "20",
       "away_team": "Denver Broncos",
       "home_score": "17",
       "home_team": "Los Angeles Chargers",
       "status_description": "In Progress",
-      "status_detail": "12:05 - 4th"
+      "status_detail": "3:19 - 4th"
     },
     {
-      "away_score": "31",
+      "away_score": "38",
       "away_team": "Detroit Lions",
       "home_score": "14",
       "home_team": "Arizona Cardinals",
       "status_description": "In Progress",
-      "status_detail": "4:22 - 3rd"
+      "status_detail": "10:15 - 4th"
     },
     {
       "away_score": "17",
