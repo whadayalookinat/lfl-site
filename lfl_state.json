@@ -1,20 +1,12 @@
 {
   "games": [
     {
-      "away_score": "20",
-      "away_team": "Denver Broncos",
-      "home_score": "17",
-      "home_team": "Los Angeles Chargers",
-      "status_description": "In Progress",
-      "status_detail": "3:19 - 4th"
-    },
-    {
-      "away_score": "38",
+      "away_score": "45",
       "away_team": "Detroit Lions",
-      "home_score": "14",
+      "home_score": "21",
       "home_team": "Arizona Cardinals",
-      "status_description": "In Progress",
-      "status_detail": "10:15 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "17",
@@ -87,6 +79,14 @@
       "home_team": "Washington Commanders",
       "status_description": "Final",
       "status_detail": "Final/OT"
+    },
+    {
+      "away_score": "23",
+      "away_team": "Denver Broncos",
+      "home_score": "17",
+      "home_team": "Los Angeles Chargers",
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
@@ -167,6 +167,14 @@
     {
       "losses": 2,
       "payoff": 4,
+      "player": "Christy",
+      "team": "Detroit Lions",
+      "ties": 0,
+      "wins": 3
+    },
+    {
+      "losses": 2,
+      "payoff": 4,
       "player": "Doug",
       "team": "Green Bay Packers",
       "ties": 0,
@@ -205,14 +213,6 @@
       "wins": 2
     },
     {
-      "losses": 2,
-      "payoff": 4,
-      "player": "Christy",
-      "team": "Detroit Lions",
-      "ties": 0,
-      "wins": 2
-    },
-    {
       "losses": 3,
       "payoff": 6,
       "player": "Michelle",
@@ -247,17 +247,17 @@
     {
       "losses": 3,
       "payoff": 6,
-      "player": "Joselyn",
-      "team": "Arizona Cardinals",
-      "ties": 0,
-      "wins": 1
-    },
-    {
-      "losses": 3,
-      "payoff": 6,
       "player": "Mike",
       "team": "Washington Commanders",
       "ties": 1,
+      "wins": 1
+    },
+    {
+      "losses": 4,
+      "payoff": 8,
+      "player": "Joselyn",
+      "team": "Arizona Cardinals",
+      "ties": 0,
       "wins": 1
     },
     {
@@ -277,8 +277,8 @@
       "wins": 1
     },
     {
-      "losses": 4,
-      "payoff": 8,
+      "losses": 5,
+      "payoff": 10,
       "player": "Tom",
       "team": "Los Angeles Chargers",
       "ties": 0,
