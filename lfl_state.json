@@ -1,12 +1,12 @@
 {
   "games": [
     {
-      "away_score": "23",
-      "away_team": "Baltimore Ravens",
-      "home_score": "23",
-      "home_team": "Atlanta Falcons",
-      "status_description": "End of Period",
-      "status_detail": "End of 4th"
+      "away_score": "24",
+      "away_team": "Tampa Bay Buccaneers",
+      "home_score": "16",
+      "home_team": "Dallas Cowboys",
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "17",
@@ -97,12 +97,12 @@
       "status_detail": "Final"
     },
     {
-      "away_score": "24",
-      "away_team": "Tampa Bay Buccaneers",
-      "home_score": "16",
-      "home_team": "Dallas Cowboys",
+      "away_score": "30",
+      "away_team": "Baltimore Ravens",
+      "home_score": "23",
+      "home_team": "Atlanta Falcons",
       "status_description": "Final",
-      "status_detail": "Final"
+      "status_detail": "Final/OT"
     }
   ],
   "season_type": "regular",
@@ -127,18 +127,18 @@
     {
       "losses": 1,
       "payoff": 2,
-      "player": "Ray & Susan",
-      "team": "Jacksonville Jaguars",
+      "player": "JohnB",
+      "team": "Baltimore Ravens",
       "ties": 0,
       "wins": 4
     },
     {
       "losses": 1,
       "payoff": 2,
-      "player": "JohnB",
-      "team": "Baltimore Ravens",
+      "player": "Ray & Susan",
+      "team": "Jacksonville Jaguars",
       "ties": 0,
-      "wins": 3
+      "wins": 4
     },
     {
       "losses": 1,
@@ -199,16 +199,16 @@
     {
       "losses": 2,
       "payoff": 4,
-      "player": "Gene",
-      "team": "Atlanta Falcons",
+      "player": "Leslie",
+      "team": "Carolina Panthers",
       "ties": 0,
       "wins": 2
     },
     {
-      "losses": 2,
-      "payoff": 4,
-      "player": "Leslie",
-      "team": "Carolina Panthers",
+      "losses": 3,
+      "payoff": 6,
+      "player": "Gene",
+      "team": "Atlanta Falcons",
       "ties": 0,
       "wins": 2
     },
