@@ -1,14 +1,6 @@
 {
   "games": [
     {
-      "away_score": "45",
-      "away_team": "Detroit Lions",
-      "home_score": "21",
-      "home_team": "Arizona Cardinals",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
       "away_score": "17",
       "away_team": "Philadelphia Eagles",
       "home_score": "19",
@@ -85,6 +77,14 @@
       "away_team": "Denver Broncos",
       "home_score": "17",
       "home_team": "Los Angeles Chargers",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "45",
+      "away_team": "Detroit Lions",
+      "home_score": "21",
+      "home_team": "Arizona Cardinals",
       "status_description": "Final",
       "status_detail": "Final"
     },
