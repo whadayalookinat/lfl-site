@@ -1,68 +1,68 @@
 {
   "games": [
     {
-      "away_score": "31",
+      "away_score": "21",
+      "away_team": "Chicago Bears",
+      "home_score": "7",
+      "home_team": "Atlanta Falcons",
+      "status_description": "In Progress",
+      "status_detail": "10:32 - 3rd"
+    },
+    {
+      "away_score": "10",
+      "away_team": "Baltimore Ravens",
+      "home_score": "3",
+      "home_team": "Cleveland Browns",
+      "status_description": "In Progress",
+      "status_detail": "4:52 - 3rd"
+    },
+    {
+      "away_score": "3",
+      "away_team": "Tennessee Titans",
+      "home_score": "13",
+      "home_team": "Indianapolis Colts",
+      "status_description": "In Progress",
+      "status_detail": "7:45 - 3rd"
+    },
+    {
+      "away_score": "10",
+      "away_team": "New York Jets",
+      "home_score": "17",
+      "home_team": "New England Patriots",
+      "status_description": "In Progress",
+      "status_detail": "10:24 - 3rd"
+    },
+    {
+      "away_score": "17",
+      "away_team": "New Orleans Saints",
+      "home_score": "10",
+      "home_team": "New York Giants",
+      "status_description": "In Progress",
+      "status_detail": "11:23 - 3rd"
+    },
+    {
+      "away_score": "10",
+      "away_team": "Carolina Panthers",
+      "home_score": "7",
+      "home_team": "Philadelphia Eagles",
+      "status_description": "In Progress",
+      "status_detail": "12:28 - 3rd"
+    },
+    {
+      "away_score": "3",
+      "away_team": "Pittsburgh Steelers",
+      "home_score": "13",
+      "home_team": "Tampa Bay Buccaneers",
+      "status_description": "In Progress",
+      "status_detail": "7:56 - 3rd"
+    },
+    {
+      "away_score": "34",
       "away_team": "Houston Texans",
       "home_score": "31",
       "home_team": "Jacksonville Jaguars",
-      "status_description": "In Progress",
-      "status_detail": "0:47 - 4th"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Chicago Bears",
-      "home_score": "0",
-      "home_team": "Atlanta Falcons",
-      "status_description": "Scheduled",
-      "status_detail": "10/18 - 1:00 PM EDT"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Baltimore Ravens",
-      "home_score": "0",
-      "home_team": "Cleveland Browns",
-      "status_description": "Scheduled",
-      "status_detail": "10/18 - 1:00 PM EDT"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Tennessee Titans",
-      "home_score": "0",
-      "home_team": "Indianapolis Colts",
-      "status_description": "Scheduled",
-      "status_detail": "10/18 - 1:00 PM EDT"
-    },
-    {
-      "away_score": "0",
-      "away_team": "New York Jets",
-      "home_score": "0",
-      "home_team": "New England Patriots",
-      "status_description": "Scheduled",
-      "status_detail": "10/18 - 1:00 PM EDT"
-    },
-    {
-      "away_score": "0",
-      "away_team": "New Orleans Saints",
-      "home_score": "0",
-      "home_team": "New York Giants",
-      "status_description": "Scheduled",
-      "status_detail": "10/18 - 1:00 PM EDT"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Carolina Panthers",
-      "home_score": "0",
-      "home_team": "Philadelphia Eagles",
-      "status_description": "Scheduled",
-      "status_detail": "10/18 - 1:00 PM EDT"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Pittsburgh Steelers",
-      "home_score": "0",
-      "home_team": "Tampa Bay Buccaneers",
-      "status_description": "Scheduled",
-      "status_detail": "10/18 - 1:00 PM EDT"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
@@ -135,18 +135,18 @@
     {
       "losses": 1,
       "payoff": 2,
-      "player": "Ray & Susan",
-      "team": "Jacksonville Jaguars",
-      "ties": 0,
-      "wins": 4
-    },
-    {
-      "losses": 1,
-      "payoff": 2,
       "player": "Danny & Joyce",
       "team": "New York Giants",
       "ties": 1,
       "wins": 3
+    },
+    {
+      "losses": 2,
+      "payoff": 4,
+      "player": "Ray & Susan",
+      "team": "Jacksonville Jaguars",
+      "ties": 0,
+      "wins": 4
     },
     {
       "losses": 2,
