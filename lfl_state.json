@@ -1,6 +1,14 @@
 {
   "games": [
     {
+      "away_score": "0",
+      "away_team": "Dallas Cowboys",
+      "home_score": "7",
+      "home_team": "Green Bay Packers",
+      "status_description": "In Progress",
+      "status_detail": "6:01 - 2nd"
+    },
+    {
       "away_score": "34",
       "away_team": "Houston Texans",
       "home_score": "31",
@@ -87,14 +95,6 @@
       "home_team": "Las Vegas Raiders",
       "status_description": "Final",
       "status_detail": "Final"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Dallas Cowboys",
-      "home_score": "0",
-      "home_team": "Green Bay Packers",
-      "status_description": "Scheduled",
-      "status_detail": "10/18 - 8:20 PM EDT"
     },
     {
       "away_score": "0",
