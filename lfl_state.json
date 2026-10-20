@@ -1,12 +1,12 @@
 {
   "games": [
     {
-      "away_score": "3",
+      "away_score": "17",
       "away_team": "Washington Commanders",
-      "home_score": "13",
+      "home_score": "23",
       "home_team": "San Francisco 49ers",
-      "status_description": "In Progress",
-      "status_detail": "0:37 - 1st"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "34",
@@ -205,14 +205,6 @@
       "wins": 3
     },
     {
-      "losses": 3,
-      "payoff": 6,
-      "player": "Mike",
-      "team": "Washington Commanders",
-      "ties": 1,
-      "wins": 1
-    },
-    {
       "losses": 4,
       "payoff": 8,
       "player": "Joselyn",
@@ -267,6 +259,14 @@
       "team": "Philadelphia Eagles",
       "ties": 0,
       "wins": 2
+    },
+    {
+      "losses": 4,
+      "payoff": 8,
+      "player": "Mike",
+      "team": "Washington Commanders",
+      "ties": 1,
+      "wins": 1
     },
     {
       "losses": 5,
