@@ -1,12 +1,12 @@
 {
   "games": [
     {
-      "away_score": "0",
+      "away_score": "16",
       "away_team": "Pittsburgh Steelers",
-      "home_score": "0",
+      "home_score": "10",
       "home_team": "New Orleans Saints",
-      "status_description": "Scheduled",
-      "status_detail": "10/25 - 9:30 AM EDT"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
@@ -127,6 +127,14 @@
     {
       "losses": 2,
       "payoff": 4,
+      "player": "Tracy",
+      "team": "Pittsburgh Steelers",
+      "ties": 0,
+      "wins": 5
+    },
+    {
+      "losses": 2,
+      "payoff": 4,
       "player": "JohnB",
       "team": "Baltimore Ravens",
       "ties": 0,
@@ -153,14 +161,6 @@
       "payoff": 4,
       "player": "Ray & Susan",
       "team": "Jacksonville Jaguars",
-      "ties": 0,
-      "wins": 4
-    },
-    {
-      "losses": 2,
-      "payoff": 4,
-      "player": "Tracy",
-      "team": "Pittsburgh Steelers",
       "ties": 0,
       "wins": 4
     },
@@ -239,14 +239,6 @@
     {
       "losses": 4,
       "payoff": 8,
-      "player": "Melissa & Scott",
-      "team": "New Orleans Saints",
-      "ties": 0,
-      "wins": 2
-    },
-    {
-      "losses": 4,
-      "payoff": 8,
       "player": "Ryan",
       "team": "New York Jets",
       "ties": 0,
@@ -267,6 +259,14 @@
       "team": "Washington Commanders",
       "ties": 1,
       "wins": 1
+    },
+    {
+      "losses": 5,
+      "payoff": 10,
+      "player": "Melissa & Scott",
+      "team": "New Orleans Saints",
+      "ties": 0,
+      "wins": 2
     },
     {
       "losses": 5,
