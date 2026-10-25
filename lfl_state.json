@@ -1,12 +1,28 @@
 {
   "games": [
     {
-      "away_score": "3",
+      "away_score": "6",
       "away_team": "Denver Broncos",
-      "home_score": "0",
+      "home_score": "6",
       "home_team": "Arizona Cardinals",
       "status_description": "In Progress",
-      "status_detail": "7:47 - 1st"
+      "status_detail": "4:30 - 2nd"
+    },
+    {
+      "away_score": "7",
+      "away_team": "Green Bay Packers",
+      "home_score": "10",
+      "home_team": "Detroit Lions",
+      "status_description": "In Progress",
+      "status_detail": "9:17 - 2nd"
+    },
+    {
+      "away_score": "14",
+      "away_team": "Los Angeles Rams",
+      "home_score": "3",
+      "home_team": "Las Vegas Raiders",
+      "status_description": "In Progress",
+      "status_detail": "10:01 - 2nd"
     },
     {
       "away_score": "16",
@@ -71,22 +87,6 @@
       "home_team": "Houston Texans",
       "status_description": "Final",
       "status_detail": "Final/OT"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Green Bay Packers",
-      "home_score": "0",
-      "home_team": "Detroit Lions",
-      "status_description": "In Progress",
-      "status_detail": "15:00 - 1st"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Los Angeles Rams",
-      "home_score": "0",
-      "home_team": "Las Vegas Raiders",
-      "status_description": "In Progress",
-      "status_detail": "15:00 - 1st"
     },
     {
       "away_score": "0",
