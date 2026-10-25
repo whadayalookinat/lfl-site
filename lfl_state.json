@@ -1,66 +1,66 @@
 {
   "games": [
     {
-      "away_score": "14",
+      "away_score": "20",
       "away_team": "San Francisco 49ers",
       "home_score": "26",
       "home_team": "Atlanta Falcons",
       "status_description": "In Progress",
-      "status_detail": "11:30 - 4th"
+      "status_detail": "4:15 - 4th"
     },
     {
-      "away_score": "17",
+      "away_score": "24",
       "away_team": "Cleveland Browns",
-      "home_score": "14",
+      "home_score": "17",
       "home_team": "Tennessee Titans",
       "status_description": "In Progress",
-      "status_detail": "14:04 - 4th"
+      "status_detail": "3:16 - 4th"
     },
     {
-      "away_score": "10",
-      "away_team": "Indianapolis Colts",
-      "home_score": "13",
-      "home_team": "Minnesota Vikings",
-      "status_description": "In Progress",
-      "status_detail": "5:54 - 4th"
-    },
-    {
-      "away_score": "21",
+      "away_score": "28",
       "away_team": "Miami Dolphins",
-      "home_score": "17",
+      "home_score": "25",
       "home_team": "New York Jets",
       "status_description": "In Progress",
-      "status_detail": "6:23 - 4th"
+      "status_detail": "3:04 - 4th"
     },
     {
-      "away_score": "43",
-      "away_team": "Tampa Bay Buccaneers",
-      "home_score": "6",
-      "home_team": "Carolina Panthers",
-      "status_description": "In Progress",
-      "status_detail": "8:16 - 4th"
-    },
-    {
-      "away_score": "21",
+      "away_score": "35",
       "away_team": "Cincinnati Bengals",
       "home_score": "13",
       "home_team": "Baltimore Ravens",
       "status_description": "In Progress",
-      "status_detail": "9:26 - 4th"
+      "status_detail": "2:06 - 4th"
     },
     {
-      "away_score": "14",
+      "away_score": "21",
       "away_team": "New York Giants",
       "home_score": "14",
       "home_team": "Houston Texans",
       "status_description": "In Progress",
-      "status_detail": "15:00 - 4th"
+      "status_detail": "6:44 - 4th"
     },
     {
       "away_score": "16",
       "away_team": "Pittsburgh Steelers",
       "home_score": "10",
       "home_team": "New Orleans Saints",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "10",
+      "away_team": "Indianapolis Colts",
+      "home_score": "16",
+      "home_team": "Minnesota Vikings",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "43",
+      "away_team": "Tampa Bay Buccaneers",
+      "home_score": "13",
+      "home_team": "Carolina Panthers",
       "status_description": "Final",
       "status_detail": "Final"
     },
@@ -111,16 +111,16 @@
     {
       "losses": 0,
       "payoff": 0,
-      "player": "Dave & Michelle",
-      "team": "Kansas City Chiefs",
+      "player": "Rod",
+      "team": "Minnesota Vikings",
       "ties": 0,
-      "wins": 5
+      "wins": 6
     },
     {
       "losses": 0,
       "payoff": 0,
-      "player": "Rod",
-      "team": "Minnesota Vikings",
+      "player": "Dave & Michelle",
+      "team": "Kansas City Chiefs",
       "ties": 0,
       "wins": 5
     },
@@ -167,14 +167,6 @@
     {
       "losses": 2,
       "payoff": 4,
-      "player": "Leslie",
-      "team": "Carolina Panthers",
-      "ties": 0,
-      "wins": 3
-    },
-    {
-      "losses": 2,
-      "payoff": 4,
       "player": "CB",
       "team": "Cincinnati Bengals",
       "ties": 0,
@@ -194,6 +186,14 @@
       "player": "Danny & Joyce",
       "team": "New York Giants",
       "ties": 1,
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "payoff": 6,
+      "player": "Leslie",
+      "team": "Carolina Panthers",
+      "ties": 0,
       "wins": 3
     },
     {
@@ -231,14 +231,6 @@
     {
       "losses": 4,
       "payoff": 8,
-      "player": "Marina & Matt",
-      "team": "Indianapolis Colts",
-      "ties": 0,
-      "wins": 2
-    },
-    {
-      "losses": 4,
-      "payoff": 8,
       "player": "Ryan",
       "team": "New York Jets",
       "ties": 0,
@@ -263,6 +255,14 @@
     {
       "losses": 5,
       "payoff": 10,
+      "player": "Marina & Matt",
+      "team": "Indianapolis Colts",
+      "ties": 0,
+      "wins": 2
+    },
+    {
+      "losses": 5,
+      "payoff": 10,
       "player": "Melissa & Scott",
       "team": "New Orleans Saints",
       "ties": 0,
@@ -274,7 +274,7 @@
       "player": "Angel",
       "team": "Tampa Bay Buccaneers",
       "ties": 0,
-      "wins": 1
+      "wins": 2
     },
     {
       "losses": 5,
