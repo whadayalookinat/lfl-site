@@ -1,28 +1,28 @@
 {
   "games": [
     {
-      "away_score": "6",
+      "away_score": "13",
       "away_team": "Denver Broncos",
       "home_score": "6",
       "home_team": "Arizona Cardinals",
       "status_description": "In Progress",
-      "status_detail": "4:30 - 2nd"
+      "status_detail": "12:16 - 3rd"
     },
     {
       "away_score": "7",
       "away_team": "Green Bay Packers",
       "home_score": "10",
       "home_team": "Detroit Lions",
-      "status_description": "In Progress",
-      "status_detail": "9:17 - 2nd"
+      "status_description": "Halftime",
+      "status_detail": "Halftime"
     },
     {
-      "away_score": "14",
+      "away_score": "28",
       "away_team": "Los Angeles Rams",
-      "home_score": "3",
+      "home_score": "6",
       "home_team": "Las Vegas Raiders",
-      "status_description": "In Progress",
-      "status_detail": "10:01 - 2nd"
+      "status_description": "Halftime",
+      "status_detail": "Halftime"
     },
     {
       "away_score": "16",
