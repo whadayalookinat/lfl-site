@@ -1,6 +1,14 @@
 {
   "games": [
     {
+      "away_score": "0",
+      "away_team": "Kansas City Chiefs",
+      "home_score": "0",
+      "home_team": "Seattle Seahawks",
+      "status_description": "In Progress",
+      "status_detail": "14:28 - 2nd"
+    },
+    {
       "away_score": "16",
       "away_team": "Pittsburgh Steelers",
       "home_score": "10",
@@ -87,14 +95,6 @@
       "home_team": "Las Vegas Raiders",
       "status_description": "Final",
       "status_detail": "Final"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Kansas City Chiefs",
-      "home_score": "0",
-      "home_team": "Seattle Seahawks",
-      "status_description": "Scheduled",
-      "status_detail": "10/25 - 8:20 PM EDT"
     },
     {
       "away_score": "0",
