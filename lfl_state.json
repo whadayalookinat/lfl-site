@@ -1,30 +1,6 @@
 {
   "games": [
     {
-      "away_score": "27",
-      "away_team": "Denver Broncos",
-      "home_score": "13",
-      "home_team": "Arizona Cardinals",
-      "status_description": "In Progress",
-      "status_detail": "12:50 - 4th"
-    },
-    {
-      "away_score": "14",
-      "away_team": "Green Bay Packers",
-      "home_score": "17",
-      "home_team": "Detroit Lions",
-      "status_description": "In Progress",
-      "status_detail": "15:00 - 4th"
-    },
-    {
-      "away_score": "28",
-      "away_team": "Los Angeles Rams",
-      "home_score": "6",
-      "home_team": "Las Vegas Raiders",
-      "status_description": "In Progress",
-      "status_detail": "2:26 - 3rd"
-    },
-    {
       "away_score": "16",
       "away_team": "Pittsburgh Steelers",
       "home_score": "10",
@@ -89,6 +65,30 @@
       "status_detail": "Final/OT"
     },
     {
+      "away_score": "30",
+      "away_team": "Denver Broncos",
+      "home_score": "16",
+      "home_team": "Arizona Cardinals",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "17",
+      "away_team": "Green Bay Packers",
+      "home_score": "20",
+      "home_team": "Detroit Lions",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "35",
+      "away_team": "Los Angeles Rams",
+      "home_score": "21",
+      "home_team": "Las Vegas Raiders",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
       "away_score": "0",
       "away_team": "Kansas City Chiefs",
       "home_score": "0",
@@ -151,8 +151,8 @@
     {
       "losses": 2,
       "payoff": 4,
-      "player": "Doug",
-      "team": "Green Bay Packers",
+      "player": "Christy",
+      "team": "Detroit Lions",
       "ties": 0,
       "wins": 4
     },
@@ -173,14 +173,6 @@
       "wins": 4
     },
     {
-      "losses": 2,
-      "payoff": 4,
-      "player": "Christy",
-      "team": "Detroit Lions",
-      "ties": 0,
-      "wins": 3
-    },
-    {
       "losses": 3,
       "payoff": 6,
       "player": "JohnB",
@@ -191,16 +183,16 @@
     {
       "losses": 3,
       "payoff": 6,
-      "player": "Leslie",
-      "team": "Carolina Panthers",
+      "player": "Doug",
+      "team": "Green Bay Packers",
       "ties": 0,
-      "wins": 3
+      "wins": 4
     },
     {
       "losses": 3,
       "payoff": 6,
-      "player": "Corey",
-      "team": "Las Vegas Raiders",
+      "player": "Leslie",
+      "team": "Carolina Panthers",
       "ties": 0,
       "wins": 3
     },
@@ -215,10 +207,10 @@
     {
       "losses": 4,
       "payoff": 8,
-      "player": "Joselyn",
-      "team": "Arizona Cardinals",
+      "player": "Corey",
+      "team": "Las Vegas Raiders",
       "ties": 0,
-      "wins": 2
+      "wins": 3
     },
     {
       "losses": 4,
@@ -243,6 +235,14 @@
       "team": "Washington Commanders",
       "ties": 1,
       "wins": 1
+    },
+    {
+      "losses": 5,
+      "payoff": 10,
+      "player": "Joselyn",
+      "team": "Arizona Cardinals",
+      "ties": 0,
+      "wins": 2
     },
     {
       "losses": 5,
