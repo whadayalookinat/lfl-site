@@ -1,12 +1,12 @@
 {
   "games": [
     {
-      "away_score": "17",
+      "away_score": "38",
       "away_team": "Dallas Cowboys",
-      "home_score": "14",
+      "home_score": "21",
       "home_team": "Philadelphia Eagles",
-      "status_description": "In Progress",
-      "status_detail": "0:59 - 2nd"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "16",
@@ -207,26 +207,18 @@
     {
       "losses": 4,
       "payoff": 8,
-      "player": "Corey",
-      "team": "Las Vegas Raiders",
+      "player": "Michelle",
+      "team": "Dallas Cowboys",
       "ties": 0,
       "wins": 3
     },
     {
       "losses": 4,
       "payoff": 8,
-      "player": "Michelle",
-      "team": "Dallas Cowboys",
+      "player": "Corey",
+      "team": "Las Vegas Raiders",
       "ties": 0,
-      "wins": 2
-    },
-    {
-      "losses": 4,
-      "payoff": 8,
-      "player": "Rob",
-      "team": "Philadelphia Eagles",
-      "ties": 0,
-      "wins": 2
+      "wins": 3
     },
     {
       "losses": 4,
@@ -265,6 +257,14 @@
       "payoff": 10,
       "player": "Ryan",
       "team": "New York Jets",
+      "ties": 0,
+      "wins": 2
+    },
+    {
+      "losses": 5,
+      "payoff": 10,
+      "player": "Rob",
+      "team": "Philadelphia Eagles",
       "ties": 0,
       "wins": 2
     },
