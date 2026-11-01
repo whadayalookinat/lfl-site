@@ -1,36 +1,52 @@
 {
   "games": [
     {
+      "away_score": "3",
+      "away_team": "Los Angeles Chargers",
+      "home_score": "3",
+      "home_team": "Los Angeles Rams",
+      "status_description": "In Progress",
+      "status_detail": "12:57 - 2nd"
+    },
+    {
+      "away_score": "7",
+      "away_team": "Kansas City Chiefs",
+      "home_score": "3",
+      "home_team": "Denver Broncos",
+      "status_description": "In Progress",
+      "status_detail": "4:29 - 1st"
+    },
+    {
+      "away_score": "3",
+      "away_team": "New England Patriots",
+      "home_score": "3",
+      "home_team": "Miami Dolphins",
+      "status_description": "In Progress",
+      "status_detail": "3:39 - 1st"
+    },
+    {
       "away_score": "10",
       "away_team": "Baltimore Ravens",
       "home_score": "36",
       "home_team": "Buffalo Bills",
-      "status_description": "In Progress",
-      "status_detail": "0:36 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "36",
       "away_team": "Tennessee Titans",
-      "home_score": "36",
+      "home_score": "43",
       "home_team": "Cincinnati Bengals",
-      "status_description": "In Progress",
-      "status_detail": "0:32 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final/OT"
     },
     {
-      "away_score": "30",
+      "away_score": "33",
       "away_team": "Arizona Cardinals",
       "home_score": "30",
       "home_team": "Dallas Cowboys",
-      "status_description": "End of Period",
-      "status_detail": "End of 4th"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Los Angeles Chargers",
-      "home_score": "0",
-      "home_team": "Los Angeles Rams",
-      "status_description": "In Progress",
-      "status_detail": "9:21 - 1st"
+      "status_description": "Final",
+      "status_detail": "Final/OT"
     },
     {
       "away_score": "15",
@@ -71,22 +87,6 @@
       "home_team": "Jacksonville Jaguars",
       "status_description": "Final",
       "status_detail": "Final"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Kansas City Chiefs",
-      "home_score": "0",
-      "home_team": "Denver Broncos",
-      "status_description": "Scheduled",
-      "status_detail": "11/1 - 4:25 PM EST"
-    },
-    {
-      "away_score": "0",
-      "away_team": "New England Patriots",
-      "home_score": "0",
-      "home_team": "Miami Dolphins",
-      "status_description": "Scheduled",
-      "status_detail": "11/1 - 4:25 PM EST"
     },
     {
       "away_score": "0",
@@ -135,6 +135,14 @@
     {
       "losses": 2,
       "payoff": 2,
+      "player": "CB",
+      "team": "Cincinnati Bengals",
+      "ties": 0,
+      "wins": 5
+    },
+    {
+      "losses": 2,
+      "payoff": 2,
       "player": "Christy",
       "team": "Detroit Lions",
       "ties": 0,
@@ -147,14 +155,6 @@
       "team": "Jacksonville Jaguars",
       "ties": 0,
       "wins": 5
-    },
-    {
-      "losses": 2,
-      "payoff": 2,
-      "player": "CB",
-      "team": "Cincinnati Bengals",
-      "ties": 0,
-      "wins": 4
     },
     {
       "losses": 2,
@@ -181,8 +181,8 @@
       "wins": 5
     },
     {
-      "losses": 3,
-      "payoff": 4,
+      "losses": 4,
+      "payoff": 6,
       "player": "JohnB",
       "team": "Baltimore Ravens",
       "ties": 0,
@@ -207,18 +207,18 @@
     {
       "losses": 4,
       "payoff": 6,
-      "player": "Michelle",
-      "team": "Dallas Cowboys",
-      "ties": 0,
-      "wins": 3
-    },
-    {
-      "losses": 4,
-      "payoff": 6,
       "player": "Mike",
       "team": "Washington Commanders",
       "ties": 1,
       "wins": 1
+    },
+    {
+      "losses": 5,
+      "payoff": 8,
+      "player": "Joselyn",
+      "team": "Arizona Cardinals",
+      "ties": 0,
+      "wins": 3
     },
     {
       "losses": 5,
@@ -231,18 +231,18 @@
     {
       "losses": 5,
       "payoff": 8,
-      "player": "Angel",
-      "team": "Tampa Bay Buccaneers",
+      "player": "Michelle",
+      "team": "Dallas Cowboys",
       "ties": 0,
       "wins": 3
     },
     {
       "losses": 5,
       "payoff": 8,
-      "player": "Joselyn",
-      "team": "Arizona Cardinals",
+      "player": "Angel",
+      "team": "Tampa Bay Buccaneers",
       "ties": 0,
-      "wins": 2
+      "wins": 3
     },
     {
       "losses": 5,
@@ -287,18 +287,18 @@
     {
       "losses": 6,
       "payoff": 10,
-      "player": "Christine",
-      "team": "Tennessee Titans",
-      "ties": 0,
-      "wins": 1
-    },
-    {
-      "losses": 6,
-      "payoff": 10,
       "player": "Tom",
       "team": "Los Angeles Chargers",
       "ties": 0,
       "wins": 0
+    },
+    {
+      "losses": 7,
+      "payoff": 12,
+      "player": "Christine",
+      "team": "Tennessee Titans",
+      "ties": 0,
+      "wins": 1
     }
   ],
   "through_week": 8
