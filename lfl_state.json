@@ -1,14 +1,6 @@
 {
   "games": [
     {
-      "away_score": "24",
-      "away_team": "Kansas City Chiefs",
-      "home_score": "28",
-      "home_team": "Denver Broncos",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
       "away_score": "10",
       "away_team": "Baltimore Ravens",
       "home_score": "36",
@@ -77,6 +69,14 @@
       "away_team": "Los Angeles Chargers",
       "home_score": "24",
       "home_team": "Los Angeles Rams",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "24",
+      "away_team": "Kansas City Chiefs",
+      "home_score": "28",
+      "home_team": "Denver Broncos",
       "status_description": "Final",
       "status_detail": "Final"
     },
