@@ -1,12 +1,12 @@
 {
   "games": [
     {
-      "away_score": "10",
-      "away_team": "Philadelphia Eagles",
-      "home_score": "10",
-      "home_team": "Washington Commanders",
-      "status_description": "In Progress",
-      "status_detail": "1:41 - 2nd"
+      "away_score": "19",
+      "away_team": "Carolina Panthers",
+      "home_score": "27",
+      "home_team": "Green Bay Packers",
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "10",
@@ -97,10 +97,10 @@
       "status_detail": "Final"
     },
     {
-      "away_score": "19",
-      "away_team": "Carolina Panthers",
+      "away_score": "10",
+      "away_team": "Philadelphia Eagles",
       "home_score": "27",
-      "home_team": "Green Bay Packers",
+      "home_team": "Washington Commanders",
       "status_description": "Final",
       "status_detail": "Final"
     }
@@ -210,7 +210,7 @@
       "player": "Mike",
       "team": "Washington Commanders",
       "ties": 1,
-      "wins": 1
+      "wins": 2
     },
     {
       "losses": 5,
@@ -253,14 +253,6 @@
       "wins": 2
     },
     {
-      "losses": 5,
-      "payoff": 8,
-      "player": "Rob",
-      "team": "Philadelphia Eagles",
-      "ties": 0,
-      "wins": 2
-    },
-    {
       "losses": 6,
       "payoff": 10,
       "player": "Marina & Matt",
@@ -273,6 +265,14 @@
       "payoff": 10,
       "player": "Ryan",
       "team": "New York Jets",
+      "ties": 0,
+      "wins": 2
+    },
+    {
+      "losses": 6,
+      "payoff": 10,
+      "player": "Rob",
+      "team": "Philadelphia Eagles",
       "ties": 0,
       "wins": 2
     },
