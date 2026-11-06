@@ -1,108 +1,124 @@
 {
   "games": [
     {
-      "away_score": "19",
-      "away_team": "Carolina Panthers",
-      "home_score": "27",
-      "home_team": "Green Bay Packers",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "10",
-      "away_team": "Baltimore Ravens",
-      "home_score": "36",
-      "home_team": "Buffalo Bills",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "36",
-      "away_team": "Tennessee Titans",
-      "home_score": "43",
-      "home_team": "Cincinnati Bengals",
-      "status_description": "Final",
-      "status_detail": "Final/OT"
-    },
-    {
       "away_score": "33",
-      "away_team": "Arizona Cardinals",
-      "home_score": "30",
-      "home_team": "Dallas Cowboys",
-      "status_description": "Final",
-      "status_detail": "Final/OT"
-    },
-    {
-      "away_score": "15",
-      "away_team": "Minnesota Vikings",
-      "home_score": "19",
-      "home_team": "Detroit Lions",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "38",
-      "away_team": "Las Vegas Raiders",
-      "home_score": "33",
-      "home_team": "New York Jets",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "6",
-      "away_team": "Cleveland Browns",
-      "home_score": "27",
-      "home_team": "Pittsburgh Steelers",
+      "away_team": "Jacksonville Jaguars",
+      "home_score": "10",
+      "home_team": "Baltimore Ravens",
       "status_description": "Final",
       "status_detail": "Final"
     },
     {
       "away_score": "0",
-      "away_team": "Atlanta Falcons",
-      "home_score": "16",
-      "home_team": "Tampa Bay Buccaneers",
-      "status_description": "Final",
-      "status_detail": "Final"
+      "away_team": "Cincinnati Bengals",
+      "home_score": "0",
+      "home_team": "Atlanta Falcons",
+      "status_description": "Scheduled",
+      "status_detail": "11/8 - 9:30 AM EST"
     },
     {
-      "away_score": "7",
-      "away_team": "Indianapolis Colts",
-      "home_score": "42",
-      "home_team": "Jacksonville Jaguars",
-      "status_description": "Final",
-      "status_detail": "Final"
+      "away_score": "0",
+      "away_team": "Dallas Cowboys",
+      "home_score": "0",
+      "home_team": "Indianapolis Colts",
+      "status_description": "Scheduled",
+      "status_detail": "11/8 - 1:00 PM EST"
     },
     {
-      "away_score": "9",
-      "away_team": "Los Angeles Chargers",
-      "home_score": "24",
-      "home_team": "Los Angeles Rams",
-      "status_description": "Final",
-      "status_detail": "Final"
+      "away_score": "0",
+      "away_team": "New York Jets",
+      "home_score": "0",
+      "home_team": "Kansas City Chiefs",
+      "status_description": "Scheduled",
+      "status_detail": "11/8 - 1:00 PM EST"
     },
     {
-      "away_score": "24",
-      "away_team": "Kansas City Chiefs",
-      "home_score": "28",
-      "home_team": "Denver Broncos",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "24",
-      "away_team": "New England Patriots",
-      "home_score": "19",
+      "away_score": "0",
+      "away_team": "Detroit Lions",
+      "home_score": "0",
       "home_team": "Miami Dolphins",
-      "status_description": "Final",
-      "status_detail": "Final"
+      "status_description": "Scheduled",
+      "status_detail": "11/8 - 1:00 PM EST"
     },
     {
-      "away_score": "10",
-      "away_team": "Philadelphia Eagles",
-      "home_score": "27",
+      "away_score": "0",
+      "away_team": "Cleveland Browns",
+      "home_score": "0",
+      "home_team": "New Orleans Saints",
+      "status_description": "Scheduled",
+      "status_detail": "11/8 - 1:00 PM EST"
+    },
+    {
+      "away_score": "0",
+      "away_team": "New York Giants",
+      "home_score": "0",
+      "home_team": "Philadelphia Eagles",
+      "status_description": "Scheduled",
+      "status_detail": "11/8 - 1:00 PM EST"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Los Angeles Rams",
+      "home_score": "0",
       "home_team": "Washington Commanders",
-      "status_description": "Final",
-      "status_detail": "Final"
+      "status_description": "Scheduled",
+      "status_detail": "11/8 - 1:00 PM EST"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Denver Broncos",
+      "home_score": "0",
+      "home_team": "Carolina Panthers",
+      "status_description": "Scheduled",
+      "status_detail": "11/8 - 1:00 PM EST"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Houston Texans",
+      "home_score": "0",
+      "home_team": "Los Angeles Chargers",
+      "status_description": "Scheduled",
+      "status_detail": "11/8 - 4:05 PM EST"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Green Bay Packers",
+      "home_score": "0",
+      "home_team": "New England Patriots",
+      "status_description": "Scheduled",
+      "status_detail": "11/8 - 4:25 PM EST"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Las Vegas Raiders",
+      "home_score": "0",
+      "home_team": "San Francisco 49ers",
+      "status_description": "Scheduled",
+      "status_detail": "11/8 - 4:25 PM EST"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Arizona Cardinals",
+      "home_score": "0",
+      "home_team": "Seattle Seahawks",
+      "status_description": "Scheduled",
+      "status_detail": "11/8 - 4:25 PM EST"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Tampa Bay Buccaneers",
+      "home_score": "0",
+      "home_team": "Chicago Bears",
+      "status_description": "Scheduled",
+      "status_detail": "11/8 - 8:20 PM EST"
+    },
+    {
+      "away_score": "0",
+      "away_team": "Buffalo Bills",
+      "home_score": "0",
+      "home_team": "Minnesota Vikings",
+      "status_description": "Scheduled",
+      "status_detail": "11/9 - 8:15 PM EST"
     }
   ],
   "season_type": "regular",
@@ -113,6 +129,14 @@
       "payoff": 0,
       "player": "Rod",
       "team": "Minnesota Vikings",
+      "ties": 0,
+      "wins": 6
+    },
+    {
+      "losses": 2,
+      "payoff": 2,
+      "player": "Ray & Susan",
+      "team": "Jacksonville Jaguars",
       "ties": 0,
       "wins": 6
     },
@@ -137,14 +161,6 @@
       "payoff": 2,
       "player": "Christy",
       "team": "Detroit Lions",
-      "ties": 0,
-      "wins": 5
-    },
-    {
-      "losses": 2,
-      "payoff": 2,
-      "player": "Ray & Susan",
-      "team": "Jacksonville Jaguars",
       "ties": 0,
       "wins": 5
     },
@@ -183,14 +199,6 @@
     {
       "losses": 4,
       "payoff": 6,
-      "player": "JohnB",
-      "team": "Baltimore Ravens",
-      "ties": 0,
-      "wins": 4
-    },
-    {
-      "losses": 4,
-      "payoff": 6,
       "player": "Corey",
       "team": "Las Vegas Raiders",
       "ties": 0,
@@ -211,6 +219,14 @@
       "team": "Washington Commanders",
       "ties": 1,
       "wins": 2
+    },
+    {
+      "losses": 5,
+      "payoff": 8,
+      "player": "JohnB",
+      "team": "Baltimore Ravens",
+      "ties": 0,
+      "wins": 4
     },
     {
       "losses": 5,
@@ -301,5 +317,5 @@
       "wins": 0
     }
   ],
-  "through_week": 8
+  "through_week": 9
 }
