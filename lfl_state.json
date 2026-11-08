@@ -1,20 +1,12 @@
 {
   "games": [
     {
-      "away_score": "33",
-      "away_team": "Jacksonville Jaguars",
-      "home_score": "10",
-      "home_team": "Baltimore Ravens",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "0",
+      "away_score": "30",
       "away_team": "Cincinnati Bengals",
-      "home_score": "0",
+      "home_score": "17",
       "home_team": "Atlanta Falcons",
-      "status_description": "Scheduled",
-      "status_detail": "11/8 - 9:30 AM EST"
+      "status_description": "In Progress",
+      "status_detail": "2:05 - 3rd"
     },
     {
       "away_score": "0",
@@ -111,6 +103,14 @@
       "home_team": "Chicago Bears",
       "status_description": "Scheduled",
       "status_detail": "11/8 - 8:20 PM EST"
+    },
+    {
+      "away_score": "33",
+      "away_team": "Jacksonville Jaguars",
+      "home_score": "10",
+      "home_team": "Baltimore Ravens",
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
