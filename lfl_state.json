@@ -1,68 +1,68 @@
 {
   "games": [
     {
-      "away_score": "30",
-      "away_team": "Cincinnati Bengals",
-      "home_score": "17",
-      "home_team": "Atlanta Falcons",
-      "status_description": "In Progress",
-      "status_detail": "2:05 - 3rd"
-    },
-    {
-      "away_score": "0",
+      "away_score": "3",
       "away_team": "Dallas Cowboys",
-      "home_score": "0",
+      "home_score": "7",
       "home_team": "Indianapolis Colts",
-      "status_description": "Scheduled",
-      "status_detail": "11/8 - 1:00 PM EST"
+      "status_description": "In Progress",
+      "status_detail": "2:15 - 1st"
     },
     {
-      "away_score": "0",
+      "away_score": "6",
       "away_team": "New York Jets",
       "home_score": "0",
       "home_team": "Kansas City Chiefs",
-      "status_description": "Scheduled",
-      "status_detail": "11/8 - 1:00 PM EST"
+      "status_description": "In Progress",
+      "status_detail": "3:45 - 1st"
     },
     {
-      "away_score": "0",
+      "away_score": "3",
       "away_team": "Detroit Lions",
-      "home_score": "0",
+      "home_score": "3",
       "home_team": "Miami Dolphins",
-      "status_description": "Scheduled",
-      "status_detail": "11/8 - 1:00 PM EST"
+      "status_description": "In Progress",
+      "status_detail": "15:00 - 2nd"
     },
     {
       "away_score": "0",
       "away_team": "Cleveland Browns",
-      "home_score": "0",
+      "home_score": "3",
       "home_team": "New Orleans Saints",
-      "status_description": "Scheduled",
-      "status_detail": "11/8 - 1:00 PM EST"
+      "status_description": "In Progress",
+      "status_detail": "15:00 - 2nd"
     },
     {
-      "away_score": "0",
+      "away_score": "6",
       "away_team": "New York Giants",
       "home_score": "0",
       "home_team": "Philadelphia Eagles",
-      "status_description": "Scheduled",
-      "status_detail": "11/8 - 1:00 PM EST"
+      "status_description": "In Progress",
+      "status_detail": "3:16 - 1st"
     },
     {
-      "away_score": "0",
+      "away_score": "3",
       "away_team": "Los Angeles Rams",
-      "home_score": "0",
+      "home_score": "3",
       "home_team": "Washington Commanders",
-      "status_description": "Scheduled",
-      "status_detail": "11/8 - 1:00 PM EST"
+      "status_description": "In Progress",
+      "status_detail": "15:00 - 2nd"
     },
     {
-      "away_score": "0",
+      "away_score": "10",
       "away_team": "Denver Broncos",
       "home_score": "0",
       "home_team": "Carolina Panthers",
-      "status_description": "Scheduled",
-      "status_detail": "11/8 - 1:00 PM EST"
+      "status_description": "In Progress",
+      "status_detail": "1:23 - 1st"
+    },
+    {
+      "away_score": "34",
+      "away_team": "Cincinnati Bengals",
+      "home_score": "17",
+      "home_team": "Atlanta Falcons",
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
@@ -135,6 +135,14 @@
     {
       "losses": 2,
       "payoff": 2,
+      "player": "CB",
+      "team": "Cincinnati Bengals",
+      "ties": 0,
+      "wins": 6
+    },
+    {
+      "losses": 2,
+      "payoff": 2,
       "player": "Ray & Susan",
       "team": "Jacksonville Jaguars",
       "ties": 0,
@@ -147,14 +155,6 @@
       "team": "Pittsburgh Steelers",
       "ties": 0,
       "wins": 6
-    },
-    {
-      "losses": 2,
-      "payoff": 2,
-      "player": "CB",
-      "team": "Cincinnati Bengals",
-      "ties": 0,
-      "wins": 5
     },
     {
       "losses": 2,
@@ -239,14 +239,6 @@
     {
       "losses": 5,
       "payoff": 8,
-      "player": "Gene",
-      "team": "Atlanta Falcons",
-      "ties": 0,
-      "wins": 3
-    },
-    {
-      "losses": 5,
-      "payoff": 8,
       "player": "Michelle",
       "team": "Dallas Cowboys",
       "ties": 0,
@@ -267,6 +259,14 @@
       "team": "New Orleans Saints",
       "ties": 0,
       "wins": 2
+    },
+    {
+      "losses": 6,
+      "payoff": 10,
+      "player": "Gene",
+      "team": "Atlanta Falcons",
+      "ties": 0,
+      "wins": 3
     },
     {
       "losses": 6,
