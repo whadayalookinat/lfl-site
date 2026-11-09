@@ -1,6 +1,22 @@
 {
   "games": [
     {
+      "away_score": "0",
+      "away_team": "Buffalo Bills",
+      "home_score": "0",
+      "home_team": "Minnesota Vikings",
+      "status_description": "Scheduled",
+      "status_detail": "11/9 - 8:15 PM EST"
+    },
+    {
+      "away_score": "33",
+      "away_team": "Jacksonville Jaguars",
+      "home_score": "10",
+      "home_team": "Baltimore Ravens",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
       "away_score": "34",
       "away_team": "Cincinnati Bengals",
       "home_score": "17",
@@ -97,28 +113,12 @@
       "status_detail": "Final"
     },
     {
-      "away_score": "0",
+      "away_score": "24",
       "away_team": "Tampa Bay Buccaneers",
-      "home_score": "0",
+      "home_score": "27",
       "home_team": "Chicago Bears",
-      "status_description": "Scheduled",
-      "status_detail": "11/8 - 8:20 PM EST"
-    },
-    {
-      "away_score": "33",
-      "away_team": "Jacksonville Jaguars",
-      "home_score": "10",
-      "home_team": "Baltimore Ravens",
       "status_description": "Final",
       "status_detail": "Final"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Buffalo Bills",
-      "home_score": "0",
-      "home_team": "Minnesota Vikings",
-      "status_description": "Scheduled",
-      "status_detail": "11/9 - 8:15 PM EST"
     }
   ],
   "season_type": "regular",
@@ -239,14 +239,6 @@
     {
       "losses": 5,
       "payoff": 8,
-      "player": "Angel",
-      "team": "Tampa Bay Buccaneers",
-      "ties": 0,
-      "wins": 3
-    },
-    {
-      "losses": 5,
-      "payoff": 8,
       "player": "Mike",
       "team": "Washington Commanders",
       "ties": 1,
@@ -265,6 +257,14 @@
       "payoff": 10,
       "player": "Gene",
       "team": "Atlanta Falcons",
+      "ties": 0,
+      "wins": 3
+    },
+    {
+      "losses": 6,
+      "payoff": 10,
+      "player": "Angel",
+      "team": "Tampa Bay Buccaneers",
       "ties": 0,
       "wins": 3
     },
