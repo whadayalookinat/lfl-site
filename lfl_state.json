@@ -1,36 +1,20 @@
 {
   "games": [
     {
-      "away_score": "24",
+      "away_score": "44",
       "away_team": "Houston Texans",
-      "home_score": "9",
+      "home_score": "22",
       "home_team": "Los Angeles Chargers",
       "status_description": "In Progress",
-      "status_detail": "12:58 - 3rd"
+      "status_detail": "0:37 - 4th"
     },
     {
-      "away_score": "24",
+      "away_score": "45",
       "away_team": "Green Bay Packers",
-      "home_score": "14",
+      "home_score": "21",
       "home_team": "New England Patriots",
-      "status_description": "Halftime",
-      "status_detail": "Halftime"
-    },
-    {
-      "away_score": "17",
-      "away_team": "Las Vegas Raiders",
-      "home_score": "28",
-      "home_team": "San Francisco 49ers",
       "status_description": "In Progress",
-      "status_detail": "9:22 - 3rd"
-    },
-    {
-      "away_score": "3",
-      "away_team": "Arizona Cardinals",
-      "home_score": "14",
-      "home_team": "Seattle Seahawks",
-      "status_description": "Halftime",
-      "status_detail": "Halftime"
+      "status_detail": "4:08 - 4th"
     },
     {
       "away_score": "34",
@@ -93,6 +77,22 @@
       "away_team": "Denver Broncos",
       "home_score": "21",
       "home_team": "Carolina Panthers",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "17",
+      "away_team": "Las Vegas Raiders",
+      "home_score": "38",
+      "home_team": "San Francisco 49ers",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "3",
+      "away_team": "Arizona Cardinals",
+      "home_score": "17",
+      "home_team": "Seattle Seahawks",
       "status_description": "Final",
       "status_detail": "Final"
     },
@@ -197,14 +197,6 @@
       "wins": 5
     },
     {
-      "losses": 4,
-      "payoff": 6,
-      "player": "Corey",
-      "team": "Las Vegas Raiders",
-      "ties": 0,
-      "wins": 4
-    },
-    {
       "losses": 5,
       "payoff": 8,
       "player": "JohnB",
@@ -223,10 +215,10 @@
     {
       "losses": 5,
       "payoff": 8,
-      "player": "Joselyn",
-      "team": "Arizona Cardinals",
+      "player": "Corey",
+      "team": "Las Vegas Raiders",
       "ties": 0,
-      "wins": 3
+      "wins": 4
     },
     {
       "losses": 5,
@@ -259,6 +251,14 @@
       "team": "Washington Commanders",
       "ties": 1,
       "wins": 2
+    },
+    {
+      "losses": 6,
+      "payoff": 10,
+      "player": "Joselyn",
+      "team": "Arizona Cardinals",
+      "ties": 0,
+      "wins": 3
     },
     {
       "losses": 6,
