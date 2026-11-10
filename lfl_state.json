@@ -1,14 +1,6 @@
 {
   "games": [
     {
-      "away_score": "13",
-      "away_team": "Buffalo Bills",
-      "home_score": "6",
-      "home_team": "Minnesota Vikings",
-      "status_description": "In Progress",
-      "status_detail": "11:34 - 4th"
-    },
-    {
       "away_score": "33",
       "away_team": "Jacksonville Jaguars",
       "home_score": "10",
@@ -119,13 +111,53 @@
       "home_team": "Chicago Bears",
       "status_description": "Final",
       "status_detail": "Final"
+    },
+    {
+      "away_score": "23",
+      "away_team": "Buffalo Bills",
+      "home_score": "6",
+      "home_team": "Minnesota Vikings",
+      "status_description": "Final",
+      "status_detail": "Final"
     }
   ],
   "season_type": "regular",
   "season_year": 2026,
   "standings": [
     {
-      "losses": 1,
+      "losses": 2,
+      "payoff": 0,
+      "player": "CB",
+      "team": "Cincinnati Bengals",
+      "ties": 0,
+      "wins": 6
+    },
+    {
+      "losses": 2,
+      "payoff": 0,
+      "player": "Christy",
+      "team": "Detroit Lions",
+      "ties": 0,
+      "wins": 6
+    },
+    {
+      "losses": 2,
+      "payoff": 0,
+      "player": "Ray & Susan",
+      "team": "Jacksonville Jaguars",
+      "ties": 0,
+      "wins": 6
+    },
+    {
+      "losses": 2,
+      "payoff": 0,
+      "player": "Dave & Michelle",
+      "team": "Kansas City Chiefs",
+      "ties": 0,
+      "wins": 6
+    },
+    {
+      "losses": 2,
       "payoff": 0,
       "player": "Rod",
       "team": "Minnesota Vikings",
@@ -134,39 +166,7 @@
     },
     {
       "losses": 2,
-      "payoff": 2,
-      "player": "CB",
-      "team": "Cincinnati Bengals",
-      "ties": 0,
-      "wins": 6
-    },
-    {
-      "losses": 2,
-      "payoff": 2,
-      "player": "Christy",
-      "team": "Detroit Lions",
-      "ties": 0,
-      "wins": 6
-    },
-    {
-      "losses": 2,
-      "payoff": 2,
-      "player": "Ray & Susan",
-      "team": "Jacksonville Jaguars",
-      "ties": 0,
-      "wins": 6
-    },
-    {
-      "losses": 2,
-      "payoff": 2,
-      "player": "Dave & Michelle",
-      "team": "Kansas City Chiefs",
-      "ties": 0,
-      "wins": 6
-    },
-    {
-      "losses": 2,
-      "payoff": 2,
+      "payoff": 0,
       "player": "Tracy",
       "team": "Pittsburgh Steelers",
       "ties": 0,
@@ -174,7 +174,7 @@
     },
     {
       "losses": 2,
-      "payoff": 2,
+      "payoff": 0,
       "player": "Danny & Joyce",
       "team": "New York Giants",
       "ties": 1,
@@ -182,7 +182,7 @@
     },
     {
       "losses": 3,
-      "payoff": 4,
+      "payoff": 2,
       "player": "Doug",
       "team": "Green Bay Packers",
       "ties": 0,
@@ -190,7 +190,7 @@
     },
     {
       "losses": 4,
-      "payoff": 6,
+      "payoff": 4,
       "player": "Davey",
       "team": "Cleveland Browns",
       "ties": 0,
@@ -198,7 +198,7 @@
     },
     {
       "losses": 5,
-      "payoff": 8,
+      "payoff": 6,
       "player": "JohnB",
       "team": "Baltimore Ravens",
       "ties": 0,
@@ -206,7 +206,7 @@
     },
     {
       "losses": 5,
-      "payoff": 8,
+      "payoff": 6,
       "player": "Michelle",
       "team": "Dallas Cowboys",
       "ties": 0,
@@ -214,7 +214,7 @@
     },
     {
       "losses": 5,
-      "payoff": 8,
+      "payoff": 6,
       "player": "Corey",
       "team": "Las Vegas Raiders",
       "ties": 0,
@@ -222,7 +222,7 @@
     },
     {
       "losses": 5,
-      "payoff": 8,
+      "payoff": 6,
       "player": "Leslie",
       "team": "Carolina Panthers",
       "ties": 0,
@@ -230,7 +230,7 @@
     },
     {
       "losses": 5,
-      "payoff": 8,
+      "payoff": 6,
       "player": "Melissa & Scott",
       "team": "New Orleans Saints",
       "ties": 0,
@@ -238,7 +238,7 @@
     },
     {
       "losses": 5,
-      "payoff": 8,
+      "payoff": 6,
       "player": "Mike",
       "team": "Washington Commanders",
       "ties": 1,
@@ -246,7 +246,7 @@
     },
     {
       "losses": 6,
-      "payoff": 10,
+      "payoff": 8,
       "player": "Joselyn",
       "team": "Arizona Cardinals",
       "ties": 0,
@@ -254,7 +254,7 @@
     },
     {
       "losses": 6,
-      "payoff": 10,
+      "payoff": 8,
       "player": "Gene",
       "team": "Atlanta Falcons",
       "ties": 0,
@@ -262,7 +262,7 @@
     },
     {
       "losses": 6,
-      "payoff": 10,
+      "payoff": 8,
       "player": "Angel",
       "team": "Tampa Bay Buccaneers",
       "ties": 0,
@@ -270,7 +270,7 @@
     },
     {
       "losses": 7,
-      "payoff": 12,
+      "payoff": 10,
       "player": "Marina & Matt",
       "team": "Indianapolis Colts",
       "ties": 0,
@@ -278,7 +278,7 @@
     },
     {
       "losses": 7,
-      "payoff": 12,
+      "payoff": 10,
       "player": "Ryan",
       "team": "New York Jets",
       "ties": 0,
@@ -286,7 +286,7 @@
     },
     {
       "losses": 7,
-      "payoff": 12,
+      "payoff": 10,
       "player": "Rob",
       "team": "Philadelphia Eagles",
       "ties": 0,
@@ -294,7 +294,7 @@
     },
     {
       "losses": 7,
-      "payoff": 12,
+      "payoff": 10,
       "player": "Chris",
       "team": "Miami Dolphins",
       "ties": 0,
@@ -302,7 +302,7 @@
     },
     {
       "losses": 7,
-      "payoff": 12,
+      "payoff": 10,
       "player": "Christine",
       "team": "Tennessee Titans",
       "ties": 0,
@@ -310,7 +310,7 @@
     },
     {
       "losses": 8,
-      "payoff": 14,
+      "payoff": 12,
       "player": "Tom",
       "team": "Los Angeles Chargers",
       "ties": 0,
