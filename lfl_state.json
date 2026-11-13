@@ -1,12 +1,12 @@
 {
   "games": [
     {
-      "away_score": "17",
+      "away_score": "24",
       "away_team": "Washington Commanders",
       "home_score": "21",
       "home_team": "New York Giants",
-      "status_description": "In Progress",
-      "status_detail": "1:54 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "0",
@@ -165,20 +165,20 @@
       "wins": 6
     },
     {
-      "losses": 2,
-      "payoff": 0,
-      "player": "Danny & Joyce",
-      "team": "New York Giants",
-      "ties": 1,
-      "wins": 5
-    },
-    {
       "losses": 3,
       "payoff": 2,
       "player": "Doug",
       "team": "Green Bay Packers",
       "ties": 0,
       "wins": 6
+    },
+    {
+      "losses": 3,
+      "payoff": 2,
+      "player": "Danny & Joyce",
+      "team": "New York Giants",
+      "ties": 1,
+      "wins": 5
     },
     {
       "losses": 4,
@@ -234,7 +234,7 @@
       "player": "Mike",
       "team": "Washington Commanders",
       "ties": 1,
-      "wins": 2
+      "wins": 3
     },
     {
       "losses": 6,
