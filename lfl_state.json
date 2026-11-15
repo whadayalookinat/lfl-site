@@ -1,60 +1,60 @@
 {
   "games": [
     {
-      "away_score": "7",
+      "away_score": "28",
       "away_team": "Kansas City Chiefs",
       "home_score": "3",
       "home_team": "Atlanta Falcons",
       "status_description": "In Progress",
-      "status_detail": "2:14 - 2nd"
+      "status_detail": "9:55 - 4th"
     },
     {
       "away_score": "17",
       "away_team": "Houston Texans",
-      "home_score": "10",
+      "home_score": "20",
       "home_team": "Cleveland Browns",
       "status_description": "In Progress",
-      "status_detail": "3:29 - 2nd"
+      "status_detail": "11:02 - 4th"
     },
     {
-      "away_score": "17",
+      "away_score": "20",
       "away_team": "Minnesota Vikings",
-      "home_score": "0",
+      "home_score": "10",
       "home_team": "Green Bay Packers",
       "status_description": "In Progress",
-      "status_detail": "5:26 - 2nd"
+      "status_detail": "11:10 - 4th"
     },
     {
-      "away_score": "13",
+      "away_score": "23",
       "away_team": "Jacksonville Jaguars",
-      "home_score": "10",
+      "home_score": "16",
       "home_team": "Tennessee Titans",
       "status_description": "In Progress",
-      "status_detail": "2:37 - 2nd"
+      "status_detail": "0:58 - 3rd"
     },
     {
-      "away_score": "7",
+      "away_score": "22",
       "away_team": "Miami Dolphins",
-      "home_score": "7",
+      "home_score": "24",
       "home_team": "Indianapolis Colts",
       "status_description": "In Progress",
-      "status_detail": "4:39 - 2nd"
-    },
-    {
-      "away_score": "7",
-      "away_team": "Carolina Panthers",
-      "home_score": "0",
-      "home_team": "New Orleans Saints",
-      "status_description": "In Progress",
-      "status_detail": "3:13 - 2nd"
+      "status_detail": "14:56 - 4th"
     },
     {
       "away_score": "10",
+      "away_team": "Carolina Panthers",
+      "home_score": "7",
+      "home_team": "New Orleans Saints",
+      "status_description": "In Progress",
+      "status_detail": "11:33 - 4th"
+    },
+    {
+      "away_score": "24",
       "away_team": "Buffalo Bills",
-      "home_score": "3",
+      "home_score": "12",
       "home_team": "New York Jets",
       "status_description": "In Progress",
-      "status_detail": "4:38 - 2nd"
+      "status_detail": "13:37 - 4th"
     },
     {
       "away_score": "10",
