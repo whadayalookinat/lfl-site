@@ -1,14 +1,6 @@
 {
   "games": [
     {
-      "away_score": "18",
-      "away_team": "Pittsburgh Steelers",
-      "home_score": "38",
-      "home_team": "Cincinnati Bengals",
-      "status_description": "In Progress",
-      "status_detail": "5:02 - 4th"
-    },
-    {
       "away_score": "10",
       "away_team": "New England Patriots",
       "home_score": "35",
@@ -97,6 +89,14 @@
       "status_detail": "Final"
     },
     {
+      "away_score": "18",
+      "away_team": "Pittsburgh Steelers",
+      "home_score": "38",
+      "home_team": "Cincinnati Bengals",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
       "away_score": "24",
       "away_team": "Washington Commanders",
       "home_score": "21",
@@ -116,6 +116,14 @@
   "season_type": "regular",
   "season_year": 2026,
   "standings": [
+    {
+      "losses": 2,
+      "payoff": 0,
+      "player": "CB",
+      "team": "Cincinnati Bengals",
+      "ties": 0,
+      "wins": 7
+    },
     {
       "losses": 2,
       "payoff": 0,
@@ -149,16 +157,8 @@
       "wins": 7
     },
     {
-      "losses": 2,
-      "payoff": 0,
-      "player": "CB",
-      "team": "Cincinnati Bengals",
-      "ties": 0,
-      "wins": 6
-    },
-    {
-      "losses": 2,
-      "payoff": 0,
+      "losses": 3,
+      "payoff": 2,
       "player": "Tracy",
       "team": "Pittsburgh Steelers",
       "ties": 0,
