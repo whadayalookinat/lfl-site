@@ -5,8 +5,8 @@
       "away_team": "Los Angeles Chargers",
       "home_score": "20",
       "home_team": "Baltimore Ravens",
-      "status_description": "In Progress",
-      "status_detail": "2:35 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "24",
@@ -191,14 +191,6 @@
     {
       "losses": 5,
       "payoff": 6,
-      "player": "JohnB",
-      "team": "Baltimore Ravens",
-      "ties": 0,
-      "wins": 4
-    },
-    {
-      "losses": 5,
-      "payoff": 6,
       "player": "Leslie",
       "team": "Carolina Panthers",
       "ties": 0,
@@ -211,6 +203,14 @@
       "team": "Washington Commanders",
       "ties": 1,
       "wins": 3
+    },
+    {
+      "losses": 6,
+      "payoff": 8,
+      "player": "JohnB",
+      "team": "Baltimore Ravens",
+      "ties": 0,
+      "wins": 4
     },
     {
       "losses": 6,
@@ -287,6 +287,14 @@
     {
       "losses": 8,
       "payoff": 12,
+      "player": "Tom",
+      "team": "Los Angeles Chargers",
+      "ties": 0,
+      "wins": 1
+    },
+    {
+      "losses": 8,
+      "payoff": 12,
       "player": "Chris",
       "team": "Miami Dolphins",
       "ties": 0,
@@ -299,14 +307,6 @@
       "team": "Tennessee Titans",
       "ties": 0,
       "wins": 1
-    },
-    {
-      "losses": 8,
-      "payoff": 12,
-      "player": "Tom",
-      "team": "Los Angeles Chargers",
-      "ties": 0,
-      "wins": 0
     }
   ],
   "through_week": 10

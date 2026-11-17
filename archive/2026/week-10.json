@@ -1,0 +1,313 @@
+{
+  "games": [
+    {
+      "away_score": "23",
+      "away_team": "Los Angeles Chargers",
+      "home_score": "20",
+      "home_team": "Baltimore Ravens",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "24",
+      "away_team": "Washington Commanders",
+      "home_score": "21",
+      "home_team": "New York Giants",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "10",
+      "away_team": "New England Patriots",
+      "home_score": "35",
+      "home_team": "Detroit Lions",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "35",
+      "away_team": "Kansas City Chiefs",
+      "home_score": "13",
+      "home_team": "Atlanta Falcons",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "24",
+      "away_team": "Houston Texans",
+      "home_score": "27",
+      "home_team": "Cleveland Browns",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "30",
+      "away_team": "Minnesota Vikings",
+      "home_score": "10",
+      "home_team": "Green Bay Packers",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "40",
+      "away_team": "Jacksonville Jaguars",
+      "home_score": "23",
+      "home_team": "Tennessee Titans",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "22",
+      "away_team": "Miami Dolphins",
+      "home_score": "24",
+      "home_team": "Indianapolis Colts",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "20",
+      "away_team": "Carolina Panthers",
+      "home_score": "17",
+      "home_team": "New Orleans Saints",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "31",
+      "away_team": "Buffalo Bills",
+      "home_score": "12",
+      "home_team": "New York Jets",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "21",
+      "away_team": "Seattle Seahawks",
+      "home_score": "13",
+      "home_team": "Las Vegas Raiders",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "34",
+      "away_team": "Los Angeles Rams",
+      "home_score": "6",
+      "home_team": "Arizona Cardinals",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "46",
+      "away_team": "San Francisco 49ers",
+      "home_score": "40",
+      "home_team": "Dallas Cowboys",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "18",
+      "away_team": "Pittsburgh Steelers",
+      "home_score": "38",
+      "home_team": "Cincinnati Bengals",
+      "status_description": "Final",
+      "status_detail": "Final"
+    }
+  ],
+  "season_type": "regular",
+  "season_year": 2026,
+  "standings": [
+    {
+      "losses": 2,
+      "payoff": 0,
+      "player": "CB",
+      "team": "Cincinnati Bengals",
+      "ties": 0,
+      "wins": 7
+    },
+    {
+      "losses": 2,
+      "payoff": 0,
+      "player": "Christy",
+      "team": "Detroit Lions",
+      "ties": 0,
+      "wins": 7
+    },
+    {
+      "losses": 2,
+      "payoff": 0,
+      "player": "Ray & Susan",
+      "team": "Jacksonville Jaguars",
+      "ties": 0,
+      "wins": 7
+    },
+    {
+      "losses": 2,
+      "payoff": 0,
+      "player": "Dave & Michelle",
+      "team": "Kansas City Chiefs",
+      "ties": 0,
+      "wins": 7
+    },
+    {
+      "losses": 2,
+      "payoff": 0,
+      "player": "Rod",
+      "team": "Minnesota Vikings",
+      "ties": 0,
+      "wins": 7
+    },
+    {
+      "losses": 3,
+      "payoff": 2,
+      "player": "Tracy",
+      "team": "Pittsburgh Steelers",
+      "ties": 0,
+      "wins": 6
+    },
+    {
+      "losses": 3,
+      "payoff": 2,
+      "player": "Danny & Joyce",
+      "team": "New York Giants",
+      "ties": 1,
+      "wins": 5
+    },
+    {
+      "losses": 4,
+      "payoff": 4,
+      "player": "Davey",
+      "team": "Cleveland Browns",
+      "ties": 0,
+      "wins": 6
+    },
+    {
+      "losses": 4,
+      "payoff": 4,
+      "player": "Doug",
+      "team": "Green Bay Packers",
+      "ties": 0,
+      "wins": 6
+    },
+    {
+      "losses": 5,
+      "payoff": 6,
+      "player": "Leslie",
+      "team": "Carolina Panthers",
+      "ties": 0,
+      "wins": 4
+    },
+    {
+      "losses": 5,
+      "payoff": 6,
+      "player": "Mike",
+      "team": "Washington Commanders",
+      "ties": 1,
+      "wins": 3
+    },
+    {
+      "losses": 6,
+      "payoff": 8,
+      "player": "JohnB",
+      "team": "Baltimore Ravens",
+      "ties": 0,
+      "wins": 4
+    },
+    {
+      "losses": 6,
+      "payoff": 8,
+      "player": "Michelle",
+      "team": "Dallas Cowboys",
+      "ties": 0,
+      "wins": 4
+    },
+    {
+      "losses": 6,
+      "payoff": 8,
+      "player": "Corey",
+      "team": "Las Vegas Raiders",
+      "ties": 0,
+      "wins": 4
+    },
+    {
+      "losses": 6,
+      "payoff": 8,
+      "player": "Melissa & Scott",
+      "team": "New Orleans Saints",
+      "ties": 0,
+      "wins": 3
+    },
+    {
+      "losses": 6,
+      "payoff": 8,
+      "player": "Angel",
+      "team": "Tampa Bay Buccaneers",
+      "ties": 0,
+      "wins": 3
+    },
+    {
+      "losses": 7,
+      "payoff": 10,
+      "player": "Joselyn",
+      "team": "Arizona Cardinals",
+      "ties": 0,
+      "wins": 3
+    },
+    {
+      "losses": 7,
+      "payoff": 10,
+      "player": "Gene",
+      "team": "Atlanta Falcons",
+      "ties": 0,
+      "wins": 3
+    },
+    {
+      "losses": 7,
+      "payoff": 10,
+      "player": "Marina & Matt",
+      "team": "Indianapolis Colts",
+      "ties": 0,
+      "wins": 3
+    },
+    {
+      "losses": 7,
+      "payoff": 10,
+      "player": "Rob",
+      "team": "Philadelphia Eagles",
+      "ties": 0,
+      "wins": 2
+    },
+    {
+      "losses": 8,
+      "payoff": 12,
+      "player": "Ryan",
+      "team": "New York Jets",
+      "ties": 0,
+      "wins": 2
+    },
+    {
+      "losses": 8,
+      "payoff": 12,
+      "player": "Tom",
+      "team": "Los Angeles Chargers",
+      "ties": 0,
+      "wins": 1
+    },
+    {
+      "losses": 8,
+      "payoff": 12,
+      "player": "Chris",
+      "team": "Miami Dolphins",
+      "ties": 0,
+      "wins": 1
+    },
+    {
+      "losses": 8,
+      "payoff": 12,
+      "player": "Christine",
+      "team": "Tennessee Titans",
+      "ties": 0,
+      "wins": 1
+    }
+  ],
+  "through_week": 10
+}
