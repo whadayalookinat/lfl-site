@@ -1,12 +1,12 @@
 {
   "games": [
     {
-      "away_score": "17",
+      "away_score": "27",
       "away_team": "New York Jets",
-      "home_score": "10",
+      "home_score": "17",
       "home_team": "Los Angeles Chargers",
       "status_description": "In Progress",
-      "status_detail": "6:15 - 3rd"
+      "status_detail": "8:20 - 4th"
     },
     {
       "away_score": "10",
@@ -14,15 +14,15 @@
       "home_score": "17",
       "home_team": "Denver Broncos",
       "status_description": "In Progress",
-      "status_detail": "1:51 - 2nd"
+      "status_detail": "9:36 - 3rd"
     },
     {
       "away_score": "6",
       "away_team": "Jacksonville Jaguars",
-      "home_score": "17",
+      "home_score": "20",
       "home_team": "New York Giants",
       "status_description": "In Progress",
-      "status_detail": "2:49 - 2nd"
+      "status_detail": "10:11 - 3rd"
     },
     {
       "away_score": "9",
