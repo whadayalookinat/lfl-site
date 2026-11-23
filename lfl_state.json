@@ -1,14 +1,6 @@
 {
   "games": [
     {
-      "away_score": "10",
-      "away_team": "Minnesota Vikings",
-      "home_score": "35",
-      "home_team": "San Francisco 49ers",
-      "status_description": "In Progress",
-      "status_detail": "13:26 - 4th"
-    },
-    {
       "away_score": "9",
       "away_team": "Miami Dolphins",
       "home_score": "26",
@@ -89,6 +81,14 @@
       "status_detail": "Final"
     },
     {
+      "away_score": "10",
+      "away_team": "Minnesota Vikings",
+      "home_score": "35",
+      "home_team": "San Francisco 49ers",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
       "away_score": "3",
       "away_team": "Indianapolis Colts",
       "home_score": "26",
@@ -133,18 +133,18 @@
       "wins": 7
     },
     {
-      "losses": 2,
-      "payoff": 0,
-      "player": "Rod",
-      "team": "Minnesota Vikings",
+      "losses": 3,
+      "payoff": 2,
+      "player": "Ray & Susan",
+      "team": "Jacksonville Jaguars",
       "ties": 0,
       "wins": 7
     },
     {
       "losses": 3,
       "payoff": 2,
-      "player": "Ray & Susan",
-      "team": "Jacksonville Jaguars",
+      "player": "Rod",
+      "team": "Minnesota Vikings",
       "ties": 0,
       "wins": 7
     },
