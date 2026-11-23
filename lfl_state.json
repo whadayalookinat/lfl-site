@@ -1,22 +1,6 @@
 {
   "games": [
     {
-      "away_score": "24",
-      "away_team": "Las Vegas Raiders",
-      "home_score": "31",
-      "home_team": "Denver Broncos",
-      "status_description": "In Progress",
-      "status_detail": "4:29 - 4th"
-    },
-    {
-      "away_score": "9",
-      "away_team": "Jacksonville Jaguars",
-      "home_score": "23",
-      "home_team": "New York Giants",
-      "status_description": "In Progress",
-      "status_detail": "9:51 - 4th"
-    },
-    {
       "away_score": "9",
       "away_team": "Miami Dolphins",
       "home_score": "26",
@@ -81,12 +65,28 @@
       "status_detail": "Final"
     },
     {
+      "away_score": "24",
+      "away_team": "Las Vegas Raiders",
+      "home_score": "38",
+      "home_team": "Denver Broncos",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "18",
+      "away_team": "Jacksonville Jaguars",
+      "home_score": "23",
+      "home_team": "New York Giants",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
       "away_score": "0",
       "away_team": "Minnesota Vikings",
       "home_score": "0",
       "home_team": "San Francisco 49ers",
-      "status_description": "Scheduled",
-      "status_detail": "11/22 - 8:20 PM EST"
+      "status_description": "In Progress",
+      "status_detail": "15:00 - 1st"
     },
     {
       "away_score": "3",
@@ -135,16 +135,16 @@
     {
       "losses": 2,
       "payoff": 0,
-      "player": "Ray & Susan",
-      "team": "Jacksonville Jaguars",
+      "player": "Rod",
+      "team": "Minnesota Vikings",
       "ties": 0,
       "wins": 7
     },
     {
-      "losses": 2,
-      "payoff": 0,
-      "player": "Rod",
-      "team": "Minnesota Vikings",
+      "losses": 3,
+      "payoff": 2,
+      "player": "Ray & Susan",
+      "team": "Jacksonville Jaguars",
       "ties": 0,
       "wins": 7
     },
@@ -154,7 +154,7 @@
       "player": "Danny & Joyce",
       "team": "New York Giants",
       "ties": 1,
-      "wins": 5
+      "wins": 6
     },
     {
       "losses": 4,
@@ -205,18 +205,18 @@
       "wins": 5
     },
     {
-      "losses": 6,
-      "payoff": 8,
-      "player": "Corey",
-      "team": "Las Vegas Raiders",
+      "losses": 7,
+      "payoff": 10,
+      "player": "JohnB",
+      "team": "Baltimore Ravens",
       "ties": 0,
       "wins": 4
     },
     {
       "losses": 7,
       "payoff": 10,
-      "player": "JohnB",
-      "team": "Baltimore Ravens",
+      "player": "Corey",
+      "team": "Las Vegas Raiders",
       "ties": 0,
       "wins": 4
     },
