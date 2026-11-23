@@ -1,28 +1,20 @@
 {
   "games": [
     {
-      "away_score": "27",
-      "away_team": "New York Jets",
-      "home_score": "17",
-      "home_team": "Los Angeles Chargers",
-      "status_description": "In Progress",
-      "status_detail": "8:20 - 4th"
-    },
-    {
-      "away_score": "10",
+      "away_score": "24",
       "away_team": "Las Vegas Raiders",
-      "home_score": "17",
+      "home_score": "31",
       "home_team": "Denver Broncos",
       "status_description": "In Progress",
-      "status_detail": "9:36 - 3rd"
+      "status_detail": "4:29 - 4th"
     },
     {
-      "away_score": "6",
+      "away_score": "9",
       "away_team": "Jacksonville Jaguars",
-      "home_score": "20",
+      "home_score": "23",
       "home_team": "New York Giants",
       "status_description": "In Progress",
-      "status_detail": "10:11 - 3rd"
+      "status_detail": "9:51 - 4th"
     },
     {
       "away_score": "9",
@@ -77,6 +69,14 @@
       "away_team": "Baltimore Ravens",
       "home_score": "35",
       "home_team": "Carolina Panthers",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "27",
+      "away_team": "New York Jets",
+      "home_score": "24",
+      "home_team": "Los Angeles Chargers",
       "status_description": "Final",
       "status_detail": "Final"
     },
@@ -274,11 +274,11 @@
       "player": "Ryan",
       "team": "New York Jets",
       "ties": 0,
-      "wins": 2
+      "wins": 3
     },
     {
-      "losses": 8,
-      "payoff": 12,
+      "losses": 9,
+      "payoff": 14,
       "player": "Tom",
       "team": "Los Angeles Chargers",
       "ties": 0,
