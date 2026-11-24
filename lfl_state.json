@@ -3,10 +3,10 @@
     {
       "away_score": "20",
       "away_team": "Cincinnati Bengals",
-      "home_score": "19",
+      "home_score": "22",
       "home_team": "Washington Commanders",
-      "status_description": "In Progress",
-      "status_detail": "0:05 - 4th"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "3",
@@ -125,8 +125,8 @@
       "wins": 8
     },
     {
-      "losses": 2,
-      "payoff": 0,
+      "losses": 3,
+      "payoff": 2,
       "player": "CB",
       "team": "Cincinnati Bengals",
       "ties": 0,
@@ -194,7 +194,7 @@
       "player": "Mike",
       "team": "Washington Commanders",
       "ties": 1,
-      "wins": 3
+      "wins": 4
     },
     {
       "losses": 6,
