@@ -1,14 +1,6 @@
 {
   "games": [
     {
-      "away_score": "20",
-      "away_team": "Cincinnati Bengals",
-      "home_score": "22",
-      "home_team": "Washington Commanders",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
       "away_score": "3",
       "away_team": "Indianapolis Colts",
       "home_score": "26",
@@ -101,6 +93,14 @@
       "away_team": "Minnesota Vikings",
       "home_score": "35",
       "home_team": "San Francisco 49ers",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
+      "away_score": "20",
+      "away_team": "Cincinnati Bengals",
+      "home_score": "22",
+      "home_team": "Washington Commanders",
       "status_description": "Final",
       "status_detail": "Final"
     }
