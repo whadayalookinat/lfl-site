@@ -226,14 +226,54 @@ th abbr { text-decoration: none; }
   #season-progress button { background-image: none; box-shadow: none; border-color: ButtonText; }
   #season-progress button:active:not(:disabled) { outline: 2px solid Highlight; }
 }
+
+/* Results hero matches the Locker Room branding and typography.
+   Keep week-specific data and the refresh timestamp from the report generator. */
+.hero {
+  background: #202c3a;
+  color: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 18px;
+}
+.hero .league-kicker {
+  display: block;
+  font-size: .8em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffb7ba;
+  font-weight: 700;
+}
+.hero h1 {
+  font-size: clamp(28px, 5vw, 40px);
+  margin: 12px 0;
+}
+.hero p {
+  color: #d7dee8;
+  margin: 1em 0;
+}
+.hero .last-updated {
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 0;
+  background: #394b60;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  line-height: 1.4;
+  opacity: 1;
+}
 </style>
 </head>
 <body>
 <div class="page">
     <header class="hero">
-        <h1>LFL 2026 Regular Season — Through Week 11</h1>
-        <div class="last-updated">Last updated: Nov 24, 2026 2:49 AM PST</div>
+        <small class="league-kicker">Loser Football League - 2026</small>
+        <h1>📉 LFL 2026 Regular Season — Through Week 11</h1>
         <p>Cumulative LFL standings and payout, plus NFL Week 11 game detail.</p>
+        <div class="last-updated">Last updated: Nov 24, 2026 2:49 AM PST</div>
     </header>
 <nav aria-label="League websites" style="margin:0 0 18px;text-align:center">
   <a class="lfl-nav-cta lfl-nav-cta--red" href="https://whadayalookinat.github.io/lfl-locker-room/" style="display:inline-block;box-sizing:border-box;width:260px;max-width:100%;padding:14px 8px;font-size:15px;border-radius:8px;color:#fff;font-weight:700;text-align:center;text-decoration:none">🏈 Enter the Loser's Locker Room</a>
@@ -760,7 +800,7 @@ th abbr { text-decoration: none; }
     $('viewing').textContent = `Viewing Week ${viewing} · ${historical ? 'Frozen completed-week standings' : 'Current week'}`;
     document.querySelectorAll('.current-detail').forEach(section => { section.hidden = historical; });
     document.querySelector('.last-updated').hidden = historical;
-    hero.textContent = historical ? `LFL ${state.season_year} Regular Season — Through Week ${viewing}` : originalTitle;
+    hero.textContent = historical ? `📉 LFL ${state.season_year} Regular Season — Through Week ${viewing}` : originalTitle;
     subtitle.textContent = historical ? 'Historical cumulative standings and payoff.' : originalSubtitle;
   }
 
