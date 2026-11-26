@@ -1,12 +1,12 @@
 {
   "games": [
     {
-      "away_score": "0",
+      "away_score": "10",
       "away_team": "Chicago Bears",
-      "home_score": "0",
+      "home_score": "10",
       "home_team": "Detroit Lions",
-      "status_description": "Scheduled",
-      "status_detail": "11/26 - 1:00 PM EST"
+      "status_description": "In Progress",
+      "status_detail": "4:07 - 2nd"
     },
     {
       "away_score": "0",
