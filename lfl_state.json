@@ -1,6 +1,22 @@
 {
   "games": [
     {
+      "away_score": "0",
+      "away_team": "Denver Broncos",
+      "home_score": "0",
+      "home_team": "Pittsburgh Steelers",
+      "status_description": "Scheduled",
+      "status_detail": "11/27 - 3:00 PM EST"
+    },
+    {
+      "away_score": "13",
+      "away_team": "Green Bay Packers",
+      "home_score": "26",
+      "home_team": "Los Angeles Rams",
+      "status_description": "Final",
+      "status_detail": "Final"
+    },
+    {
       "away_score": "39",
       "away_team": "Chicago Bears",
       "home_score": "35",
@@ -23,22 +39,6 @@
       "home_team": "Buffalo Bills",
       "status_description": "Final",
       "status_detail": "Final"
-    },
-    {
-      "away_score": "13",
-      "away_team": "Green Bay Packers",
-      "home_score": "26",
-      "home_team": "Los Angeles Rams",
-      "status_description": "Final",
-      "status_detail": "Final"
-    },
-    {
-      "away_score": "0",
-      "away_team": "Denver Broncos",
-      "home_score": "0",
-      "home_team": "Pittsburgh Steelers",
-      "status_description": "Scheduled",
-      "status_detail": "11/27 - 3:00 PM EST"
     },
     {
       "away_score": "0",
