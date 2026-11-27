@@ -1,18 +1,10 @@
 {
   "games": [
     {
-      "away_score": "30",
+      "away_score": "39",
       "away_team": "Philadelphia Eagles",
       "home_score": "38",
       "home_team": "Dallas Cowboys",
-      "status_description": "In Progress",
-      "status_detail": "7:37 - 4th"
-    },
-    {
-      "away_score": "39",
-      "away_team": "Chicago Bears",
-      "home_score": "35",
-      "home_team": "Detroit Lions",
       "status_description": "Final",
       "status_detail": "Final"
     },
@@ -21,8 +13,16 @@
       "away_team": "Kansas City Chiefs",
       "home_score": "0",
       "home_team": "Buffalo Bills",
-      "status_description": "Scheduled",
-      "status_detail": "11/26 - 8:20 PM EST"
+      "status_description": "In Progress",
+      "status_detail": "9:02 - 1st"
+    },
+    {
+      "away_score": "39",
+      "away_team": "Chicago Bears",
+      "home_score": "35",
+      "home_team": "Detroit Lions",
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "13",
@@ -213,8 +213,8 @@
       "wins": 4
     },
     {
-      "losses": 6,
-      "payoff": 8,
+      "losses": 7,
+      "payoff": 10,
       "player": "Michelle",
       "team": "Dallas Cowboys",
       "ties": 0,
@@ -239,6 +239,14 @@
     {
       "losses": 7,
       "payoff": 10,
+      "player": "Rob",
+      "team": "Philadelphia Eagles",
+      "ties": 0,
+      "wins": 4
+    },
+    {
+      "losses": 7,
+      "payoff": 10,
       "player": "Gene",
       "team": "Atlanta Falcons",
       "ties": 0,
@@ -249,14 +257,6 @@
       "payoff": 10,
       "player": "Melissa & Scott",
       "team": "New Orleans Saints",
-      "ties": 0,
-      "wins": 3
-    },
-    {
-      "losses": 7,
-      "payoff": 10,
-      "player": "Rob",
-      "team": "Philadelphia Eagles",
       "ties": 0,
       "wins": 3
     },
