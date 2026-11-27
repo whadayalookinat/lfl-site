@@ -3,10 +3,10 @@
     {
       "away_score": "5",
       "away_team": "Denver Broncos",
-      "home_score": "24",
+      "home_score": "27",
       "home_team": "Pittsburgh Steelers",
-      "status_description": "Halftime",
-      "status_detail": "Halftime"
+      "status_description": "Final",
+      "status_detail": "Final"
     },
     {
       "away_score": "13",
@@ -175,16 +175,16 @@
     {
       "losses": 4,
       "payoff": 2,
-      "player": "Davey",
-      "team": "Cleveland Browns",
+      "player": "Tracy",
+      "team": "Pittsburgh Steelers",
       "ties": 0,
-      "wins": 6
+      "wins": 7
     },
     {
       "losses": 4,
       "payoff": 2,
-      "player": "Tracy",
-      "team": "Pittsburgh Steelers",
+      "player": "Davey",
+      "team": "Cleveland Browns",
       "ties": 0,
       "wins": 6
     },
